@@ -25,38 +25,11 @@ export default function CaseStudy() {
               </p>
             </div>
             <div className="hero-body-figure">
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
-                <div className="hero-evo-row" style={{ marginTop: 0 }}>
-                  <div className="evo-head">
-                    <span className="evo-lbl">Before</span>
-                    <span className="evo-yr">2022</span>
-                    <span className="evo-sub">~85% florals · one primary cohort</span>
-                  </div>
-                  <picture>
-                    <source srcSet="/images/genie/hero-before-2022.webp" type="image/webp" />
-                    <img
-                      className="evo-fig"
-                      src="/images/genie/hero-before-2022.jpg"
-                      alt="Genie range before 2022 — three school backpacks in floral and graphic prints on a paper ground"
-                    />
-                  </picture>
-                </div>
-                <div className="hero-evo-row" style={{ marginTop: 0 }}>
-                  <div className="evo-head">
-                    <span className="evo-lbl">Now</span>
-                    <span className="evo-yr">2026</span>
-                    <span className="evo-sub">Structure · Surface · Maturity</span>
-                  </div>
-                  <picture>
-                    <source srcSet="/images/genie/hero-now-2026.webp" type="image/webp" />
-                    <img
-                      className="evo-fig"
-                      src="/images/genie/hero-now-2026.jpg"
-                      alt="Genie range in 2026 — pink-and-denim, tonal green colour-block and black floral-print backpacks on a paper ground"
-                    />
-                  </picture>
-                </div>
-              </div>
+              <img
+                src="/Geniehero19-6.png"
+                alt="Genie Before 2022 and Now 2026 — backpack range evolution showing florals and graphic prints transitioning to structured, muted Korean-aesthetic designs"
+                style={{ width: '100%', display: 'block', border: '1px solid var(--hairline)' }}
+              />
               <p className="evo-cap">
                 Same brand, grown up — from florals and one primary cohort to a range built around construction, surface
                 technique and maturity. A backpack a teenager chooses for herself.
@@ -177,16 +150,16 @@ export default function CaseStudy() {
               <span className="lbl">
                 Primary cohort served
                 <br />
-                (ages 7—8)
+      
               </span>
             </div>
           </div>
 
           <figure className="figure">
             <picture>
-              <source srcSet="/images/genie/02.webp" type="image/webp" />
+              <source srcSet="/croppedimages05.png" type="image/png" />
               <img
-                src="/images/genie/02.jpg"
+                src="/croppedimages05.png"
                 alt="Genie school range before 2022 — eight backpacks in floral and graphic prints"
               />
             </picture>
@@ -258,12 +231,12 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          <figure className="figure">
+          <figure className="figure bg-black" style={{padding:"40px"}}>
             <picture>
               <source srcSet="/images/genie/03a.webp" type="image/webp" />
               <img src="/images/genie/03a.jpg" alt="Cohort board — the girl Genie was designing for, across ages and everyday moments" />
             </picture>
-            <figcaption>
+            <figcaption style={{color:"#F4F1E9"}}>
               The cohort, mapped — who Genie was actually for, and the moments the bag had to carry her through, from first
               big-school day to college.
             </figcaption>
@@ -443,8 +416,8 @@ export default function CaseStudy() {
 
           <figure className="figure">
             <picture>
-              <source srcSet="/images/genie/05.webp" type="image/webp" />
-              <img src="/images/genie/05.jpg" alt="2025 and 2026 Korean-aesthetic backpack ranges" />
+              <source srcSet="/croppedimages06.png" type="image/png" />
+              <img src="/croppedimages06.png" alt="2025 and 2026 Korean-aesthetic backpack ranges" />
             </picture>
             <figcaption>
               The 2025 and 2026 ranges that came out of the taste-not-fandom call — 17″ college, 18″ teen, and the College
@@ -1191,8 +1164,8 @@ export default function CaseStudy() {
           <div className="two-col">
             <figure className="figure" style={{ marginTop: 0 }}>
               <picture>
-                <source srcSet="/images/genie/08a-hard.webp" type="image/webp" />
-                <img src="/images/genie/08a-hard.jpg" alt="Genie hardshell luggage, 2022 — built on heavy graphic prints" />
+                <source srcSet="/soft.png" type="image/png" />
+                <img src="soft.png" alt="Genie hardshell luggage, 2022 — built on heavy graphic prints" />
               </picture>
               <figcaption>
                 2022 — the hard range bet on prints. Heavy graphic films carried the brand across the shell.
@@ -1200,8 +1173,8 @@ export default function CaseStudy() {
             </figure>
             <figure className="figure" style={{ marginTop: 0 }}>
               <picture>
-                <source srcSet="/images/genie/08b.webp" type="image/webp" />
-                <img src="/images/genie/08b.jpg" alt="Genie hardshell luggage, 2026 — a distributed CMF programme" />
+                <source srcSet="/2.png" type="image/png" />
+                <img src="/2.png" alt="Genie hardshell luggage, 2026 — a distributed CMF programme" />
               </picture>
               <figcaption>
                 2026 — recalibrated to a distributed CMF programme: ombrés, glitter films, concrete textures, brand accents
@@ -1245,9 +1218,9 @@ export default function CaseStudy() {
 
           <figure className="figure">
             <picture>
-              <source srcSet="/images/genie/08a-soft.webp" type="image/webp" />
+              <source srcSet="/1.png" type="image/png" />
               <img
-                src="/images/genie/08a-soft.jpg"
+                src="/1.png"
                 alt="Genie soft luggage, 2022 — printed range across three price points"
               />
             </picture>
@@ -1385,8 +1358,8 @@ export default function CaseStudy() {
 
           <figure className="figure">
             <picture>
-              <source srcSet="/images/genie/09a.webp" type="image/webp" />
-              <img src="/images/genie/09a.jpg" alt="Genie annual development calendar — twelve months brief to shelf" />
+              <source srcSet="/12months.png" type="image/png" />
+              <img src="/12months.png" alt="Genie annual development calendar — twelve months brief to shelf" />
             </picture>
             <figcaption>
               Two overlapping cycles — brief-to-brief loop (12 months) and brief-to-end-of-selling lifecycle (20 months).
@@ -1494,8 +1467,8 @@ export default function CaseStudy() {
 
           <figure className="figure">
             <picture>
-              <source srcSet="/images/genie/09b.webp" type="image/webp" />
-              <img src="/images/genie/09b.jpg" alt="Parallel calendars across six channels" />
+              <source srcSet="/sixchannels.png" type="image/png" />
+              <img src="/sixchannels.png" alt="Parallel calendars across six channels" />
             </picture>
             <figcaption>
               Six channels, one operating model. Trade ran the back-to-school spine; the other five channels each ran
@@ -1779,8 +1752,8 @@ export default function CaseStudy() {
 
           <figure className="figure">
             <picture>
-              <source srcSet="/images/genie/11.webp" type="image/webp" />
-              <img src="/images/genie/11.jpg" alt="Genie 2026 — the system in evidence" />
+              <source srcSet="/5yearsgrowing.png" type="image/png" />
+              <img src="/5yearsgrowing.png" alt="Genie 2026 — the system in evidence" />
             </picture>
             <figcaption>The system in evidence — five years on, the brand ageing up with the girl carrying it.</figcaption>
           </figure>
