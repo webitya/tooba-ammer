@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           <div className="container">
             <span className="label">Connect</span>
             <p className="connect-line">
-              Hiring or curious — <br />
+              <span style={{ fontSize: '0.55em' }}>Hiring or curious — </span><br />
               <a href="mailto:hello@toobaameer.co.uk">hello@toobaameer.co.uk</a>
             </p>
             <p className="availability">
