@@ -411,12 +411,12 @@ footer.site-footer a:hover { color: var(--ink); }
 @media (max-width: 760px) { .work-grid { grid-template-columns: 1fr; gap: 64px; } }
 
 /* HOMEPAGE v2 */
-.home-hero { padding-top: clamp(10px, 2vw, 28px); padding-bottom: clamp(16px, 2.5vw, 32px); text-align: center; }
+.home-hero { padding-top: clamp(48px, 7vw, 88px); padding-bottom: clamp(16px, 2.5vw, 32px); text-align: center; }
 .home-hero .eyebrow { display: block; margin-bottom: clamp(12px, 1.5vw, 20px); }
 .home-headline { font-family: var(--display); font-weight: 400; font-style: italic; font-size: clamp(28px, 5.5vw, 80px); line-height: 1.02; letter-spacing: -.02em; font-variation-settings: 'opsz' 72; color: var(--ink); max-width: 18ch; margin-inline: auto; }
 .home-support { font-family: var(--body); font-weight: 400; font-size: clamp(14px, 1.3vw, 17px); line-height: 1.4; color: var(--muted); max-width: 56ch; margin-top: clamp(12px, 1.5vw, 20px); margin-inline: auto; }
 
-.impact-in-hero { margin-top: clamp(24px, 3vw, 36px); padding-top: 0; text-align: center; }
+.impact-in-hero { margin-top: clamp(16px, 2vw, 24px); padding-top: 0; text-align: center; }
 .impact-in-hero .stats-strip { margin-top: 0; border-top: none; padding-top: 0; }
 .impact-in-hero .stat-cell { align-items: center; }
 .impact-in-hero .stat-lbl { margin-inline: auto; }
