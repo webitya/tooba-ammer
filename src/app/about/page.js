@@ -11,9 +11,8 @@ export default function About() {
       {/* FULL-BLEED EDITORIAL COVER */}
       <header className="cover">
         <picture className="cover-media">
-          <source srcSet="/images/tooba-cover.webp" type="image/webp" />
-          {/* Ensure the profile pic is placed at public/images/tooba-cover.jpg */}
-          <img src="/images/tooba-cover.jpg" alt="Portrait of Tooba Ameer, Design and Development Manager" />
+          <source srcSet="/tooba-cover.webp" type="image/webp" />
+          <img src="/tooba-cover.jpg" alt="Portrait of Tooba Ameer, Design and Development Manager" />
         </picture>
         <div className="cover-scrim"></div>
         <div className="cover-inner">

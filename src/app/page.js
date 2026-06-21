@@ -9,18 +9,15 @@ export default function Home() {
           <span className="label eyebrow">Tooba Ameer — Design & Development Manager</span>
           <h1 className="home-headline">Eight years building consumer products that scale brands and categories.</h1>
           <p className="home-support">Specialised in physical products — backpacks, luggage and accessories — from insight to factory to market.</p>
-        </div>
-      </section>
-
-      {/* ================ 2 · IMPACT STRIP ================ */}
-      <section className="impact">
-        <div className="container">
-          <span className="label eyebrow">The evidence</span>
-          <div className="stats-strip">
-            <div className="stat-cell"><span className="stat-n">~6×</span><span className="stat-lbl">Genie brand growth</span></div>
-            <div className="stat-cell"><span className="stat-n">2025</span><span className="stat-lbl">Travel Sentry Award</span></div>
-            <div className="stat-cell"><span className="stat-n">8,000+</span><span className="stat-lbl">Hue units sold monthly</span></div>
-            <div className="stat-cell"><span className="stat-n">90%</span><span className="stat-lbl">First-round sampling approvals</span></div>
+          
+          <div className="impact-in-hero">
+            <span className="label eyebrow" style={{ marginTop: 'clamp(40px, 6vw, 64px)', marginBottom: 'clamp(32px, 5vw, 48px)' }}>The evidence</span>
+            <div className="stats-strip">
+              <div className="stat-cell"><span className="stat-n">~6×</span><span className="stat-lbl">Genie brand growth</span></div>
+              <div className="stat-cell"><span className="stat-n">2025</span><span className="stat-lbl">Travel Sentry Award</span></div>
+              <div className="stat-cell"><span className="stat-n">8,000+</span><span className="stat-lbl">Hue units sold monthly</span></div>
+              <div className="stat-cell"><span className="stat-n">90%</span><span className="stat-lbl">First-round sampling approvals</span></div>
+            </div>
           </div>
         </div>
       </section>
