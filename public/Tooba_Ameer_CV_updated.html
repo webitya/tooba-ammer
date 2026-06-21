@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV — Tooba Ameer</title>
+<meta name="description" content="Curriculum vitae of Tooba Ameer — Design &amp; Development Manager. Trend direction, CMF strategy and commercially successful product ranges across luggage, backpacks and lifestyle accessories.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F4F1E9; --paper-deep:#ECE7DA;
+    --ink:#1A1612; --muted:#7A7468;
+    --hairline:#D6D0C2; --accent:#5A2D1C;
+    --display:'Newsreader','Times New Roman',Georgia,serif;
+    --body:'Geist',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;
+    --pad-x:clamp(28px,6vw,120px);
+    --container:1200px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);font-weight:400;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+  a{color:inherit}
+
+  /* NAV — shared site chrome */
+  .nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;row-gap:10px;padding:22px var(--pad-x);background:rgba(244,241,233,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--hairline)}
+  .nav .logo{font-family:var(--display);font-weight:500;font-style:italic;font-size:20px;letter-spacing:-.01em;text-decoration:none;color:var(--ink)}
+  .nav .links{display:flex;flex-wrap:wrap;gap:32px}
+  .nav .links a{font-family:var(--body);font-weight:500;font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--ink);opacity:.7;transition:opacity .2s,color .2s}
+  .nav .links a:hover{opacity:1;color:var(--accent)}
+  .nav .links a[aria-current]{opacity:1;color:var(--accent)}
+  @media(max-width:680px){.nav .links{gap:20px;font-size:12px;flex-basis:100%}}
+
+  .sheet{max-width:var(--container);margin:0 auto;padding:clamp(56px,9vw,104px) var(--pad-x) clamp(40px,6vw,72px)}
+
+  /* shared type tokens */
+  .label{font-family:var(--body);font-weight:500;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+  .eyebrow{display:flex;align-items:center;gap:11px;margin-bottom:26px}
+  .eyebrow::before{content:"";width:7px;height:7px;background:var(--accent);display:inline-block}
+  .micro{font-family:var(--body);font-weight:500;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+
+  /* HEADER + BODY GRID */
+  .grid{display:grid;grid-template-columns:280px 1fr;gap:clamp(40px,5vw,80px);margin-top:clamp(40px,5vw,72px)}
+  @media(max-width:840px){.grid{grid-template-columns:1fr;gap:clamp(40px,7vw,56px)}}
+
+  /* MAIN COLUMN — name lives here, mirroring the uploaded layout */
+  .name{font-family:var(--display);font-weight:400;font-style:italic;font-size:clamp(52px,9vw,104px);line-height:.96;letter-spacing:-.02em;font-variation-settings:'opsz' 72;color:var(--ink)}
+  .role{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(22px,3vw,34px);line-height:1.2;letter-spacing:-.01em;color:var(--muted);margin-top:14px}
+  .summary{font-family:var(--body);font-weight:400;font-size:clamp(16px,1.5vw,18px);line-height:1.6;color:var(--ink);max-width:64ch;margin-top:30px}
+  .summary em{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.04em}
+  .avail{font-family:var(--body);font-weight:400;font-size:13.5px;line-height:1.5;color:var(--muted);margin-top:18px}
+
+  /* STATS */
+  .stats{display:flex;flex-wrap:wrap;gap:clamp(36px,5vw,72px);margin-top:40px;padding-top:30px;border-top:1px solid var(--hairline)}
+  .stat .v{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(40px,6vw,72px);line-height:1;letter-spacing:-.02em;font-variation-settings:'opsz' 60;color:var(--ink)}
+  .stat .k{font-family:var(--body);font-weight:500;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:14px;display:block;max-width:22ch}
+
+  /* SECTIONS */
+  .block{margin-top:clamp(40px,5vw,64px)}
+  .block:first-child{margin-top:0}
+  .block-head{display:flex;align-items:baseline;gap:18px;padding-bottom:16px;border-bottom:1px solid var(--hairline);margin-bottom:26px}
+  .block-head .num{font-family:var(--display);font-style:italic;font-weight:400;font-size:18px;color:var(--accent);line-height:1}
+
+  /* EXPERIENCE ENTRY */
+  .entry{padding:26px 0;border-bottom:1px solid var(--hairline)}
+  .entry:first-of-type{padding-top:0}
+  .entry:last-of-type{border-bottom:0;padding-bottom:0}
+  .entry-title{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(22px,2.6vw,28px);line-height:1.12;letter-spacing:-.012em;font-variation-settings:'opsz' 32;color:var(--ink)}
+  .entry-meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;margin-top:8px}
+  .entry-meta .org{font-family:var(--body);font-weight:500;font-size:13.5px;color:var(--ink)}
+  .entry-meta .when{font-family:var(--body);font-weight:500;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+  .entry-lead{font-family:var(--body);font-weight:400;font-size:14.5px;line-height:1.6;color:var(--ink);margin-top:14px}
+  .entry-lead em{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.04em}
+
+  ul.points{list-style:none;margin-top:14px}
+  ul.points li{position:relative;padding-left:26px;font-family:var(--body);font-weight:400;font-size:14.5px;line-height:1.6;color:var(--ink);margin-top:10px}
+  ul.points li::before{content:"—";position:absolute;left:0;top:0;color:var(--accent);font-weight:600}
+
+  /* SIDEBAR */
+  .side{align-self:start}
+  @media(min-width:841px){.side{position:sticky;top:96px}}
+  .side .panel{margin-bottom:clamp(28px,3.5vw,40px)}
+  .side .panel .label{display:block;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--hairline)}
+  .side dl{display:grid;gap:14px}
+  .side dt{font-family:var(--body);font-weight:500;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+  .side dd{font-family:var(--body);font-weight:400;font-size:14px;line-height:1.45;color:var(--ink)}
+  .side dd a{text-decoration:none;border-bottom:1px solid var(--hairline);transition:color .2s,border-color .2s}
+  .side dd a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .side .line{font-family:var(--body);font-weight:400;font-size:14px;line-height:1.5;color:var(--ink);margin-bottom:10px}
+  .side .line .em{font-family:var(--display);font-style:italic;font-weight:500;color:var(--ink)}
+  .side .sub{font-family:var(--body);font-weight:400;font-size:12.5px;line-height:1.45;color:var(--muted)}
+  .side .tags{display:flex;flex-wrap:wrap;gap:7px}
+  .side .tags span{font-family:var(--body);font-weight:400;font-size:12.5px;line-height:1;color:var(--ink);border:1px solid var(--hairline);border-radius:3px;padding:6px 9px}
+  .award .line{font-family:var(--display);font-style:italic;font-weight:400;font-size:18px;line-height:1.25;color:var(--ink)}
+
+  /* CONNECT */
+  .connect{padding:clamp(72px,10vw,128px) var(--pad-x) clamp(56px,8vw,96px);border-top:1px solid var(--hairline);max-width:var(--container);margin:0 auto}
+  .connect .label{display:block;margin-bottom:36px;color:var(--accent)}
+  .connect-line{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(26px,4vw,52px);line-height:1.12;letter-spacing:-.012em;color:var(--ink);max-width:20ch}
+  .connect-line a{text-decoration:none;border-bottom:1px solid var(--ink);padding-bottom:2px;transition:color .25s,border-color .25s}
+  .connect-line a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+
+  footer.site-footer{padding:40px var(--pad-x);border-top:1px solid var(--hairline)}
+  footer.site-footer .container{max-width:var(--container);margin:0 auto;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-family:var(--body);font-weight:400;font-size:12px;letter-spacing:.06em;color:var(--muted)}
+
+  /* PRINT — A4, keep paper, drop chrome */
+  @media print{
+    @page{size:A4;margin:14mm}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .nav,.connect,.site-footer{display:none}
+    .sheet{padding:0;max-width:none}
+    .grid{grid-template-columns:240px 1fr;gap:36px;margin-top:32px}
+    .side{position:static}
+    .name{font-size:48px}
+    .role{font-size:22px}
+    .entry,.block,.stat .v{break-inside:avoid}
+    .stat .v{font-size:40px}
+    body{font-size:13px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="logo" href="index.html">Tooba Ameer</a>
+  <div class="links">
+    <a href="index.html#work">Work</a>
+    <a href="about.html">About</a>
+    <a href="Tooba_Ameer_CV.html" aria-current="page">Resume</a>
+    <a href="https://www.linkedin.com/in/tooba-ameer" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:hello@toobaameer.co.uk">Contact</a>
+  </div>
+</nav>
+
+<div class="sheet">
+
+  <!-- HEADER -->
+  <header>
+    <div class="eyebrow"><span class="label">Curriculum Vitae</span></div>
+    <h1 class="name">Tooba Ameer</h1>
+    <p class="role">Design &amp; Development Manager</p>
+    <p class="summary">Design &amp; Development Manager with eight years leading trend direction, CMF strategy and commercially successful product ranges across luggage, backpacks and lifestyle accessories. Built and scaled product categories across multiple brands — combining consumer insight, manufacturing expertise and commercial decision-making. Contributed to Genie brand growth from <em>₹17 Cr to ₹100 Cr (≈ £1.4M to £8M · ~6× growth)</em>. Experience mentoring designers and building design processes across multi-brand teams.</p>
+    <p class="avail">Available for London-based roles · Full right to work in the UK · No visa sponsorship required</p>
+
+    <div class="stats">
+      <div class="stat"><span class="v">~6×</span><span class="k">Genie brand growth · ₹17 Cr → ₹100 Cr (≈ £1.4M → £8M)</span></div>
+      <div class="stat"><span class="v">8,000+</span><span class="k">Units / month — Hue printed luggage</span></div>
+      <div class="stat"><span class="v">42,000+</span><span class="k">Verified ratings on Flipkart · 4.2★</span></div>
+    </div>
+  </header>
+
+  <div class="grid">
+
+    <!-- SIDEBAR -->
+    <aside class="side">
+
+      <div class="panel">
+        <span class="label">Contact</span>
+        <dl>
+          <div><dt>Location</dt><dd>Leeds, United Kingdom</dd></div>
+          <div><dt>Phone</dt><dd>+44 7343 066082</dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:hello@toobaameer.co.uk">hello@toobaameer.co.uk</a></dd></div>
+          <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/tooba-ameer" target="_blank" rel="noopener">linkedin.com/in/tooba-ameer</a></dd></div>
+          <div><dt>Portfolio</dt><dd><a href="https://toobaameer.co.uk" target="_blank" rel="noopener">toobaameer.co.uk</a></dd></div>
+        </dl>
+      </div>
+
+      <div class="panel award">
+        <span class="label">Award</span>
+        <p class="line">Travel Sentry Product Award 2025</p>
+        <p class="sub">Winner — Favourite Softside Luggage<br>Phoenix Laptop Trolley</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Skills</span>
+        <div class="tags">
+          <span>Range Building</span><span>Trend Direction</span><span>CMF Strategy</span>
+          <span>Product Design</span><span>Category Management</span><span>Multi-Brand Strategy</span>
+          <span>Manufacturing</span><span>Product Specifications</span><span>Illustrator</span>
+          <span>Photoshop</span><span>Figma</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <span class="label">Education</span>
+        <p class="line"><span class="em">Bachelor of Design</span></p>
+        <p class="sub">Fashion &amp; Lifestyle Accessory Design<br>NIFT, India · 2014–2018</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Certifications</span>
+        <p class="line" style="font-family:var(--body);font-size:14px">Adobe Illustrator 2025</p>
+        <p class="sub">Professional Certificate</p>
+        <p class="line" style="font-family:var(--body);font-size:14px;margin-top:14px">JobEscape — AI Powered Designer</p>
+        <p class="sub">Level 4: Platinum</p>
+      </div>
+
+      <div class="panel">
+        <span class="label">Languages</span>
+        <dl>
+          <div><dt>English</dt><dd>Full Professional</dd></div>
+          <div><dt>Hindi</dt><dd>Native</dd></div>
+        </dl>
+      </div>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+      <section class="block">
+        <div class="block-head"><span class="num">01</span><span class="label">Experience</span></div>
+
+        <article class="entry">
+          <h2 class="entry-title">Manager — Design &amp; Development</h2>
+          <div class="entry-meta"><span class="org">Safari Industries India Ltd. · Mumbai</span><span class="when">Apr 2024 – Feb 2026</span></div>
+          <p class="entry-lead">Built the Genie range from the ground up — backpacks, kids' bags and luggage.</p>
+          <ul class="points">
+            <li>Led design for Genie while contributing to Genius, Safari and Urban Jungle — four brands with different positioning and price architecture.</li>
+            <li>Worked across branded and white-label product — adapting white-label bases into brand-ready ranges through CMF, print and detailing for tote bags and work backpacks.</li>
+            <li>Defined seasonal trend direction — video vibe boards and static catch boards to shape collections and present to stakeholders.</li>
+            <li>Developed product lines for girls and young women — Cool (3 seasons), Sass (2 yrs), Amore (2 yrs), Essence (2025, still in range). Essence featured on Amazon MX Player's <em>School Friends</em> S3.</li>
+            <li>Designed the Phoenix Laptop Trolley (Travel Sentry Product Award 2025) and Hue luggage (42,000+ ratings, 8,000+ units/month).</li>
+            <li>Set colour palettes, print direction, graphics and material strategies across the full range.</li>
+            <li>Partnered with manufacturing teams across India and China — specs, sampling, sign-off; attended Canton Fair for sourcing, supplier evaluation and market insight.</li>
+            <li>Mentored 2 designers — managed an intern and mentored a fellow designer on brand standards, research methods and range planning.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <h2 class="entry-title">Deputy Product Manager — Category Management</h2>
+          <div class="entry-meta"><span class="org">Bagzone Lifestyles / Lavie · Mumbai</span><span class="when">Jan – Apr 2024</span></div>
+          <ul class="points">
+            <li>Managed Lavie Sports — backpack, duffle and travel bags for a unisex lifestyle brand.</li>
+            <li>Developed range from brief to collection — product direction, CMF and category positioning.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <h2 class="entry-title">Manager — Design &amp; Development</h2>
+          <div class="entry-meta"><span class="org">Safari Industries India Ltd. · Mumbai</span><span class="when">Jul – Dec 2023</span></div>
+          <ul class="points">
+            <li>Promoted to lead Genie design direction — range coherence, visual identity, all categories.</li>
+            <li>Defined brand visual language — seasonal colour strategies, print direction, graphic themes.</li>
+            <li>Mentored junior designers; built a shared CMF library and design processes.</li>
+            <li>Cross-functional coordination with product management, sales and sourcing.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <h2 class="entry-title">Assistant Manager — Design &amp; Development</h2>
+          <div class="entry-meta"><span class="org">Safari Industries India Ltd. · Mumbai</span><span class="when">Mar 2021 – Jul 2023</span></div>
+          <ul class="points">
+            <li>Created the Cool backpack line — reordered for three consecutive seasons on commercial demand.</li>
+            <li>Launched a printed luggage category for women — persona-based design, strong commercial performer.</li>
+            <li>Built kids' backpack ranges season after season — trends, materials, print directions, colourways.</li>
+            <li>End-to-end product design — form, CMF, prints, specs — direct factory collaboration.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <h2 class="entry-title">Product &amp; Graphic Designer</h2>
+          <div class="entry-meta"><span class="org">High Spirit Commercial Ventures · Mumbai</span><span class="when">Jul 2018 – Mar 2021</span></div>
+          <p class="entry-lead">Three brands — Priority, Hashtag, Traworld — each with distinct positioning.</p>
+          <ul class="points">
+            <li>Built ranges for three brand identities — adapting design, CMF, price point and visual language per audience.</li>
+            <li>Led "House of 100" — standardised all components (fabrics, linings, zippers, pullers, locks, mesh, elastic) to 100, cutting warehouse waste.</li>
+            <li>Designed seasonal collections integrating structure, graphics, CMF and branding.</li>
+            <li>Mentored 3 junior designers on design processes, product development and brand standards.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <h2 class="entry-title">Product Designer <span style="font-family:var(--body);font-style:normal;font-weight:400;font-size:.5em;letter-spacing:.01em;color:var(--muted);white-space:nowrap">(Graduation Project · 6 months)</span></h2>
+          <div class="entry-meta"><span class="org">United Colors of Benetton India · Gurugram</span><span class="when">Jan – Jun 2018</span></div>
+          <ul class="points">
+            <li>Designed the multi-category "Wanderlust" collection — backpacks, handbags, sling bags.</li>
+            <li>Concept boards, product designs and seasonal trend alignment.</li>
+            <li>Collaborated with design and merchandising, concept to sampling.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+  </div>
+</div>
+
+<section class="connect">
+  <span class="label">Get in touch</span>
+  <p class="connect-line">Hiring or curious — <a href="mailto:hello@toobaameer.co.uk">hello@toobaameer.co.uk</a></p>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>© 2026 Tooba Ameer — Design &amp; Development Manager</div>
+    <div>United Kingdom</div>
+  </div>
+</footer>
+
+</body>
+</html>

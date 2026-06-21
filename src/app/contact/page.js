@@ -94,8 +94,26 @@ export default function Contact() {
               <span style={{ fontSize: '16px', color: 'var(--muted)' }}>↗</span>
             </a>
 
+            {/* Behance */}
+            <a href="https://www.behance.net/ameertooba" target="_blank" rel="noopener noreferrer" style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+              padding: '20px 0', borderTop: '1px solid var(--hairline)',
+              textDecoration: 'none', color: 'var(--ink)', gap: '16px',
+            }}>
+              <span style={{
+                fontFamily: 'var(--body)', fontWeight: 500, fontSize: '11px',
+                letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--muted)',
+                minWidth: '80px',
+              }}>Behance</span>
+              <span style={{
+                fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 400,
+                fontSize: 'clamp(15px,1.4vw,18px)', color: 'var(--ink)', flex: 1,
+              }}>ameertooba</span>
+              <span style={{ fontSize: '16px', color: 'var(--muted)' }}>↗</span>
+            </a>
+
             {/* CV */}
-            <a href="/Tooba_Ameer_CV.pdf" download="Tooba_Ameer_CV.pdf" style={{
+            <a href="/Tooba_Ameer_CV_ATS.pdf" download="Tooba_Ameer_CV_ATS.pdf" style={{
               display: 'flex', alignItems: 'center', justifyContent: 'space-between',
               padding: '20px 0', borderTop: '1px solid var(--hairline)',
               borderBottom: '1px solid var(--hairline)',

@@ -11,7 +11,8 @@ export default function Home() {
           <p className="home-support">Specialised in physical products — backpacks, luggage and accessories — from insight to factory to market.</p>
           
           <div className="impact-in-hero">
-            <span className="label eyebrow" style={{ marginTop: 'clamp(40px, 6vw, 64px)', marginBottom: 'clamp(32px, 5vw, 48px)' }}>The evidence</span>
+            <hr style={{ border: 'none', borderTop: '1px solid var(--hairline)', margin: 'clamp(48px, 6vw, 72px) 0 clamp(40px, 5vw, 56px) 0' }} />
+            <span className="label eyebrow" style={{ marginBottom: 'clamp(32px, 5vw, 48px)', display: 'block' }}>The evidence</span>
             <div className="stats-strip">
               <div className="stat-cell"><span className="stat-n">~6×</span><span className="stat-lbl">Genie brand growth</span></div>
               <div className="stat-cell"><span className="stat-n">2025</span><span className="stat-lbl">Travel Sentry Award</span></div>

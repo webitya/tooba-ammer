@@ -64,7 +64,7 @@ em.lead { font-style: italic; font-family: var(--display); font-weight: 500; col
 .container { max-width: var(--container); margin: 0 auto; }
 
 /* ======================= NAV ======================= */
-.nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; row-gap: 10px; padding: 8px var(--pad-x); background: rgba(244, 241, 233, .88); backdrop-filter: blur(10px); border-bottom: 1px solid var(--hairline); }
+.nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; row-gap: 10px; padding: 12px var(--pad-x); background: rgba(244, 241, 233, .88); backdrop-filter: blur(10px); border-bottom: 1px solid var(--hairline); }
 .nav .logo { font-family: var(--display); font-weight: 500; font-style: italic; font-size: 20px; letter-spacing: -.01em; text-decoration: none; color: var(--ink); }
 .nav .links { display: flex; flex-wrap: wrap; gap: 32px; align-items: center; }
 .nav .links a { font-family: var(--body); font-weight: 500; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; color: var(--ink); opacity: .7; transition: opacity .2s, color .2s; }
@@ -76,10 +76,10 @@ em.lead { font-style: italic; font-family: var(--display); font-weight: 500; col
   letter-spacing: .12em;
   text-transform: uppercase;
   text-decoration: none;
-  background: var(--accent) !important;
+  background: #2D1A14 !important;
   color: var(--paper) !important;
   padding: 10px 22px;
-  border: 1px solid var(--accent);
+  border: 1px solid #2D1A14;
   border-radius: 0;
   opacity: 1 !important;
   transition: all 0.2s ease;
@@ -89,8 +89,8 @@ em.lead { font-style: italic; font-family: var(--display); font-weight: 500; col
   margin-left: 48px; /* extra space after CV */
 }
 .nav .links .nav-btn:hover {
-  background: var(--ink) !important;
-  border-color: var(--ink) !important;
+  background: var(--accent) !important;
+  border-color: var(--accent) !important;
   color: var(--paper) !important;
   opacity: 1 !important;
 }

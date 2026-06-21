@@ -15,8 +15,8 @@ export default function CVPage() {
         backgroundColor: 'var(--paper)',
       }}>
         <a
-          href="/Tooba_Ameer_CV.pdf"
-          download="Tooba_Ameer_CV.pdf"
+          href="/Tooba_Ameer_CV_ATS.pdf"
+          download="Tooba_Ameer_CV_ATS.pdf"
           style={{
             display: 'inline-block', padding: '10px 24px',
             backgroundColor: 'var(--ink)', color: 'var(--paper)',

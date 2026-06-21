@@ -12,7 +12,7 @@ export default function ResumeClient() {
       minHeight: '80vh',
     }}>
       <div style={{ maxWidth: '860px', margin: '0 auto' }}>
-        <PdfViewer url="/Tooba_Ameer_CV.pdf" />
+        <PdfViewer url="/Tooba_Ameer_CV_ATS.pdf" />
       </div>
     </div>
   );
