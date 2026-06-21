@@ -48,15 +48,17 @@ export default function CaseStudy() {
     </div>
     <h2 className="section-title">A brief that contradicted itself.</h2>
 
-    <div className="body-prose">
-      <p>The brief came from the marketing and product team, not from me. It asked for premium fabric and no prints, a detailed organiser, a lockable laptop and tablet compartment, and &mdash; tellingly &mdash; dimensions matched to the <strong>Samsonite Sefton</strong>. The aspiration was written into the spec.</p>
-      <p>Then came the two numbers that defined the whole project: a target retail price of <strong>₹9,999</strong> and a target <strong>$30 FOB</strong> &mdash; the cost to make and ship each unit. For Safari, ₹9,999 is the top of its range. For a Samsonite feel, $30 a unit is almost nothing.</p>
-      <p>The brief, read honestly, was a contradiction: <em>deliver the perception of a premium brand on the cost structure of a value one.</em></p>
-    </div>
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'clamp(40px, 6vw, 96px)', alignItems: 'start' }}>
+      <div className="body-prose">
+        <p>The brief came from the marketing and product team, not from me. It asked for premium fabric and no prints, a detailed organiser, a lockable laptop and tablet compartment, and &mdash; tellingly &mdash; dimensions matched to the <strong>Samsonite Sefton</strong>. The aspiration was written into the spec.</p>
+        <p>Then came the two numbers that defined the whole project: a target retail price of <strong>₹9,999</strong> and a target <strong>$30 FOB</strong> &mdash; the cost to make and ship each unit. For Safari, ₹9,999 is the top of its range. For a Samsonite feel, $30 a unit is almost nothing.</p>
+        <p>The brief, read honestly, was a contradiction: <em>deliver the perception of a premium brand on the cost structure of a value one.</em></p>
+      </div>
 
-    <div className="figure">
-      <img src="/images/phoenix/fig_02.png" alt="Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets" />
-      <figcaption>Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets.</figcaption>
+      <div className="figure" style={{ margin: 0 }}>
+        <img src="/images/phoenix/fig_02.png" alt="Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets" />
+        <figcaption>Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets.</figcaption>
+      </div>
     </div>
   </div>
 </section>
