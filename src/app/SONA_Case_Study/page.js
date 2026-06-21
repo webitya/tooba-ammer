@@ -20,11 +20,7 @@ export default function CaseStudy() {
             </div>
             <div className="hero-body-figure">
               <div className="figure">
-                <div className="figure-box">
-                  <span className="fig-num">Fig. 01</span>
-                  <span className="fig-type">Hero composition</span>
-                  <span className="fig-desc">The Sona Ritual Dock on a bedside table in evening light &mdash; a glass of water and a paperback beside it, city lights blurred through the window.</span>
-                </div>
+                <img src="/images/sona/fig_01.png" alt="The Sona Ritual Dock on a bedside table in evening light &mdash; a glass of water and a paperback beside it, city lights blurred through the window" />
                 <figcaption>The Sona Ritual Dock on a bedside table in evening light &mdash; a glass of water and a paperback beside it, city lights blurred through the window.</figcaption>
               </div>
             </div>
@@ -205,11 +201,7 @@ export default function CaseStudy() {
           </div>
 
           <div className="figure">
-            <div className="figure-box">
-              <span className="fig-num">Fig. 02</span>
-              <span className="fig-type">Reference grid &middot; 8-up</span>
-              <span className="fig-desc">Eight-up reference grid &mdash; publication, bookmaking, photography, typography, colour, object, interior and cultural references, with a panel showing where Sona lands.</span>
-            </div>
+            <img src="/images/sona/fig_02.png" alt="Eight-up reference grid &mdash; publication, bookmaking, photography, typography, colour, object, interior and cultural references, with a panel showing where Sona lands" />
             <p className="figure-caption">Reference imagery sourced and credited; the synthesis and direction are mine.</p>
           </div>
         </div>
@@ -277,11 +269,7 @@ export default function CaseStudy() {
           </div>
 
           <div className="figure">
-            <div className="figure-box">
-              <span className="fig-num">Fig. 03</span>
-              <span className="fig-type">Dock specification panel</span>
-              <span className="fig-desc">Sona Ritual Dock specification panel &mdash; bedside hero render, orthographic views at 148 by 105 by 32 mm, ceramic-stone and satin-bronze materials, the heat-and-scent sequence, an exploded internal build, and detail callouts.</span>
-            </div>
+            <img src="/images/sona/fig_03.png" alt="Sona Ritual Dock specification panel &mdash; bedside hero render, orthographic views at 148 by 105 by 32 mm, ceramic-stone and satin-bronze materials, the heat-and-scent sequence, an exploded internal build, and detail callouts" />
             <figcaption>Sona Ritual Dock specification panel &mdash; bedside hero render, orthographic views at 148 by 105 by 32 mm, ceramic-stone and satin-bronze materials, the heat-and-scent sequence, an exploded internal build, and detail callouts.</figcaption>
           </div>
         </div>
@@ -301,11 +289,7 @@ export default function CaseStudy() {
           </div>
 
           <div className="figure">
-            <div className="figure-box">
-              <span className="fig-num">Fig. 04</span>
-              <span className="fig-type">Compositions &amp; packaging</span>
-              <span className="fig-desc">Sona compositions and packaging panel &mdash; the seven-composition index, the linen-wrapped box, inside the box, the manual card, one composition with its incense papers, and full specifications.</span>
-            </div>
+            <img src="/images/sona/fig_04.webp" alt="Sona compositions and packaging panel &mdash; the seven-composition index, the linen-wrapped box, inside the box, the manual card, one composition with its incense papers, and full specifications" />
             <figcaption>Sona compositions and packaging panel &mdash; the seven-composition index, the linen-wrapped box, inside the box, the manual card, one composition with its incense papers, and full specifications.</figcaption>
           </div>
         </div>
@@ -348,11 +332,7 @@ export default function CaseStudy() {
           </div>
 
           <div className="figure">
-            <div className="figure-box">
-              <span className="fig-num">Fig. 05</span>
-              <span className="fig-type">App screen sequence</span>
-              <span className="fig-desc">Twelve screens from the Sona app prototype across three rows &mdash; onboarding and the case for a sequence not a score, dock pairing and set-up, the nightly intent and descent choices, the dark in-ritual states, and the 28-night composition cycle.</span>
-            </div>
+            <img src="/images/sona/fig_05.png" alt="Twelve screens from the Sona app prototype across three rows &mdash; onboarding and the case for a sequence not a score, dock pairing and set-up, the nightly intent and descent choices, the dark in-ritual states, and the 28-night composition cycle" />
             <figcaption>Twelve screens from the Sona app prototype across three rows &mdash; onboarding and the case for a sequence not a score, dock pairing and set-up, the nightly intent and descent choices, the dark in-ritual states, and the 28-night composition cycle.</figcaption>
           </div>
         </div>
@@ -397,41 +377,25 @@ export default function CaseStudy() {
 
           <div className="tension-chips">
             <span className="tension-chip">Calm, <span className="alt">not passive</span></span>
-            <span className="tension-chip">Premium, <span class="alt">not exclusive</span></span>
+            <span className="tension-chip">Premium, <span className="alt">not exclusive</span></span>
             <span className="tension-chip">Ritual, <span className="alt">not spiritual</span></span>
             <span className="tension-chip">Contemporary, <span className="alt">not clinical</span></span>
           </div>
 
           <div className="figure">
-            <div className="figure-box">
-              <span className="fig-num">Fig. 06</span>
-              <span className="fig-type">Launch campaign banner</span>
-              <span className="fig-desc">Sona launch campaign banner &mdash; a hand drawing back a curtain at dusk over a city skyline, captioned &ldquo;the hour recorded.&rdquo;</span>
-            </div>
+            <img src="/images/sona/fig_06.png" alt="Sona launch campaign banner &mdash; a hand drawing back a curtain at dusk over a city skyline, captioned &ldquo;the hour recorded.&rdquo;" />
             <figcaption>Sona launch campaign banner &mdash; a hand drawing back a curtain at dusk over a city skyline, captioned &ldquo;the hour recorded.&rdquo;</figcaption>
           </div>
 
           <div className="figure-grid figure-grid--3">
             <div className="figure">
-              <div className="figure-box">
-                <span className="fig-num">Fig. 07a</span>
-                <span className="fig-type">Campaign creative</span>
-                <span className="fig-desc">Sona campaign &mdash; social feed post, 4:5.</span>
-              </div>
+              <img src="/images/sona/fig_07a.jpg" alt="Sona campaign &mdash; social feed post, 4:5" />
             </div>
             <div className="figure">
-              <div className="figure-box">
-                <span className="fig-num">Fig. 07b</span>
-                <span className="fig-type">Campaign creative</span>
-                <span className="fig-desc">Sona campaign &mdash; square social post, 1:1.</span>
-              </div>
+              <img src="/images/sona/fig_07b.jpg" alt="Sona campaign &mdash; square social post, 1:1" />
             </div>
             <div className="figure">
-              <div className="figure-box">
-                <span className="fig-num">Fig. 07c</span>
-                <span className="fig-type">Campaign creative</span>
-                <span className="fig-desc">Sona campaign &mdash; Instagram story and reel cover, 9:16.</span>
-              </div>
+              <img src="/images/sona/fig_07c.jpg" alt="Sona campaign &mdash; Instagram story and reel cover, 9:16" />
             </div>
           </div>
           <p className="figure-caption" style={{ textAlign: 'center' }}>Campaign across formats &mdash; web banner, feed, square, and story.</p>

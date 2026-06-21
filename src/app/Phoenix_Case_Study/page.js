@@ -6,38 +6,34 @@ export default function CaseStudy() {
       {/*  HERO  */}
 <section className="band hero">
   <div className="container">
-    <span className="label">Case study · Phoenix · Safari Industries · 2023—25</span>
+    <span className="label">Case study &middot; Phoenix &middot; Safari Industries &middot; 2023&mdash;25</span>
     <h1 className="display-xl">Phoenix</h1>
     <div className="hero-body">
       <div className="hero-body-text">
         <p className="hero-tagline">A premium read on a value cost base.</p>
-        <p className="lede BL">Safari is one of India's three largest luggage makers, and its strength is also its ceiling: the market reads it as value, not desire. The brief for Phoenix was to break that — to land a genuinely premium feel at a <em className="lead">₹9,999</em> retail price and a <em className="lead">$30</em> manufacturing cost.</p>
-        <p className="lede BL">You can't buy premium for $30. So I had to build it instead — from the things that cost nothing extra: finish, proportion, restraint and detail.</p>
+        <p className="lede BL">Safari is one of India's three largest luggage makers, and its strength is also its ceiling: the market reads it as value, not desire. The brief for Phoenix was to break that &mdash; to land a genuinely premium feel at a <em className="lead">₹9,999</em> retail price and a <em className="lead">$30</em> manufacturing cost.</p>
+        <p className="lede BL">You can't buy premium for $30. So I had to build it instead &mdash; from the things that cost nothing extra: finish, proportion, restraint and detail.</p>
       </div>
       <div className="hero-body-figure">
         <div className="figure">
-          <div className="figure-box">
-            <span className="fig-num">Fig. 01</span>
-            <span className="fig-type">Hero product photography</span>
-            <span className="fig-desc">The finished Phoenix trolley — 8-wheel, tonal black, brushed-metal hardware.</span>
-          </div>
-          <figcaption>The finished Phoenix trolley — 8-wheel, tonal black, brushed-metal hardware.</figcaption>
+          <img src="/images/phoenix/fig_01.png" alt="The finished Phoenix trolley — 8-wheel, tonal black, brushed-metal hardware" />
+          <figcaption>The finished Phoenix trolley &mdash; 8-wheel, tonal black, brushed-metal hardware.</figcaption>
         </div>
       </div>
     </div>
 
     <div className="stats-strip">
-      <div className="stat-cell"><span className="stat-n">$30</span><span className="stat-lbl">FOB cost target — held</span></div>
+      <div className="stat-cell"><span className="stat-n">$30</span><span className="stat-lbl">FOB cost target &mdash; held</span></div>
       <div className="stat-cell"><span className="stat-n">₹9,999</span><span className="stat-lbl">Premium retail tier landed</span></div>
       <div className="stat-cell"><span className="stat-n">Winner</span><span className="stat-lbl">Travel Sentry Product Awards 2025</span></div>
-      <div className="stat-cell"><span className="stat-n">Sole</span><span className="stat-lbl">Designer · concept to production</span></div>
+      <div className="stat-cell"><span className="stat-n">Sole</span><span className="stat-lbl">Designer &middot; concept to production</span></div>
     </div>
 
     <div className="hero-meta">
-      <div><span className="k">Role</span><span className="v">Sole designer — concept to production</span></div>
-      <div><span className="k">Scope</span><span className="v">Product · CMF · Construction · Specification</span></div>
+      <div><span className="k">Role</span><span className="v">Sole designer &mdash; concept to production</span></div>
+      <div><span className="k">Scope</span><span className="v">Product &middot; CMF &middot; Construction &middot; Specification</span></div>
       <div><span className="k">Category</span><span className="v">8-wheel laptop trolley</span></div>
-      <div><span className="k">Recognition</span><span className="v">Winner — Favourite Softside Luggage</span></div>
+      <div><span className="k">Recognition</span><span className="v">Winner &mdash; Favourite Softside Luggage</span></div>
     </div>
 
   </div>
@@ -53,17 +49,13 @@ export default function CaseStudy() {
     <h2 className="section-title">A brief that contradicted itself.</h2>
 
     <div className="body-prose">
-      <p>The brief came from the marketing and product team, not from me. It asked for premium fabric and no prints, a detailed organiser, a lockable laptop and tablet compartment, and — tellingly — dimensions matched to the <strong>Samsonite Sefton</strong>. The aspiration was written into the spec.</p>
-      <p>Then came the two numbers that defined the whole project: a target retail price of <strong>₹9,999</strong> and a target <strong>$30 FOB</strong> — the cost to make and ship each unit. For Safari, ₹9,999 is the top of its range. For a Samsonite feel, $30 a unit is almost nothing.</p>
+      <p>The brief came from the marketing and product team, not from me. It asked for premium fabric and no prints, a detailed organiser, a lockable laptop and tablet compartment, and &mdash; tellingly &mdash; dimensions matched to the <strong>Samsonite Sefton</strong>. The aspiration was written into the spec.</p>
+      <p>Then came the two numbers that defined the whole project: a target retail price of <strong>₹9,999</strong> and a target <strong>$30 FOB</strong> &mdash; the cost to make and ship each unit. For Safari, ₹9,999 is the top of its range. For a Samsonite feel, $30 a unit is almost nothing.</p>
       <p>The brief, read honestly, was a contradiction: <em>deliver the perception of a premium brand on the cost structure of a value one.</em></p>
     </div>
 
     <div className="figure">
-      <div className="figure-box">
-        <span className="fig-num">Fig. 02</span>
-        <span className="fig-type">Artefact — the original brief</span>
-        <span className="fig-desc">Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets.</span>
-      </div>
+      <img src="/images/phoenix/fig_02.png" alt="Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets" />
       <figcaption>Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets.</figcaption>
     </div>
   </div>
@@ -79,7 +71,7 @@ export default function CaseStudy() {
     <h2 className="section-title">You can't buy premium at thirty dollars a unit.</h2>
 
     <div className="body-prose">
-      <p>Leather shells, aluminium frames, polycarbonate — the materials people associate with premium luggage — were all off the table at this cost.</p>
+      <p>Leather shells, aluminium frames, polycarbonate &mdash; the materials people associate with premium luggage &mdash; were all off the table at this cost.</p>
       <p>So I reframed the brief. If premium couldn't come from spend, it had to come from the things that cost nothing extra: <em>finish, restraint, proportion, and detail.</em></p>
       <p>Premium as a design decision, not a materials budget.</p>
     </div>
@@ -119,12 +111,8 @@ export default function CaseStudy() {
     </div>
 
     <div className="figure">
-      <div className="figure-box">
-        <span className="fig-num">Fig. 03</span>
-        <span className="fig-type">Five-view photography</span>
-        <span className="fig-desc">Phoenix five-view — front, three-quarter, back, right and left.</span>
-      </div>
-      <figcaption>Front, three-quarter, back and both sides — the object the four rules produced.</figcaption>
+      <img src="/images/phoenix/fig_03.png" alt="Front, three-quarter, back and both sides — the object the four rules produced" />
+      <figcaption>Front, three-quarter, back and both sides &mdash; the object the four rules produced.</figcaption>
     </div>
   </div>
 </section>
@@ -139,22 +127,18 @@ export default function CaseStudy() {
     <h2 className="section-title">Two roads I walked away from.</h2>
 
     <div className="body-prose">
-      <p>Premium isn't the first idea — it's what's left after you delete the wrong ones. Two early concepts taught me what Phoenix shouldn't be.</p>
+      <p>Premium isn't the first idea &mdash; it's what's left after you delete the wrong ones. Two early concepts taught me what Phoenix shouldn't be.</p>
     </div>
 
     <div className="subsection">
       <span className="subsection-num">a.</span>
       <h3 className="subsection-title">A full-PU front.</h3>
       <div className="body-prose">
-        <p>The fastest way to look premium was to clad the whole front face in PU faux leather, and I built that version first. But a business trolley lives a hard life — dragged through airports, knocked at security, stacked into overheads — and a large faux-leather face is exactly where that shows. It scuffs, scratches and tears, and a marked "premium" panel reads cheaper than honest polyester ever would. Premium that can't survive its own use isn't premium. I walked away from the full-PU front; where the faux leather finally went, and why, is the first of the hard decisions below.</p>
+        <p>The fastest way to look premium was to clad the whole front face in PU faux leather, and I built that version first. But a business trolley lives a hard life &mdash; dragged through airports, knocked at security, stacked into overheads &mdash; and a large faux-leather face is exactly where that shows. It scuffs, scratches and tears, and a marked &ldquo;premium&rdquo; panel reads cheaper than honest polyester ever would. Premium that can't survive its own use isn't premium. I walked away from the full-PU front; where the faux leather finally went, and why, is the first of the hard decisions below.</p>
       </div>
       <div className="figure">
-        <div className="figure-box">
-          <span className="fig-num">Fig. 04</span>
-          <span className="fig-type">Rejected concept — full PU front</span>
-          <span className="fig-desc">The full PU faux-leather front — built first, then walked away from.</span>
-        </div>
-        <figcaption>The full PU faux-leather front — built first, then walked away from.</figcaption>
+        <img src="/images/phoenix/fig_04.png" alt="The full PU faux-leather front — built first, then walked away from" />
+        <figcaption>The full PU faux-leather front &mdash; built first, then walked away from.</figcaption>
       </div>
     </div>
 
@@ -162,23 +146,15 @@ export default function CaseStudy() {
       <span className="subsection-num">b.</span>
       <h3 className="subsection-title">The construction was the problem, not the pocket.</h3>
       <div className="body-prose">
-        <p>The protruding pockets stayed — they're a strong design choice and a signature of the final bag. What I moved on from was the <em>construction</em>: pockets stitched directly onto a plain front panel. Visually it left the pockets sitting like applied objects, and structurally it carried a real production risk on curved seams over a flat face. I committed instead to the direction where the pockets are framed end to end by a PU trim line — cleaner, less complex, more finesse, and a build the factory could run consistently.</p>
+        <p>The protruding pockets stayed &mdash; they're a strong design choice and a signature of the final bag. What I moved on from was the <em>construction</em>: pockets stitched directly onto a plain front panel. Visually it left the pockets sitting like applied objects, and structurally it carried a real production risk on curved seams over a flat face. I committed instead to the direction where the pockets are framed end to end by a PU trim line &mdash; cleaner, less complex, more finesse, and a build the factory could run consistently.</p>
       </div>
       <div className="figure-grid figure-grid--2">
         <div className="figure">
-          <div className="figure-box">
-            <span className="fig-num">Fig. 05a</span>
-            <span className="fig-type">Rejected — applied to panel</span>
-            <span className="fig-desc">Protruding pockets stitched directly to plain front panel.</span>
-          </div>
+          <img src="/images/phoenix/fig_05a.png" alt="Protruding pockets stitched directly to plain front panel" />
           <figcaption>Protruding pockets stitched directly to plain front panel.</figcaption>
         </div>
         <div className="figure">
-          <div className="figure-box">
-            <span className="fig-num">Fig. 05b</span>
-            <span className="fig-type">Committed — framed</span>
-            <span className="fig-desc">PU trim line framing pockets edge to edge.</span>
-          </div>
+          <img src="/images/phoenix/fig_05b.png" alt="PU trim line framing pockets edge to edge" />
           <figcaption>PU trim line framing pockets edge to edge.</figcaption>
         </div>
       </div>
@@ -197,30 +173,30 @@ export default function CaseStudy() {
     <h2 className="section-title">Three decisions that made Phoenix possible.</h2>
 
     <div className="body-prose">
-      <p>At $30 a unit you cannot make everything premium. The project lived or died on where the money went — and on what I was willing to sacrifice to put it there. Three calls did the heavy lifting.</p>
+      <p>At $30 a unit you cannot make everything premium. The project lived or died on where the money went &mdash; and on what I was willing to sacrifice to put it there. Three calls did the heavy lifting.</p>
     </div>
 
     <div className="framework framework--3">
       <div className="fw-cell">
         <span className="num">01</span>
         <span className="head">Spend where hands land</span>
-        <span className="body">The premium budget went into one place: the brushed-metal hardware family and PU leather on the faces a hand actually touches — top handle, lower front, back panel. Everything else stayed ordinary polyester.</span>
+        <span className="body">The premium budget went into one place: the brushed-metal hardware family and PU leather on the faces a hand actually touches &mdash; top handle, lower front, back panel. Everything else stayed ordinary polyester.</span>
         <span className="why">A shopper reads premium through what they touch and see up close, not through panels they never handle. Concentrating spend at the touchpoints buys more perceived quality per rupee than spreading it thin.</span>
         <span className="traded">Traded: faux leather across the whole face, for premium exactly where it's felt.</span>
       </div>
       <div className="fw-cell">
         <span className="num">02</span>
         <span className="head">Reuse the construction, fix what's wrong with it</span>
-        <span className="body">Phoenix started from a previously-launched Safari construction (the laptop and tablet bay carried over from Brighton) rather than a new one — but I reworked the corner radii so the proportion read sharper and more deliberate.</span>
-        <span className="why">A new architecture means new patterns, sampling and sign-off, and that cost comes straight out of the finish budget. Reusing a proven construction sent every premium rupee into detailing rather than a new build — and correcting the radii bought a considered stance without paying to engineer one.</span>
+        <span className="body">Phoenix started from a previously-launched Safari construction (the laptop and tablet bay carried over from Brighton) rather than a new one &mdash; but I reworked the corner radii so the proportion read sharper and more deliberate.</span>
+        <span className="why">A new architecture means new patterns, sampling and sign-off, and that cost comes straight out of the finish budget. Reusing a proven construction sent every premium rupee into detailing rather than a new build &mdash; and correcting the radii bought a considered stance without paying to engineer one.</span>
         <span className="traded">Traded: a fully bespoke silhouette, for a corrected existing one with the savings redirected into finish.</span>
       </div>
       <div className="fw-cell">
         <span className="num">03</span>
         <span className="head">Buy signal, not decoration</span>
-        <span className="body">I dropped the bright accent and consolidated every metal part — logo, zippers, pullers, rivets — into a single brushed-metal language.</span>
-        <span className="why">A bright accent reads as "feature," not premium; one coherent metal language reads as considered. Pay for what reads premium, cut what only looks busy.</span>
-        <span className="traded">Traded: the loud "look how much you get for the money" cue some Safari buyers shop on. To a value shopper a busy bag can itself signal value, so going quiet was a real commercial risk — one the bag offsets through function, not noise: three face pockets and heavy internal organisation still read as "a lot of bag" without the clutter.</span>
+        <span className="body">I dropped the bright accent and consolidated every metal part &mdash; logo, zippers, pullers, rivets &mdash; into a single brushed-metal language.</span>
+        <span className="why">A bright accent reads as &ldquo;feature,&rdquo; not premium; one coherent metal language reads as considered. Pay for what reads premium, cut what only looks busy.</span>
+        <span className="traded">Traded: the loud &ldquo;look how much you get for the money&rdquo; cue some Safari buyers shop on. To a value shopper a busy bag can itself signal value, so going quiet was a real commercial risk &mdash; one the bag offsets through function, not noise: three face pockets and heavy internal organisation still read as &ldquo;a lot of bag&rdquo; without the clutter.</span>
       </div>
     </div>
   </div>
@@ -236,14 +212,14 @@ export default function CaseStudy() {
     <h2 className="section-title">A different read on premium.</h2>
 
     <div className="body-prose">
-      <p>Leadership and product management initially favoured the louder cues the category trains buyers to expect — red logo accents, full-PU front pockets, the Samsonite Sefton vocabulary. They weren't wrong about the references; those signals do work. The question I needed the team to consider was whether they were the <em>right</em> signals at this price, on this brand. Two conversations decided how premium Phoenix would actually look — and both were settled by putting evidence next to opinion.</p>
+      <p>Leadership and product management initially favoured the louder cues the category trains buyers to expect &mdash; red logo accents, full-PU front pockets, the Samsonite Sefton vocabulary. They weren't wrong about the references; those signals do work. The question I needed the team to consider was whether they were the <em>right</em> signals at this price, on this brand. Two conversations decided how premium Phoenix would actually look &mdash; and both were settled by putting evidence next to opinion.</p>
     </div>
 
     <div className="subsection">
       <span className="subsection-num">a.</span>
-      <h3 className="subsection-title">The red accent — show, don't argue.</h3>
+      <h3 className="subsection-title">The red accent &mdash; show, don't argue.</h3>
       <div className="body-prose">
-        <p>The product team had the Samsonite Sefton in mind: red logo, red pullers, heavy PU detailing. Rather than push back in a meeting, I built both versions — with and without the red — and put them side by side. The comparison made the case that words couldn't. Stripped of the accent, the bag instantly read more premium, and the team aligned on the quieter direction quickly. The argument moved from <em>preference</em> to <em>what the eye does</em>.</p>
+        <p>The product team had the Samsonite Sefton in mind: red logo, red pullers, heavy PU detailing. Rather than push back in a meeting, I built both versions &mdash; with and without the red &mdash; and put them side by side. The comparison made the case that words couldn't. Stripped of the accent, the bag instantly read more premium, and the team aligned on the quieter direction quickly. The argument moved from <em>preference</em> to <em>what the eye does</em>.</p>
       </div>
     </div>
 
@@ -251,8 +227,8 @@ export default function CaseStudy() {
       <span className="subsection-num">b.</span>
       <h3 className="subsection-title">Premium has to survive ownership.</h3>
       <div className="body-prose">
-        <p>The same team wanted both front pockets in full PU leather — it photographs richly. I framed it through use, not taste: pockets that flex every day would crease, and within a few months that "premium" PU would make the bag read <em>cheaper</em>, not richer. The team aligned once the failure mode was named. We kept PU on faces that stay taut and removed it from the ones that move.</p>
-        <p>A point worth being honest about: reducing visual noise also reduces the surfaces where manufacturing inconsistency shows. At this cost target, restraint wasn't only an aesthetic argument — it was a quality-control one.</p>
+        <p>The same team wanted both front pockets in full PU leather &mdash; it photographs richly. I framed it through use, not taste: pockets that flex every day would crease, and within a few months that &ldquo;premium&rdquo; PU would make the bag read <em>cheaper</em>, not richer. The team aligned once the failure mode was named. We kept PU on faces that stay taut and removed it from the ones that move.</p>
+        <p>A point worth being honest about: reducing visual noise also reduces the surfaces where manufacturing inconsistency shows. At this cost target, restraint wasn't only an aesthetic argument &mdash; it was a quality-control one.</p>
       </div>
     </div>
 
@@ -272,15 +248,11 @@ export default function CaseStudy() {
     <h2 className="section-title">Premium, rebuilt as finish.</h2>
 
     <div className="body-prose">
-      <p>With the base fabric fixed by cost, I treated every other surface as a lever. The body stays a single tonal black; the only "colour" is a Pantone Cool Grey 7C stitch, kept on the panels and deliberately off the pockets, handles and smart sleeve so the seams read as tailoring, not decoration. PU leather goes only on the faces a hand actually touches — the top handle, the lower front, the back panel.</p>
+      <p>With the base fabric fixed by cost, I treated every other surface as a lever. The body stays a single tonal black; the only &ldquo;colour&rdquo; is a Pantone Cool Grey 7C stitch, kept on the panels and deliberately off the pockets, handles and smart sleeve so the seams read as tailoring, not decoration. PU leather goes only on the faces a hand actually touches &mdash; the top handle, the lower front, the back panel.</p>
     </div>
 
     <div className="figure">
-      <div className="figure-box">
-        <span className="fig-num">Fig. 06</span>
-        <span className="fig-type">Production CMF · face-by-face breakdown</span>
-        <span className="fig-desc">Body fabric, trim stitch, PU placement and hardware allocation, documented to specification.</span>
-      </div>
+      <img src="/images/phoenix/fig_06.png" alt="Body fabric, trim stitch, PU placement and hardware allocation, documented to specification" />
       <figcaption>Body fabric, trim stitch, PU placement and hardware allocation, documented to specification.</figcaption>
       <p className="figure-caption">The restraint is documented face by face, so the factory builds it the same way every time.</p>
     </div>
@@ -312,7 +284,7 @@ export default function CaseStudy() {
         <div className="fw-cell">
           <span className="num">05</span>
           <span className="head">Tonal stitch</span>
-          <span className="body">Cool grey on black — visible, not loud.</span>
+          <span className="body">Cool grey on black &mdash; visible, not loud.</span>
         </div>
       </div>
 
@@ -333,17 +305,13 @@ export default function CaseStudy() {
     <h2 className="section-title">Designed by ratio, not by eye.</h2>
 
     <div className="body-prose">
-      <p>The front face is built on a unit grid — twin pockets at five units wide with a two-unit gap, the body laid out at twelve units tall by fourteen wide. Proportion is one of the quietest premium signals there is, and the cheapest to get wrong, so I specified it rather than eyeballed it.</p>
+      <p>The front face is built on a unit grid &mdash; twin pockets at five units wide with a two-unit gap, the body laid out at twelve units tall by fourteen wide. Proportion is one of the quietest premium signals there is, and the cheapest to get wrong, so I specified it rather than eyeballed it.</p>
       <p>Down to the details: a lifted, edge-stitched top handle, a neoprene base, two corner guards, an 8-wheel trolley, and a smart-sleeve clearance specified to the millimetre. Built on Safari's existing Brighton construction so it could reach production without bespoke tooling.</p>
     </div>
 
     <div className="figure">
-      <div className="figure-box">
-        <span className="fig-num">Fig. 07</span>
-        <span className="fig-type">Proportion grid</span>
-        <span className="fig-desc">Front face dimensioned overlay — pockets at 5 units wide with 2-unit gap, body at 12 × 14 units.</span>
-      </div>
-      <figcaption>Front face dimensioned overlay — pockets at 5 units wide with 2-unit gap, body at 12 × 14 units.</figcaption>
+      <img src="/images/phoenix/fig_07.png" alt="Front face dimensioned overlay — pockets at 5 units wide with 2-unit gap, body at 12 × 14 units" />
+      <figcaption>Front face dimensioned overlay &mdash; pockets at 5 units wide with 2-unit gap, body at 12 &times; 14 units.</figcaption>
       <p className="figure-caption">The grid isn&rsquo;t decoration. It&rsquo;s the proportion that reads premium before any material does.</p>
     </div>
   </div>
@@ -359,35 +327,23 @@ export default function CaseStudy() {
     <h2 className="section-title">Where the bag earns its price.</h2>
 
     <div className="body-prose">
-      <p>A premium bag whispers "we thought about you" the moment it opens. Phoenix opens in two stages: the front panel folds down on webbing straps to reveal a dedicated laptop and tablet compartment, then the main compartment behind it.</p>
-      <p>Inside: an RFID-blocking fabric pocket, a dedicated power-bank pocket, a wet pouch, mesh organisation throughout, and number-5 reverse zips. And one controlled indulgence — the red I took off the outside, brought back <em>inside</em> as a single webbing pull with a gun-metal key holder, where the accent costs little and the delight is private. Restraint outside, a small reward within — the same colour, moved to where it reads as care rather than as a value cue.</p>
+      <p>A premium bag whispers &ldquo;we thought about you&rdquo; the moment it opens. Phoenix opens in two stages: the front panel folds down on webbing straps to reveal a dedicated laptop and tablet compartment, then the main compartment behind it.</p>
+      <p>Inside: an RFID-blocking fabric pocket, a dedicated power-bank pocket, a wet pouch, mesh organisation throughout, and number-5 reverse zips. And one controlled indulgence &mdash; the red I took off the outside, brought back <em>inside</em> as a single webbing pull with a gun-metal key holder, where the accent costs little and the delight is private. Restraint outside, a small reward within &mdash; the same colour, moved to where it reads as care rather than as a value cue.</p>
     </div>
 
     <div className="figure">
-      <div className="figure-box">
-        <span className="fig-num">Fig. 08a</span>
-        <span className="fig-type">Interior — laptop compartment revealed</span>
-        <span className="fig-desc">Phoenix interior — front panel folded down, laptop bay revealed.</span>
-      </div>
+      <img src="/images/phoenix/fig_08a.png" alt="Front panel folded down on its webbing straps, the dedicated laptop and tablet bay revealed" />
       <figcaption>Front panel folded down on its webbing straps, the dedicated laptop and tablet bay revealed.</figcaption>
     </div>
 
     <div className="figure-grid figure-grid--2">
       <div className="figure">
-        <div className="figure-box">
-          <span className="fig-num">Fig. 08b</span>
-          <span className="fig-type">Interior — walk-through</span>
-          <span className="fig-desc">Twin front pockets, laptop bay and main compartment, walked through.</span>
-        </div>
+        <img src="/images/phoenix/fig_08b.png" alt="Twin front pockets, laptop bay and main compartment, walked through" />
         <figcaption>Twin front pockets, laptop bay and main compartment, walked through.</figcaption>
       </div>
       <div className="figure">
-        <div className="figure-box">
-          <span className="fig-num">Fig. 08c</span>
-          <span className="fig-type">Interior — organisation &amp; indulgence</span>
-          <span className="fig-desc">Front panel folds to the laptop and tablet bay; the main compartment opens behind it — mesh, RFID, wet pouch, webbing pull.</span>
-        </div>
-        <figcaption>Front panel folds to the laptop and tablet bay; the main compartment opens behind it — mesh, RFID, wet pouch, webbing pull.</figcaption>
+        <img src="/images/phoenix/fig_08c.png" alt="Front panel folds to the laptop and tablet bay; the main compartment opens behind it — mesh, RFID, wet pouch, webbing pull" />
+        <figcaption>Front panel folds to the laptop and tablet bay; the main compartment opens behind it &mdash; mesh, RFID, wet pouch, webbing pull.</figcaption>
       </div>
     </div>
   </div>
@@ -403,26 +359,22 @@ export default function CaseStudy() {
     <h2 className="section-title">Premium that survives the factory.</h2>
 
     <div className="body-prose">
-      <p>The trickiest moment in the build was the front pockets. An earlier version had them stitched directly onto a plain front panel — visually unframed, structurally risky: curved seams on a flat face pucker, slow the sewing line, and fail QC. Left in that form, it would have surfaced as a cost and quality issue at sampling.</p>
-      <p>Rather than try to engineer around that build, I committed to a different construction — extending a PU trim line edge to edge so the pockets sit inside a frame, not on top of a panel. The framed version reads more resolved <em>and</em> sews clean. Around it, every component was drawn from families Safari already tooled — Aphrodite hardware, Polaris wheel caps, a Ballpark trolley — so nothing premium needed new tooling. The whole thing went to the factory as a 13-page technical pack, complete enough to build without me in the room.</p>
-      <p>Finish also had to win a cost argument. Sourcing pushed back on the metal hardware at $30 FOB, so the components were reworked to hold the look without the spend — the rivets, for instance, are hollow-cored: the same brushed face, less metal, a lighter bag. Premium where it shows; engineered out where it doesn't.</p>
+      <p>The trickiest moment in the build was the front pockets. An earlier version had them stitched directly onto a plain front panel &mdash; visually unframed, structurally risky: curved seams on a flat face pucker, slow the sewing line, and fail QC. Left in that form, it would have surfaced as a cost and quality issue at sampling.</p>
+      <p>Rather than try to engineer around that build, I committed to a different construction &mdash; extending a PU trim line edge to edge so the pockets sit inside a frame, not on top of a panel. The framed version reads more resolved <em>and</em> sews clean. Around it, every component was drawn from families Safari already tooled &mdash; Aphrodite hardware, Polaris wheel caps, a Ballpark trolley &mdash; so nothing premium needed new tooling. The whole thing went to the factory as a 13-page technical pack, complete enough to build without me in the room.</p>
+      <p>Finish also had to win a cost argument. Sourcing pushed back on the metal hardware at $30 FOB, so the components were reworked to hold the look without the spend &mdash; the rivets, for instance, are hollow-cored: the same brushed face, less metal, a lighter bag. Premium where it shows; engineered out where it doesn't.</p>
     </div>
 
     <div className="stat-block stat-block--6">
-      <div className="cell"><span className="n">$30</span><span className="lbl">FOB · held</span></div>
+      <div className="cell"><span className="n">$30</span><span className="lbl">FOB &middot; held</span></div>
       <div className="cell"><span className="n">₹9,999</span><span className="lbl">Retail tier</span></div>
       <div className="cell"><span className="n">13</span><span className="lbl">Page spec pack</span></div>
       <div className="cell"><span className="n">8</span><span className="lbl">Wheels</span></div>
       <div className="cell"><span className="n">210D</span><span className="lbl">Lining quality</span></div>
-      <div className="cell"><span className="n">0</span><span className="lbl">Prints · accent colours</span></div>
+      <div className="cell"><span className="n">0</span><span className="lbl">Prints &middot; accent colours</span></div>
     </div>
 
     <div className="figure">
-      <div className="figure-box">
-        <span className="fig-num">Fig. 09</span>
-        <span className="fig-type">Artefact — the spec pack</span>
-        <span className="fig-desc">Snapshot of the 13-page manufacturing pack, written for the factory to build without me in the room.</span>
-      </div>
+      <img src="/images/phoenix/fig_09.png" alt="Snapshot of the 13-page manufacturing pack, written for the factory to build without me in the room" />
       <figcaption>Snapshot of the 13-page manufacturing pack, written for the factory to build without me in the room.</figcaption>
     </div>
   </div>
@@ -438,7 +390,7 @@ export default function CaseStudy() {
     <h2 className="section-title">Design sat alongside production, not upstream of it.</h2>
 
     <div className="body-prose">
-      <p>Phoenix shipped because design didn't sit upstream of production — it sat alongside it. Five working partnerships, each with the standing to change the bag, kept the premium read intact from sketch to shelf.</p>
+      <p>Phoenix shipped because design didn't sit upstream of production &mdash; it sat alongside it. Five working partnerships, each with the standing to change the bag, kept the premium read intact from sketch to shelf.</p>
     </div>
 
     <div className="framework framework--5">
@@ -450,7 +402,7 @@ export default function CaseStudy() {
       <div className="fw-cell">
         <span className="num">02</span>
         <span className="head">Category &amp; marketing</span>
-        <span className="body">Owned the shelf and the channel forecast. Brought them into the alignment early — colour direction, hardware family, packaging — so the launch case wasn't a surprise.</span>
+        <span className="body">Owned the shelf and the channel forecast. Brought them into the alignment early &mdash; colour direction, hardware family, packaging &mdash; so the launch case wasn't a surprise.</span>
       </div>
       <div className="fw-cell">
         <span className="num">03</span>
@@ -465,12 +417,12 @@ export default function CaseStudy() {
       <div className="fw-cell">
         <span className="num">05</span>
         <span className="head">Manufacturing partner</span>
-        <span className="body">Built the bag in China. The 13-page spec pack was written for them to build without me in the room — but the relationship survived a Canton Fair visit, sample rounds, and real conversations about tolerance versus intent.</span>
+        <span className="body">Built the bag in China. The 13-page spec pack was written for them to build without me in the room &mdash; but the relationship survived a Canton Fair visit, sample rounds, and real conversations about tolerance versus intent.</span>
       </div>
     </div>
 
     <div className="body-prose" style={{ 'marginTop': 'clamp(40px,5vw,56px)' }}>
-      <p>The product succeeded because design, sourcing, manufacturing and category aligned on the same outcome — not because any one of us insisted on it.</p>
+      <p>The product succeeded because design, sourcing, manufacturing and category aligned on the same outcome &mdash; not because any one of us insisted on it.</p>
     </div>
   </div>
 </section>
@@ -485,8 +437,8 @@ export default function CaseStudy() {
     <h2 className="section-title">A value brand, holding a premium read.</h2>
 
     <div className="body-prose">
-      <p>Phoenix was made deliberately in low volume — an expensive product on a cautious forecast — and demand ran ahead of it. It has sold through and reordered, and sells out fast across Safari's own site, Amazon, Flipkart and Myntra whenever it returns to stock. It also took first in its category — <em>Favourite Soft Side Luggage</em> — at the Travel Sentry Product Awards 2025.</p>
-      <p>The clearest verdict was internal: the tonal, restraint-led approach didn't stay with one bag. Safari carried the same design language into its slings and laptop bags — a single brief's answer became a direction.</p>
+      <p>Phoenix was made deliberately in low volume &mdash; an expensive product on a cautious forecast &mdash; and demand ran ahead of it. It has sold through and reordered, and sells out fast across Safari's own site, Amazon, Flipkart and Myntra whenever it returns to stock. It also took first in its category &mdash; <em>Favourite Soft Side Luggage</em> &mdash; at the Travel Sentry Product Awards 2025.</p>
+      <p>The clearest verdict was internal: the tonal, restraint-led approach didn't stay with one bag. Safari carried the same design language into its slings and laptop bags &mdash; a single brief's answer became a direction.</p>
     </div>
   </div>
 </section>
@@ -501,9 +453,9 @@ export default function CaseStudy() {
     <h2 className="section-title">Design that earned pricing power.</h2>
 
     <div className="body-prose">
-      <p>Phoenix was briefed at a ₹9,999 retail tier. Internal confidence in landing that price was cautious — Safari's market read is value, not desire, and the premium positioning was untested in the category. The first production run was kept deliberately small to protect against dead-stock risk.</p>
-      <p>Retail acceptance ran well ahead of forecast, reorders came in, and sell-through outperformed the cautious case. On ecommerce, the realised price moved past ₹10,000 without losing traction — strengthening contribution margin against plan. These figures aren't public, so I don't publish them here, but each is verifiable on request, and each is exactly what the design was asked to make possible.</p>
-      <p>The longer-signal of confidence was that the language travelled. Safari extended the same tonal-restraint direction into slings and laptop bags — a single brief's answer became a category direction. <em>Design didn't just deliver the product; it created the conditions for the brand to price and position differently.</em></p>
+      <p>Phoenix was briefed at a ₹9,999 retail tier. Internal confidence in landing that price was cautious &mdash; Safari's market read is value, not desire, and the premium positioning was untested in the category. The first production run was kept deliberately small to protect against dead-stock risk.</p>
+      <p>Retail acceptance ran well ahead of forecast, reorders came in, and sell-through outperformed the cautious case. On ecommerce, the realised price moved past ₹10,000 without losing traction &mdash; strengthening contribution margin against plan. These figures aren't public, so I don't publish them here, but each is verifiable on request, and each is exactly what the design was asked to make possible.</p>
+      <p>The longer-signal of confidence was that the language travelled. Safari extended the same tonal-restraint direction into slings and laptop bags &mdash; a single brief's answer became a category direction. <em>Design didn't just deliver the product; it created the conditions for the brand to price and position differently.</em></p>
     </div>
   </div>
 </section>
@@ -518,8 +470,8 @@ export default function CaseStudy() {
     <h2 className="section-title">What I'd push next, and what I take into the next brief.</h2>
 
     <div className="body-prose">
-      <p>If a future brief loosened the cost, the first thing I'd change isn't the hardware — it's the base fabric itself, so premium runs through the whole shell and not only the faces a hand finds.</p>
-      <p>Phoenix sold out — but in deliberately small numbers, and with few reviews behind it. The honest open question is whether restraint <em>scales</em>: did the quiet version win on merit, or because it stayed a low-volume, self-selecting buy? Before assuming quiet always reads as premium to a value-brand shopper, I'd test it against a louder version at shelf, at real volume.</p>
+      <p>If a future brief loosened the cost, the first thing I'd change isn't the hardware &mdash; it's the base fabric itself, so premium runs through the whole shell and not only the faces a hand finds.</p>
+      <p>Phoenix sold out &mdash; but in deliberately small numbers, and with few reviews behind it. The honest open question is whether restraint <em>scales</em>: did the quiet version win on merit, or because it stayed a low-volume, self-selecting buy? Before assuming quiet always reads as premium to a value-brand shopper, I'd test it against a louder version at shelf, at real volume.</p>
     </div>
 
     <div className="subsection">
@@ -570,18 +522,18 @@ export default function CaseStudy() {
       <div className="k">Owned end to end</div>
       <div className="v">
         <ul>
-          <li>Interrogated the brief and named its core contradiction — premium feel, value cost.</li>
+          <li>Interrogated the brief and named its core contradiction &mdash; premium feel, value cost.</li>
           <li>Concept exploration and the decision to remove colour in favour of material.</li>
-          <li>The full CMF system — body, trim, PU placement and the brushed-metal hardware family.</li>
+          <li>The full CMF system &mdash; body, trim, PU placement and the brushed-metal hardware family.</li>
           <li>Form, proportion and construction on the Brighton platform.</li>
           <li>The complete 13-page manufacturing pack and factory hand-off.</li>
-          <li>Aligned product, sourcing, factory and category teams on a direction that delivered the retail tier — and the pricing power that followed.</li>
+          <li>Aligned product, sourcing, factory and category teams on a direction that delivered the retail tier &mdash; and the pricing power that followed.</li>
         </ul>
       </div>
     </div>
 
     <div className="pull-quote">
-      <p>Phoenix taught me that "premium" isn't a material — it's a system where no single touchpoint betrays the price.</p>
+      <p>Phoenix taught me that &ldquo;premium&rdquo; isn't a material &mdash; it's a system where no single touchpoint betrays the price.</p>
     </div>
   </div>
 </section>
@@ -596,36 +548,36 @@ export default function CaseStudy() {
     <h2 className="section-title">Phoenix is one of several products I've taken to market.</h2>
 
     <div className="body-prose">
-      <p>The operating principles behind Phoenix — constraint-led decisions, CMF as the primary lever, form direction held through development — have applied across multiple launches. Below is a selection of work currently live in retail and D2C.</p>
+      <p>The operating principles behind Phoenix &mdash; constraint-led decisions, CMF as the primary lever, form direction held through development &mdash; have applied across multiple launches. Below is a selection of work currently live in retail and D2C.</p>
     </div>
 
     <div className="subsection">
-      <h3 className="subsection-title">Original design — form, CMF, development.</h3>
+      <h3 className="subsection-title">Original design &mdash; form, CMF, development.</h3>
       <div className="body-prose">
         <p>Products where I defined the form language, architecture and CMF. Engineering CAD executed in collaboration with a specialist CAD designer.</p>
       </div>
 
       <div className="product-grid">
         <div className="product-card">
-          <div className="visual">Astra Neo — Safari hard-shell trolley</div>
-          <span className="brand">Safari · Hard-shell trolley</span>
+          <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/astra_neo.png" alt="Astra Neo" />
+          <span className="brand">Safari &middot; Hard-shell trolley</span>
           <h4 className="name">Astra Neo</h4>
-          <p className="desc">Lead designer — form direction, ribbed surface architecture, colour-accent CMF and development. Engineering CAD in collaboration.</p>
-          <a className="cta" href="#" target="_blank">View on Flipkart →</a>
+          <p className="desc">Lead designer &mdash; form direction, ribbed surface architecture, colour-accent CMF and development. Engineering CAD in collaboration.</p>
+          <a className="cta" href="#" target="_blank">View on Flipkart &rarr;</a>
         </div>
         <div className="product-card">
-          <div className="visual">Theo — Genius hard-shell trolley</div>
-          <span className="brand">Genius · Hard-shell trolley</span>
+          <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/theo.png" alt="Theo" />
+          <span className="brand">Genius &middot; Hard-shell trolley</span>
           <h4 className="name">Theo</h4>
-          <p className="desc">Lead designer — form concept, youth-lifestyle CMF direction and development across the Genius range. Engineering CAD in collaboration.</p>
-          <a className="cta" href="#" target="_blank">View on Amazon →</a>
+          <p className="desc">Lead designer &mdash; form concept, youth-lifestyle CMF direction and development across the Genius range. Engineering CAD in collaboration.</p>
+          <a className="cta" href="#" target="_blank">View on Amazon &rarr;</a>
         </div>
         <div className="product-card">
-          <div className="visual">Scarlett — Genie hard-shell trolley</div>
-          <span className="brand">Genie · Hard-shell trolley</span>
+          <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/scarlett.png" alt="Scarlett" />
+          <span className="brand">Genie &middot; Hard-shell trolley</span>
           <h4 className="name">Scarlett</h4>
-          <p className="desc">Lead designer — diagonal wave shell concept, ombré CMF direction and full product development. Engineering CAD in collaboration.</p>
-          <a className="cta" href="#" target="_blank">View on Genie →</a>
+          <p className="desc">Lead designer &mdash; diagonal wave shell concept, ombré CMF direction and full product development. Engineering CAD in collaboration.</p>
+          <a className="cta" href="#" target="_blank">View on Genie &rarr;</a>
         </div>
       </div>
     </div>
@@ -633,23 +585,23 @@ export default function CaseStudy() {
     <div className="subsection">
       <h3 className="subsection-title">CMF &amp; creative direction.</h3>
       <div className="body-prose">
-        <p>Products where I directed the colour, material and finish on an existing shell. The CMF decision — which colours move, which finishes sell, which direction the brand should read — is design work. The shell engineering was someone else's.</p>
+        <p>Products where I directed the colour, material and finish on an existing shell. The CMF decision &mdash; which colours move, which finishes sell, which direction the brand should read &mdash; is design work. The shell engineering was someone else's.</p>
       </div>
 
       <div className="product-grid product-grid--2">
         <div className="product-card">
-          <div className="visual">Hue — Safari printed hard-shell trolley</div>
-          <span className="brand">Safari · Printed hard-shell trolley</span>
+          <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/hue.png" alt="Hue" />
+          <span className="brand">Safari &middot; Printed hard-shell trolley</span>
           <h4 className="name">Hue</h4>
-          <p className="desc">CMF direction — print concept, ink-wash pattern development and colourway selection across the range. ~8,000 units sold monthly on Flipkart (June–September 2025).</p>
-          <a className="cta" href="#" target="_blank">View on Flipkart →</a>
+          <p className="desc">CMF direction &mdash; print concept, ink-wash pattern development and colourway selection across the range. ~8,000 units sold monthly on Flipkart (June&ndash;September 2025).</p>
+          <a className="cta" href="#" target="_blank">View on Flipkart &rarr;</a>
         </div>
         <div className="product-card">
-          <div className="visual">Eterna — Safari × Manyavar collaboration</div>
-          <span className="brand">Safari × Manyavar · Wedding collaboration</span>
+          <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/eterna.png" alt="Eterna" />
+          <span className="brand">Safari &times; Manyavar &middot; Wedding collaboration</span>
           <h4 className="name">Eterna</h4>
-          <p className="desc">Creative direction — established the look, feel and visual identity of the collaboration. CMF, surface detailing and brand tone defined under my direction. Final execution led by the team following my departure.</p>
-          <a className="cta" href="#" target="_blank">View on Safari →</a>
+          <p className="desc">Creative direction &mdash; established the look, feel and visual identity of the collaboration. CMF, surface detailing and brand tone defined under my direction. Final execution led by the team following my departure.</p>
+          <a className="cta" href="#" target="_blank">View on Safari &rarr;</a>
         </div>
       </div>
     </div>
@@ -661,10 +613,9 @@ export default function CaseStudy() {
   <div className="container">
     <span className="label">Next project</span>
     <a className="next-project-link" href="/SONA_Case_Study">Sona <span className="arrow">→</span></a>
-    <p className="desc">Designing the hour before sleep — a self-directed concept for a category that doesn't yet exist. Object, scent, app and brand, designed to hand off across one experience.</p>
+    <p className="desc">Designing the hour before sleep &mdash; a self-directed concept for a category that doesn't yet exist. Object, scent, app and brand, designed to hand off across one experience.</p>
   </div>
 </section>
-
 
     </main>
   );
