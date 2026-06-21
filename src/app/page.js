@@ -1,65 +1,120 @@
-import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main>
+      {/* ================ 1 · HERO ================ */}
+      <section className="band home-hero">
+        <div className="container">
+          <span className="label eyebrow">Tooba Ameer — Design & Development Manager</span>
+          <h1 className="home-headline">Eight years building consumer products that scale brands and categories.</h1>
+          <p className="home-support">Specialised in physical products — backpacks, luggage and accessories — from insight to factory to market.</p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* ================ 2 · IMPACT STRIP ================ */}
+      <section className="impact">
+        <div className="container">
+          <span className="label eyebrow">The evidence</span>
+          <div className="stats-strip">
+            <div className="stat-cell"><span className="stat-n">~6×</span><span className="stat-lbl">Genie brand growth</span></div>
+            <div className="stat-cell"><span className="stat-n">2025</span><span className="stat-lbl">Travel Sentry Award</span></div>
+            <div className="stat-cell"><span className="stat-n">8,000+</span><span className="stat-lbl">Hue units sold monthly</span></div>
+            <div className="stat-cell"><span className="stat-n">90%</span><span className="stat-lbl">First-round sampling approvals</span></div>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* ================ 3 · DESIGN LEADERSHIP PRINCIPLES ================ */}
+      <section className="principles">
+        <div className="container">
+          <span className="label eyebrow">How I create value</span>
+          <div className="principles-grid">
+            <div className="principle">
+              <h3>I build products that scale.</h3>
+              <p>From backpacks to luggage, I design systems that support growth without increasing complexity.</p>
+            </div>
+            <div className="principle">
+              <h3>I connect design and manufacturing.</h3>
+              <p>Every product is developed with production, sourcing and cost realities in mind from day one.</p>
+            </div>
+            <div className="principle">
+              <h3>I turn design into business outcomes.</h3>
+              <p>My work has driven category growth, premium positioning and award-winning launches across multiple brands.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================ 4 · FEATURED CASE STUDY — GENIE ================ */}
+      <section className="band band--ink featured" id="work">
+        <div className="container">
+          <div className="featured-head">
+            <span className="label">Featured project</span>
+            <span className="label">2021 — 2026 · Safari Industries</span>
+          </div>
+
+          <div className="featured-grid">
+            <div className="featured-text">
+              <h2 className="featured-title">Genie</h2>
+              <p className="featured-tagline">Growing a school-bag brand up with its customer.</p>
+
+              <p className="featured-body">Sole design owner across five back-to-school seasons. Genie in 2021 was a kids' label, 85% florals. Five years later it was a teen-and-college brand spanning backpacks, luggage and handbags. The work ran end to end: cohort research, range strategy, surface and CMF, manufacturing sign-off, and the operating model that shipped on calendar across six commercial channels.</p>
+
+              <ul className="featured-bullets">
+                <li>Reframed the brand's audience without a relaunch — the same customer carried Genie from age 7 to college</li>
+                <li>Built a platform-and-component architecture: SKUs grew nearly 5× while constructions never exceeded three</li>
+                <li>Cut a typical sampling cycle from three rounds to one; ~90% of designs signed off without a second round</li>
+                <li>Trained the designer who now runs the brand</li>
+              </ul>
+            </div>
+
+            <div className="featured-stat">
+              <span className="featured-stat-n">~6×</span>
+              <span className="featured-stat-lbl">Brand growth<br/>2021 — 2026</span>
+              <Link className="featured-cta" href="/Genie_Case_Study">Read the case study →</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================ 5 · OTHER WORK ================ */}
+      <section className="band work-band">
+        <div className="container">
+          <div className="work-head">
+            <span className="label">Other work</span>
+            <span className="label" style={{ opacity: .6 }}>Phoenix & Sona</span>
+          </div>
+
+          <div className="work-grid">
+            <Link className="work-card" href="/Phoenix_Case_Study">
+              <div className="work-card-head">
+                <span className="meta">Safari Industries · 2023—25</span>
+                <span className="meta">Sole designer</span>
+              </div>
+              <h3 className="work-card-title">Phoenix</h3>
+              <p className="work-card-desc">Premium perception on a value-brand cost base.</p>
+              <div className="work-card-foot">
+                <span className="work-card-metric">Travel Sentry Award 2025</span>
+                <span className="work-card-arrow">→</span>
+              </div>
+            </Link>
+
+            <Link className="work-card" href="/SONA_Case_Study">
+              <div className="work-card-head">
+                <span className="meta">Concept · 2025</span>
+                <span className="meta">End to end</span>
+              </div>
+              <h3 className="work-card-title">Sona</h3>
+              <p className="work-card-desc">Designing the hour before sleep.</p>
+              <div className="work-card-foot">
+                <span className="work-card-metric">System concept</span>
+                <span className="work-card-arrow">→</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

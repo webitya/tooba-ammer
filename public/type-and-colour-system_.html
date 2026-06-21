@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tooba Ameer — Type &amp; Colour System</title>
+<meta name="description" content="The type and colour system for the Tooba Ameer portfolio — Newsreader, Geist, and the oxblood-on-paper palette. Single source of truth across all pages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F4F1E9; --paper-deep:#ECE7DA;
+    --ink:#1A1612; --muted:#7A7468;
+    --hairline:#D6D0C2; --accent:#5A2D1C;
+    --paper-on-ink:#F4F1E9; --cream-on-ink:#C8C0AE;
+    --muted-on-ink:#8B8273; --accent-on-ink:#C77449;
+    --hairline-on-ink:#38332C;
+    --display:'Newsreader','Times New Roman',Georgia,serif;
+    --body:'Geist',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;
+    --pad-x:clamp(28px,6vw,120px);
+    --container:1200px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);font-weight:400;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+
+  .wrap{max-width:var(--container);margin:0 auto;padding:clamp(64px,10vw,128px) var(--pad-x)}
+
+  /* shared specimen tokens (mirrors the live system) */
+  .label{font-family:var(--body);font-weight:500;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+  .accent-mark{color:var(--accent)}
+
+  /* document header */
+  .doc-eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+  .doc-eyebrow::before{content:"";width:7px;height:7px;background:var(--accent);display:inline-block}
+  .doc-title{font-family:var(--display);font-weight:400;font-style:italic;font-size:clamp(52px,9vw,104px);line-height:.96;letter-spacing:-.02em;font-variation-settings:'opsz' 72}
+  .doc-sub{font-family:var(--body);font-weight:400;font-size:clamp(17px,1.6vw,20px);line-height:1.55;color:var(--muted);max-width:60ch;margin-top:28px}
+  .doc-keys{margin-top:40px;padding-top:28px;border-top:1px solid var(--hairline);display:flex;flex-wrap:wrap;gap:48px}
+  .doc-keys .k{font-family:var(--body);font-weight:500;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;display:block}
+  .doc-keys .v{font-family:var(--display);font-style:italic;font-weight:500;font-size:24px;color:var(--ink)}
+  .doc-keys .v.sans{font-family:var(--body);font-style:normal;font-weight:500;font-size:20px}
+
+  /* section heads */
+  .section{margin-top:clamp(72px,11vw,128px)}
+  .section-intro{font-family:var(--body);font-size:14.5px;color:var(--muted);margin-bottom:12px;max-width:60ch}
+  .sec-h{font-family:var(--display);font-weight:400;font-style:italic;font-size:clamp(30px,4.5vw,52px);line-height:1.05;letter-spacing:-.015em;font-variation-settings:'opsz' 40}
+
+  /* specimen rows */
+  .row{display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:end;border-bottom:1px solid var(--hairline);padding:38px 0}
+  .row:first-of-type{border-top:1px solid var(--hairline)}
+  .specimen{min-width:0;overflow-wrap:anywhere}
+  .spec{font-family:var(--body);font-size:13px;line-height:1.95;color:var(--muted)}
+  .spec b{color:var(--ink);font-weight:500}
+  .spec .tag{display:inline-block;font-family:var(--body);font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:3px;padding:3px 8px;margin-bottom:10px}
+  @media(max-width:820px){.row{grid-template-columns:1fr;gap:18px;align-items:start}}
+
+  /* rendered type styles — exact mirror of the live CSS */
+  .t-display{font-family:var(--display);font-weight:400;font-style:italic;font-size:clamp(56px,11vw,140px);line-height:.95;letter-spacing:-.02em;font-variation-settings:'opsz' 72}
+  .t-section{font-family:var(--display);font-weight:400;font-style:italic;font-size:clamp(40px,6.5vw,88px);line-height:1;letter-spacing:-.018em;font-variation-settings:'opsz' 60}
+  .t-h2{font-family:var(--display);font-weight:400;font-style:italic;font-size:clamp(32px,4.5vw,56px);line-height:1.1;letter-spacing:-.012em;font-variation-settings:'opsz' 36}
+  .t-sub{font-family:var(--display);font-weight:400;font-style:italic;font-size:clamp(26px,3.4vw,40px);line-height:1.1;letter-spacing:-.012em;font-variation-settings:'opsz' 32}
+  .t-pull{font-family:var(--display);font-weight:400;font-style:italic;font-size:clamp(32px,5vw,64px);line-height:1.08;letter-spacing:-.015em;font-variation-settings:'opsz' 48;max-width:24ch}
+  .t-tagline{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(24px,3vw,40px);line-height:1.2;letter-spacing:-.01em;color:var(--muted)}
+  .t-stat{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(56px,9vw,120px);line-height:1;letter-spacing:-.02em;font-variation-settings:'opsz' 60}
+  .t-bl{font-family:var(--body);font-weight:400;font-size:clamp(18px,1.6vw,21px);line-height:1.55}
+  .t-body{font-family:var(--body);font-weight:400;font-size:17px;line-height:1.7}
+  .t-body em{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.02em}
+  .t-small{font-family:var(--body);font-weight:400;font-size:14.5px;line-height:1.6}
+  .t-caption{font-family:var(--display);font-style:italic;font-weight:400;font-size:14.5px;line-height:1.5;color:var(--muted)}
+  .t-micro{font-family:var(--body);font-weight:500;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+
+  /* colour */
+  .swatches{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+  @media(max-width:760px){.swatches{grid-template-columns:1fr 1fr}}
+  .sw{border:1px solid var(--hairline);overflow:hidden;background:#fff}
+  .sw .chip{height:104px}
+  .sw .meta{padding:15px 16px}
+  .sw .nm{font-family:var(--body);font-weight:500;font-size:14.5px}
+  .sw .hex{font-family:var(--body);font-size:13px;color:var(--ink);margin-top:4px;letter-spacing:.02em}
+  .sw .use{font-family:var(--body);font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.45}
+
+  .dark-demo{margin-top:32px;background:var(--ink);padding:clamp(32px,5vw,56px);border:1px solid var(--ink)}
+  .dark-demo .dl{font-family:var(--body);font-weight:500;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted-on-ink);margin-bottom:26px}
+  .dark-swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+  @media(max-width:760px){.dark-swatches{grid-template-columns:1fr 1fr}}
+  .dsw .chip{height:64px;border:1px solid var(--hairline-on-ink)}
+  .dsw .nm{font-family:var(--body);font-weight:500;font-size:12.5px;color:var(--paper-on-ink);margin-top:12px}
+  .dsw .hex{font-family:var(--body);font-size:11.5px;color:var(--muted-on-ink);margin-top:3px}
+  .dark-line{font-family:var(--display);font-style:italic;font-size:clamp(22px,3vw,34px);color:var(--paper-on-ink);margin-top:36px}
+  .dark-line a{color:var(--accent-on-ink);text-decoration:none;border-bottom:1px solid var(--accent-on-ink)}
+
+  /* rules */
+  .rules{margin-top:24px;border-top:1px solid var(--hairline);padding-top:8px;list-style:none}
+  .rules li{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid var(--hairline);font-family:var(--body);font-size:15.5px;line-height:1.55}
+  .rules li::before{content:"—";color:var(--accent);font-weight:600;flex:0 0 auto}
+
+  footer{margin-top:clamp(72px,10vw,120px);padding-top:28px;border-top:1px solid var(--hairline);font-family:var(--body);font-size:12px;letter-spacing:.04em;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="doc-eyebrow"><span class="label">Portfolio system</span></div>
+    <h1 class="doc-title">Type &amp; Colour System</h1>
+    <p class="doc-sub">The single source of truth for every page — home, About, and the three case studies. One display serif set in italic, one body sans, and a six-value warm palette with a single oxblood accent. The discipline is the premium look; don't add more.</p>
+    <div class="doc-keys">
+      <div><span class="k">Display</span><span class="v">Newsreader, italic</span></div>
+      <div><span class="k">Body &amp; label</span><span class="v sans">Geist</span></div>
+      <div><span class="k">Accent</span><span class="v sans accent-mark">#5A2D1C</span></div>
+    </div>
+  </header>
+
+  <!-- ================= TYPE ================= -->
+  <section class="section">
+    <p class="section-intro">Every display style is Newsreader, weight 400, always italic, with optical sizing set so larger sizes tighten correctly. Sizes are written desktop-clamp → mobile. Negative tracking on headings; generous line-height on body.</p>
+    <h2 class="sec-h">Type scale</h2>
+
+    <div class="row">
+      <div class="specimen"><div class="t-display">Designing the hour before sleep.</div></div>
+      <div class="spec"><span class="tag">Display XL</span><br><b>Newsreader</b> · italic 400<br>clamp <b>80 → 220px</b> · opsz 72<br>line-height <b>.95</b> · tracking <b>−.02em</b><br>Use: page hero title. One per page.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-section">Three decisions that made Phoenix possible.</div></div>
+      <div class="spec"><span class="tag">Section title</span><br><b>Newsreader</b> · italic 400<br>clamp <b>40 → 88px</b> · opsz 60<br>line-height <b>1.0</b> · tracking <b>−.018em</b><br>Use: case-study section openers.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-h2">Growing a school-bag brand up with its customer.</div></div>
+      <div class="spec"><span class="tag">H2</span><br><b>Newsreader</b> · italic 400<br>clamp <b>32 → 56px</b> · opsz 36<br>line-height <b>1.1</b> · tracking <b>−.012em</b><br>Use: section headings on home &amp; About.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-sub">The construction was the problem, not the pocket.</div></div>
+      <div class="spec"><span class="tag">Subsection title</span><br><b>Newsreader</b> · italic 400<br>clamp <b>26 → 40px</b> · opsz 32<br>line-height <b>1.1</b> · tracking <b>−.012em</b><br>Use: lettered subsections (a, b, c).</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-pull">When the bill of materials wouldn't bend, the architecture did.</div></div>
+      <div class="spec"><span class="tag">Pull quote</span><br><b>Newsreader</b> · italic 400<br>clamp <b>32 → 64px</b> · opsz 48<br>line-height <b>1.08</b> · tracking <b>−.015em</b><br>Use: statement blocks, hairline top &amp; bottom.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-tagline">Designing the hour before sleep.</div></div>
+      <div class="spec"><span class="tag">Hero tagline</span><br><b>Newsreader</b> · italic 400 · muted<br>clamp <b>24 → 40px</b><br>line-height <b>1.2</b> · tracking <b>−.01em</b><br>Use: the line under a hero title.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-stat">~6×</div></div>
+      <div class="spec"><span class="tag">Stat numeral</span><br><b>Newsreader</b> · italic 400<br>clamp <b>56 → 120px</b> · opsz 60<br>line-height <b>1.0</b> · tracking <b>−.02em</b><br>Use: stat strips. Each numeral stays on one line.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="label">Selected portfolio</div></div>
+      <div class="spec"><span class="tag">Label / eyebrow</span><br><b>Geist</b> · weight 500<br>size <b>11.5px</b><br>tracking <b>.18em</b> · UPPERCASE · muted<br>Use: overlines above headings. The wide tracking is the editorial tell.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-bl">A product designer who treats commercial outcome as part of the craft — from the cohort research that decides what to make to the factory sign-off that decides whether it ships.</div></div>
+      <div class="spec"><span class="tag">Body Large / lede</span><br><b>Geist</b> · weight 400<br>clamp <b>18 → 21px</b><br>line-height <b>1.55</b><br>Use: hero ledes, intros, pull statements.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-body">A shopper reads premium through what they touch and see up close, not through panels they never handle. Concentrating spend at the touchpoints buys more <em>perceived quality</em> per rupee than spreading it thin.</div></div>
+      <div class="spec"><span class="tag">Body / default</span><br><b>Geist</b> · weight 400<br>size <b>17px</b><br>line-height <b>1.7</b><br>Inline emphasis switches to italic Newsreader 500.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-small">Printed polycarbonate films over twin-side packing and premium grey components; Rose carried the volume on a maximum-capacity shell.</div></div>
+      <div class="spec"><span class="tag">Body small</span><br><b>Geist</b> · weight 400<br>size <b>14.5px</b><br>line-height <b>1.6</b><br>Use: framework cells, card bodies, secondary text.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-caption">Construction aligned for clean colour-blocking — premium from precision, not decoration.</div></div>
+      <div class="spec"><span class="tag">Caption</span><br><b>Newsreader</b> · italic 400 · muted<br>size <b>14.5px</b><br>line-height <b>1.5</b><br>Use: figure captions. Captions are serif; bodies are sans.</div>
+    </div>
+
+    <div class="row">
+      <div class="specimen"><div class="t-micro">Safari Industries · 2023—25</div></div>
+      <div class="spec"><span class="tag">Micro / meta</span><br><b>Geist</b> · weight 500<br>size <b>10.5px</b><br>tracking <b>.2em</b> · UPPERCASE · muted<br>Use: card meta, hero-meta keys, fine print.</div>
+    </div>
+  </section>
+
+  <!-- ================= COLOUR ================= -->
+  <section class="section">
+    <p class="section-intro">Six values for light surfaces, plus a five-value set for dark (--ink) bands. Warm paper, near-black ink — never pure white or pure black. The accent earns its weight by being rare.</p>
+    <h2 class="sec-h">Colour</h2>
+
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#F4F1E9;border-bottom:1px solid var(--hairline)"></div><div class="meta"><div class="nm">Paper</div><div class="hex">#F4F1E9</div><div class="use">Page background. Warm, not white.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#ECE7DA"></div><div class="meta"><div class="nm">Paper deep</div><div class="hex">#ECE7DA</div><div class="use">Alternating section background, for rhythm.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#1A1612"></div><div class="meta"><div class="nm">Ink</div><div class="hex">#1A1612</div><div class="use">All headings &amp; body. Near-black, not pure black. Also the dark-band fill.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#7A7468"></div><div class="meta"><div class="nm">Muted</div><div class="hex">#7A7468</div><div class="use">Captions, labels, secondary text.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#D6D0C2"></div><div class="meta"><div class="nm">Hairline</div><div class="hex">#D6D0C2</div><div class="use">Borders &amp; dividers only.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#5A2D1C"></div><div class="meta"><div class="nm">Accent — Oxblood</div><div class="hex">#5A2D1C</div><div class="use">Links, section numbers, eyebrow markers, hovers. Used sparingly.</div></div></div>
+    </div>
+
+    <div class="dark-demo">
+      <div class="dl">On dark bands (background = Ink #1A1612)</div>
+      <div class="dark-swatches">
+        <div class="dsw"><div class="chip" style="background:#F4F1E9"></div><div class="nm">Paper on ink</div><div class="hex">#F4F1E9</div></div>
+        <div class="dsw"><div class="chip" style="background:#C8C0AE"></div><div class="nm">Cream on ink</div><div class="hex">#C8C0AE</div></div>
+        <div class="dsw"><div class="chip" style="background:#8B8273"></div><div class="nm">Muted on ink</div><div class="hex">#8B8273</div></div>
+        <div class="dsw"><div class="chip" style="background:#C77449"></div><div class="nm">Accent on ink</div><div class="hex">#C77449</div></div>
+        <div class="dsw"><div class="chip" style="background:#38332C"></div><div class="nm">Hairline on ink</div><div class="hex">#38332C</div></div>
+      </div>
+      <p class="dark-line">On ink, the accent warms to <a href="#">#C77449</a> so links and markers stay legible.</p>
+    </div>
+  </section>
+
+  <!-- ================= RULES ================= -->
+  <section class="section">
+    <h2 class="sec-h">Rules</h2>
+    <ul class="rules">
+      <li>One display serif (Newsreader), one body sans (Geist). Never add a third family, and never change them per page.</li>
+      <li>Newsreader is always set in italic for display and inline emphasis — that slant is the signature. Geist carries everything functional and stays upright.</li>
+      <li>The oxblood accent is for links, section numbers, eyebrow markers and hovers only. Never set body text in it — it fails contrast on paper and cheapens the page.</li>
+      <li>On dark (--ink) bands, switch text to the on-ink set and the accent to the warmer #C77449 for legibility.</li>
+      <li>Labels and eyebrows are uppercase Geist 500 with .18–.2em tracking. That wide tracking is the editorial tell — keep it consistent.</li>
+      <li>Headings get tight negative tracking; body stays normal with generous 1.65–1.7 line-height.</li>
+      <li>Captions are italic Newsreader; body copy is Geist. Don't swap them — the contrast is deliberate.</li>
+      <li>One Display XL per page. Step down the scale in order; don't jump from Display to Subsection.</li>
+      <li>Stat numerals stay on a single line — let them shrink before they wrap.</li>
+    </ul>
+  </section>
+
+  <footer>Tooba Ameer — Portfolio Type &amp; Colour System · Display: Newsreader (italic) · Body: Geist · Accent: #5A2D1C oxblood · Surfaces: #F4F1E9 paper / #1A1612 ink</footer>
+</div>
+</body>
+</html>
