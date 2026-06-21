@@ -25,35 +25,37 @@ export default function CaseStudy() {
               </p>
             </div>
             <div className="hero-body-figure">
-              <div className="hero-evo-row">
-                <div className="evo-head">
-                  <span className="evo-lbl">Before</span>
-                  <span className="evo-yr">2022</span>
-                  <span className="evo-sub">~85% florals · one primary cohort</span>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+                <div className="hero-evo-row" style={{ marginTop: 0 }}>
+                  <div className="evo-head">
+                    <span className="evo-lbl">Before</span>
+                    <span className="evo-yr">2022</span>
+                    <span className="evo-sub">~85% florals · one primary cohort</span>
+                  </div>
+                  <picture>
+                    <source srcSet="/images/genie/hero-before-2022.webp" type="image/webp" />
+                    <img
+                      className="evo-fig"
+                      src="/images/genie/hero-before-2022.jpg"
+                      alt="Genie range before 2022 — three school backpacks in floral and graphic prints on a paper ground"
+                    />
+                  </picture>
                 </div>
-                <picture>
-                  <source srcSet="/images/genie/hero-before-2022.webp" type="image/webp" />
-                  <img
-                    className="evo-fig"
-                    src="/images/genie/hero-before-2022.jpg"
-                    alt="Genie range before 2022 — three school backpacks in floral and graphic prints on a paper ground"
-                  />
-                </picture>
-              </div>
-              <div className="hero-evo-row">
-                <div className="evo-head">
-                  <span className="evo-lbl">Now</span>
-                  <span className="evo-yr">2026</span>
-                  <span className="evo-sub">Structure · Surface · Maturity</span>
+                <div className="hero-evo-row" style={{ marginTop: 0 }}>
+                  <div className="evo-head">
+                    <span className="evo-lbl">Now</span>
+                    <span className="evo-yr">2026</span>
+                    <span className="evo-sub">Structure · Surface · Maturity</span>
+                  </div>
+                  <picture>
+                    <source srcSet="/images/genie/hero-now-2026.webp" type="image/webp" />
+                    <img
+                      className="evo-fig"
+                      src="/images/genie/hero-now-2026.jpg"
+                      alt="Genie range in 2026 — pink-and-denim, tonal green colour-block and black floral-print backpacks on a paper ground"
+                    />
+                  </picture>
                 </div>
-                <picture>
-                  <source srcSet="/images/genie/hero-now-2026.webp" type="image/webp" />
-                  <img
-                    className="evo-fig"
-                    src="/images/genie/hero-now-2026.jpg"
-                    alt="Genie range in 2026 — pink-and-denim, tonal green colour-block and black floral-print backpacks on a paper ground"
-                  />
-                </picture>
               </div>
               <p className="evo-cap">
                 Same brand, grown up — from florals and one primary cohort to a range built around construction, surface
