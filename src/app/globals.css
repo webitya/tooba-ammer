@@ -847,4 +847,26 @@ footer.site-footer a:hover { color: var(--ink); }
   }
 }
 
-
+/* TENSION CHIPS (on-system: hairline, ink, muted — no accent) */
+.tension-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: clamp(36px, 4.5vw, 56px) 0;
+}
+.tension-chip {
+  font-family: var(--body);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: .005em;
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 11px 22px;
+  line-height: 1;
+  white-space: nowrap;
+}
+.tension-chip .alt {
+  color: var(--muted);
+  font-weight: 400;
+}
