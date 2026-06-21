@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'CV — Tooba Ameer',
-  description: 'CV of Tooba Ameer — Design & Development Manager',
+  description: 'Curriculum vitae of Tooba Ameer — Design & Development Manager. Trend direction, CMF strategy and commercially successful product ranges across luggage, backpacks and lifestyle accessories.',
 };
 
 export default function CVPage() {
@@ -81,7 +81,7 @@ export default function CVPage() {
             color: 'var(--ink)', maxWidth: '64ch', marginTop: '30px',
           }}>
             Design &amp; Development Manager with eight years leading trend direction, CMF strategy and commercially successful product ranges across luggage, backpacks and lifestyle accessories. Built and scaled product categories across multiple brands — combining consumer insight, manufacturing expertise and commercial decision-making. Contributed to Genie brand growth from{' '}
-            <em style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 500, fontSize: '1.04em' }}>₹17 Cr to ₹100 Cr (~6× growth)</em>.{' '}
+            <em style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 500, fontSize: '1.04em' }}>₹17 Cr to ₹100 Cr (≈ £1.4M to £8M · ~6× growth)</em>.{' '}
             Experience mentoring designers and building design processes across multi-brand teams.
           </p>
 
@@ -99,7 +99,7 @@ export default function CVPage() {
             borderTop: '1px solid var(--hairline)',
           }}>
             {[
-              { v: '~6×', k: 'Genie brand growth · ₹17 Cr → ₹100 Cr' },
+              { v: '~6×', k: 'Genie brand growth · ₹17 Cr → ₹100 Cr (≈ £1.4M → £8M)' },
               { v: '8,000+', k: 'Units / month — Hue printed luggage' },
               { v: '42,000+', k: 'Verified ratings on Flipkart · 4.2★' },
             ].map(s => (
@@ -138,7 +138,7 @@ export default function CVPage() {
                   { dt: 'Phone',    dd: '+44 7343 066082' },
                   { dt: 'Email',    dd: <a href="mailto:hello@toobaameer.co.uk" style={linkStyle}>hello@toobaameer.co.uk</a> },
                   { dt: 'LinkedIn', dd: <a href="https://www.linkedin.com/in/tooba-ameer" target="_blank" rel="noopener noreferrer" style={linkStyle}>linkedin.com/in/tooba-ameer</a> },
-                  { dt: 'Portfolio',dd: <a href="https://toobaameer.co.uk" target="_blank" rel="noopener noreferrer" style={linkStyle}>toobaameer.co.uk</a> },
+                  { dt: 'Behance',  dd: <a href="https://www.behance.net/ameertooba" target="_blank" rel="noopener noreferrer" style={linkStyle}>behance.net/ameertooba</a> },
                 ].map(({ dt, dd }) => (
                   <div key={dt}>
                     <dt style={{ fontFamily: 'var(--body)', fontWeight: 500, fontSize: '9.5px', letterSpacing: '.2em', textTransform: 'uppercase', color: 'var(--muted)', marginBottom: '3px' }}>{dt}</dt>
