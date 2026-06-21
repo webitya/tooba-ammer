@@ -135,12 +135,14 @@ export default function CaseStudy() {
     <div className="subsection">
       <span className="subsection-num">a.</span>
       <h3 className="subsection-title">A full-PU front.</h3>
-      <div className="body-prose">
-        <p>The fastest way to look premium was to clad the whole front face in PU faux leather, and I built that version first. But a business trolley lives a hard life &mdash; dragged through airports, knocked at security, stacked into overheads &mdash; and a large faux-leather face is exactly where that shows. It scuffs, scratches and tears, and a marked &ldquo;premium&rdquo; panel reads cheaper than honest polyester ever would. Premium that can't survive its own use isn't premium. I walked away from the full-PU front; where the faux leather finally went, and why, is the first of the hard decisions below.</p>
-      </div>
-      <div className="figure">
-        <img src="/images/phoenix/fig_04.png" alt="The full PU faux-leather front — built first, then walked away from" />
-        <figcaption>The full PU faux-leather front &mdash; built first, then walked away from.</figcaption>
+      <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: 'clamp(40px, 6vw, 96px)', alignItems: 'start' }}>
+        <div className="body-prose">
+          <p>The fastest way to look premium was to clad the whole front face in PU faux leather, and I built that version first. But a business trolley lives a hard life &mdash; dragged through airports, knocked at security, stacked into overheads &mdash; and a large faux-leather face is exactly where that shows. It scuffs, scratches and tears, and a marked &ldquo;premium&rdquo; panel reads cheaper than honest polyester ever would. Premium that can't survive its own use isn't premium. I walked away from the full-PU front; where the faux leather finally went, and why, is the first of the hard decisions below.</p>
+        </div>
+        <div className="figure" style={{ margin: 0 }}>
+          <img src="/images/phoenix/fig_04.png" alt="The full PU faux-leather front — built first, then walked away from" />
+          <figcaption>The full PU faux-leather front &mdash; built first, then walked away from.</figcaption>
+        </div>
       </div>
     </div>
 
@@ -156,7 +158,7 @@ export default function CaseStudy() {
           <figcaption>Protruding pockets stitched directly to plain front panel.</figcaption>
         </div>
         <div className="figure">
-          <img src="/images/phoenix/fig_05b.png" alt="PU trim line framing pockets edge to edge" />
+          <img src="/silver.png" alt="PU trim line framing pockets edge to edge" />
           <figcaption>PU trim line framing pockets edge to edge.</figcaption>
         </div>
       </div>
@@ -249,53 +251,44 @@ export default function CaseStudy() {
     </div>
     <h2 className="section-title">Premium, rebuilt as finish.</h2>
 
-    <div className="body-prose">
-      <p>With the base fabric fixed by cost, I treated every other surface as a lever. The body stays a single tonal black; the only &ldquo;colour&rdquo; is a Pantone Cool Grey 7C stitch, kept on the panels and deliberately off the pockets, handles and smart sleeve so the seams read as tailoring, not decoration. PU leather goes only on the faces a hand actually touches &mdash; the top handle, the lower front, the back panel.</p>
+    {/* Two-col: prose left, figure right */}
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'clamp(48px, 7vw, 112px)', alignItems: 'start', marginBottom: 'clamp(64px, 8vw, 112px)' }}>
+      <div className="body-prose" style={{ margin: 0 }}>
+        <p>With the base fabric fixed by cost, I treated every other surface as a lever. The body stays a single tonal black; the only &ldquo;colour&rdquo; is a Pantone Cool Grey 7C stitch, kept on the panels and deliberately off the pockets, handles and smart sleeve so the seams read as tailoring, not decoration. PU leather goes only on the faces a hand actually touches &mdash; the top handle, the lower front, the back panel.</p>
+      </div>
+      <div className="figure" style={{ margin: 0 }}>
+        <img src="/images/phoenix/fig_06.png" alt="Body fabric, trim stitch, PU placement and hardware allocation, documented to specification" style={{ width: '100%' }} />
+        <figcaption>Body fabric, trim stitch, PU placement and hardware allocation, documented to specification.</figcaption>
+      </div>
     </div>
 
-    <div className="figure">
-      <img src="/images/phoenix/fig_06.png" alt="Body fabric, trim stitch, PU placement and hardware allocation, documented to specification" />
-      <figcaption>Body fabric, trim stitch, PU placement and hardware allocation, documented to specification.</figcaption>
-      <p className="figure-caption">The restraint is documented face by face, so the factory builds it the same way every time.</p>
-    </div>
+    {/* Full-width hardware family */}
+    <div style={{ borderTop: '1px solid var(--hairline)', paddingTop: 'clamp(40px, 5vw, 64px)' }}>
+      <h3 style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 400, fontSize: 'clamp(26px, 3.2vw, 40px)', lineHeight: 1.1, letterSpacing: '-.012em', color: 'var(--ink)', marginBottom: 'clamp(40px, 5vw, 56px)' }}>One hardware family.</h3>
 
-    <div className="subsection">
-      <h3 className="subsection-title">One hardware family.</h3>
-
-      <div className="framework framework--5">
-        <div className="fw-cell">
-          <span className="num">01</span>
-          <span className="head">Metal logo</span>
-          <span className="body">A solid badge, not a printed mark.</span>
-        </div>
-        <div className="fw-cell">
-          <span className="num">02</span>
-          <span className="head">Brushed zippers</span>
-          <span className="body">Metal pulls with a brushed finish across the pockets.</span>
-        </div>
-        <div className="fw-cell">
-          <span className="num">03</span>
-          <span className="head">Matched pullers</span>
-          <span className="body">One puller language head to toe.</span>
-        </div>
-        <div className="fw-cell">
-          <span className="num">04</span>
-          <span className="head">Metal rivets</span>
-          <span className="body">The same brushed tone at every stress point.</span>
-        </div>
-        <div className="fw-cell">
-          <span className="num">05</span>
-          <span className="head">Tonal stitch</span>
-          <span className="body">Cool grey on black &mdash; visible, not loud.</span>
-        </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)' }}>
+        {[
+          { num: '01', head: 'Metal logo', body: 'A solid badge, not a printed mark.' },
+          { num: '02', head: 'Brushed zippers', body: 'Metal pulls with a brushed finish across the pockets.' },
+          { num: '03', head: 'Matched pullers', body: 'One puller language head to toe.' },
+          { num: '04', head: 'Metal rivets', body: 'The same brushed tone at every stress point.' },
+          { num: '05', head: 'Tonal stitch', body: 'Cool grey on black — visible, not loud.' },
+        ].map(({ num, head, body }, i, arr) => (
+          <div key={num} style={{ padding: 'clamp(20px, 2.5vw, 32px) clamp(10px, 1.5vw, 18px) clamp(20px, 2.5vw, 32px) clamp(10px, 1.5vw, 18px)', borderRight: i < arr.length - 1 ? '1px solid var(--hairline)' : 'none', paddingLeft: i === 0 ? 0 : 'clamp(10px, 1.5vw, 18px)', paddingRight: i < arr.length - 1 ? 'clamp(10px, 1.5vw, 18px)' : 0 }}>
+            <span style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontSize: 'clamp(28px, 3vw, 40px)', color: 'var(--accent)', display: 'block', marginBottom: '20px', letterSpacing: '-.01em' }}>{num}</span>
+            <span style={{ fontFamily: 'var(--body)', fontWeight: 500, fontSize: '10.5px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--ink)', display: 'block', marginBottom: '12px' }}>{head}</span>
+            <span style={{ fontFamily: 'var(--body)', fontSize: '14.5px', lineHeight: 1.55, color: 'var(--muted)' }}>{body}</span>
+          </div>
+        ))}
       </div>
 
-      <div className="body-prose" style={{ 'marginTop': '32px' }}>
+      <div className="body-prose" style={{ marginTop: '40px', maxWidth: '60ch' }}>
         <p>The point isn't any single component. It's that they all speak the same brushed-metal language, so there's no weak link for the eye to catch and re-file the bag as cheap.</p>
       </div>
     </div>
   </div>
 </section>
+
 
 {/*  SECTION 08 — FORM & PROPORTION  */}
 <section className="case-section band--paper-deep">
@@ -471,41 +464,37 @@ export default function CaseStudy() {
     </div>
     <h2 className="section-title">What I'd push next, and what I take into the next brief.</h2>
 
-    <div className="body-prose">
+    <div className="body-prose" style={{ marginBottom: 'clamp(64px, 8vw, 112px)' }}>
       <p>If a future brief loosened the cost, the first thing I'd change isn't the hardware &mdash; it's the base fabric itself, so premium runs through the whole shell and not only the faces a hand finds.</p>
       <p>Phoenix sold out &mdash; but in deliberately small numbers, and with few reviews behind it. The honest open question is whether restraint <em>scales</em>: did the quiet version win on merit, or because it stayed a low-volume, self-selecting buy? Before assuming quiet always reads as premium to a value-brand shopper, I'd test it against a louder version at shelf, at real volume.</p>
     </div>
 
-    <div className="subsection">
-      <h3 className="subsection-title">What I take into the next brief.</h3>
-      <div className="framework framework--4">
-        <div className="fw-cell">
-          <span className="num">01</span>
-          <span className="head">Proportion before detail</span>
-          <span className="body">Get the silhouette right and most of the work is done.</span>
-        </div>
-        <div className="fw-cell">
-          <span className="num">02</span>
-          <span className="head">Surface discipline</span>
-          <span className="body">Every seam, stitch and panel line earns its place.</span>
-        </div>
-        <div className="fw-cell">
-          <span className="num">03</span>
-          <span className="head">Material honesty</span>
-          <span className="body">Invest in the few signals the hand and eye trust, and don't fake the rest.</span>
-        </div>
-        <div className="fw-cell">
-          <span className="num">04</span>
-          <span className="head">Visual noise reduction</span>
-          <span className="body">When craftsmanship budgets are tight, remove the opportunities for inconsistency rather than decorate around them.</span>
-        </div>
+    {/* Full-width 4-col takeaways grid */}
+    <div style={{ borderTop: '1px solid var(--hairline)', paddingTop: 'clamp(40px, 5vw, 64px)' }}>
+      <h3 style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 400, fontSize: 'clamp(26px, 3.2vw, 40px)', lineHeight: 1.1, letterSpacing: '-.012em', color: 'var(--ink)', marginBottom: 'clamp(40px, 5vw, 56px)' }}>What I take into the next brief.</h3>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
+        {[
+          { num: '01', head: 'Proportion before detail', body: 'Get the silhouette right and most of the work is done.' },
+          { num: '02', head: 'Surface discipline', body: 'Every seam, stitch and panel line earns its place.' },
+          { num: '03', head: 'Material honesty', body: "Invest in the few signals the hand and eye trust, and don't fake the rest." },
+          { num: '04', head: 'Visual noise reduction', body: "When craftsmanship budgets are tight, remove the opportunities for inconsistency rather than decorate around them." },
+        ].map(({ num, head, body }, i, arr) => (
+          <div key={num} style={{ padding: 'clamp(20px, 2.5vw, 32px) clamp(10px, 1.5vw, 18px) clamp(20px, 2.5vw, 32px) clamp(10px, 1.5vw, 18px)', borderRight: i < arr.length - 1 ? '1px solid var(--hairline)' : 'none', paddingLeft: i === 0 ? 0 : 'clamp(10px, 1.5vw, 18px)', paddingRight: i < arr.length - 1 ? 'clamp(10px, 1.5vw, 18px)' : 0 }}>
+            <span style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontSize: 'clamp(28px, 3vw, 40px)', color: 'var(--accent)', display: 'block', marginBottom: '20px', letterSpacing: '-.01em' }}>{num}</span>
+            <span style={{ fontFamily: 'var(--body)', fontWeight: 500, fontSize: '10.5px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--ink)', display: 'block', marginBottom: '12px' }}>{head}</span>
+            <span style={{ fontFamily: 'var(--body)', fontSize: '14.5px', lineHeight: 1.55, color: 'var(--muted)' }}>{body}</span>
+          </div>
+        ))}
       </div>
-      <div className="body-prose" style={{ 'marginTop': '32px' }}>
+
+      <div className="body-prose" style={{ marginTop: '40px', maxWidth: '60ch' }}>
         <p>None of these are luggage-specific; they're how I'd come at the next category too.</p>
       </div>
     </div>
   </div>
 </section>
+
 
 {/*  SECTION 15 — ROLE & SCOPE  */}
 <section className="case-section">
@@ -559,28 +548,22 @@ export default function CaseStudy() {
         <p>Products where I defined the form language, architecture and CMF. Engineering CAD executed in collaboration with a specialist CAD designer.</p>
       </div>
 
-      <div className="product-grid">
-        <div className="product-card">
-          <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/astra_neo.png" alt="Astra Neo" />
-          <span className="brand">Safari &middot; Hard-shell trolley</span>
-          <h4 className="name">Astra Neo</h4>
-          <p className="desc">Lead designer &mdash; form direction, ribbed surface architecture, colour-accent CMF and development. Engineering CAD in collaboration.</p>
-          <a className="cta" href="#" target="_blank">View on Flipkart &rarr;</a>
-        </div>
-        <div className="product-card">
-          <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/theo.png" alt="Theo" />
-          <span className="brand">Genius &middot; Hard-shell trolley</span>
-          <h4 className="name">Theo</h4>
-          <p className="desc">Lead designer &mdash; form concept, youth-lifestyle CMF direction and development across the Genius range. Engineering CAD in collaboration.</p>
-          <a className="cta" href="#" target="_blank">View on Amazon &rarr;</a>
-        </div>
-        <div className="product-card">
-          <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/scarlett.png" alt="Scarlett" />
-          <span className="brand">Genie &middot; Hard-shell trolley</span>
-          <h4 className="name">Scarlett</h4>
-          <p className="desc">Lead designer &mdash; diagonal wave shell concept, ombré CMF direction and full product development. Engineering CAD in collaboration.</p>
-          <a className="cta" href="#" target="_blank">View on Genie &rarr;</a>
-        </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'clamp(24px, 3vw, 40px)', marginTop: 'clamp(32px, 4vw, 48px)' }}>
+        {[
+          { src: '/images/phoenix/astra_neo.png', brand: 'Safari · Hard-shell trolley', name: 'Astra Neo', desc: 'Lead designer — form direction, ribbed surface architecture, colour-accent CMF and development. Engineering CAD in collaboration.', cta: 'View on Flipkart →', href: '#' },
+          { src: '/images/phoenix/theo.png', brand: 'Genius · Hard-shell trolley', name: 'Theo', desc: 'Lead designer — form concept, youth-lifestyle CMF direction and development across the Genius range. Engineering CAD in collaboration.', cta: 'View on Amazon →', href: '#' },
+          { src: '/images/phoenix/scarlett.png', brand: 'Genie · Hard-shell trolley', name: 'Scarlett', desc: 'Lead designer — diagonal wave shell concept, ombré CMF direction and full product development. Engineering CAD in collaboration.', cta: 'View on Genie →', href: '#' },
+        ].map(({ src, brand, name, desc, cta, href }) => (
+          <div key={name}>
+            <div style={{ aspectRatio: '1 / 1', overflow: 'hidden', marginBottom: '20px', border: '1px solid var(--hairline)' }}>
+              <img src={src} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            </div>
+            <span style={{ fontFamily: 'var(--body)', fontWeight: 500, fontSize: '10.5px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--muted)', display: 'block', marginBottom: '8px' }}>{brand}</span>
+            <h4 style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 400, fontSize: 'clamp(20px, 2.2vw, 28px)', lineHeight: 1.1, letterSpacing: '-.01em', color: 'var(--ink)', marginBottom: '10px' }}>{name}</h4>
+            <p style={{ fontFamily: 'var(--body)', fontSize: '14.5px', lineHeight: 1.6, color: 'var(--muted)', marginBottom: '14px' }}>{desc}</p>
+            <a href={href} target="_blank" style={{ fontFamily: 'var(--body)', fontSize: '13px', fontWeight: 500, color: 'var(--accent)', textDecoration: 'none', letterSpacing: '.02em' }}>{cta}</a>
+          </div>
+        ))}
       </div>
     </div>
 
