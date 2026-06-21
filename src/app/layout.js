@@ -25,11 +25,10 @@ export default function RootLayout({ children }) {
           <div className="links">
             <Link href="/#work">Work</Link>
             <Link href="/about">About</Link>
-            <Link href="/resume">Resume</Link>
-            <a href="https://www.linkedin.com/in/tooba-ameer" target="_blank" rel="noopener noreferrer">
-              LinkedIn
-            </a>
-            <Link href="/contact">Contact</Link>
+            <Link href="/resume">CV</Link>
+            <Link href="/contact" className="nav-btn">
+              Get in Touch
+            </Link>
           </div>
         </nav>
 

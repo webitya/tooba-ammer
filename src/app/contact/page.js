@@ -94,7 +94,7 @@ export default function Contact() {
               <span style={{ fontSize: '16px', color: 'var(--muted)' }}>↗</span>
             </a>
 
-            {/* Resume */}
+            {/* CV */}
             <a href="/Tooba_Ameer_CV.pdf" download="Tooba_Ameer_CV.pdf" style={{
               display: 'flex', alignItems: 'center', justifyContent: 'space-between',
               padding: '20px 0', borderTop: '1px solid var(--hairline)',
@@ -105,7 +105,7 @@ export default function Contact() {
                 fontFamily: 'var(--body)', fontWeight: 500, fontSize: '11px',
                 letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--muted)',
                 minWidth: '80px',
-              }}>Resume</span>
+              }}>CV</span>
               <span style={{
                 fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 400,
                 fontSize: 'clamp(15px,1.4vw,18px)', color: 'var(--ink)', flex: 1,

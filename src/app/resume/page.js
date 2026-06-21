@@ -1,8 +1,8 @@
 import ResumeClient from './ResumeClient';
 
 export const metadata = {
-  title: 'Resume — Tooba Ameer',
-  description: 'Resume of Tooba Ameer — Design & Development Manager',
+  title: 'CV — Tooba Ameer',
+  description: 'CV of Tooba Ameer — Design & Development Manager',
 };
 
 export default function Resume() {
@@ -32,7 +32,7 @@ export default function Resume() {
             letterSpacing: '0.1em',
           }}
         >
-          Download Resume
+          Download CV
         </a>
         <a
           href="https://www.linkedin.com/in/tooba-ameer"
