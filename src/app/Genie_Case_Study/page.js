@@ -121,14 +121,11 @@ export default function CaseStudy() {
       {/* ================ 01 — THE CHALLENGE ================ */}
       <section className="section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">01.</span>
-              <span className="label">The challenge</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">A brand that kept losing the girl it won.</h2>
+          <div className="section-marker">
+            <span className="num">01.</span>
+            <span className="label">The challenge</span>
           </div>
+          <h2 className="section-title">A brand that kept losing the girl it won.</h2>
 
           <div className="prose">
             <p>
@@ -202,14 +199,11 @@ export default function CaseStudy() {
       {/* ================ 02 — UNDERSTANDING THE NEXT GENERATION ================ */}
       <section className="band band--paper-deep section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">02.</span>
-              <span className="label">Understanding the next generation</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">The same girl, five years apart.</h2>
+          <div className="section-marker">
+            <span className="num">02.</span>
+            <span className="label">Understanding the next generation</span>
           </div>
+          <h2 className="section-title">The same girl, five years apart.</h2>
 
           <div className="prose">
             <p>To grow Genie up with its customer, I had to know exactly how she changed — and where the brand lost her.</p>
@@ -280,14 +274,11 @@ export default function CaseStudy() {
       {/* ================ 03 — CULTURAL SIGNALS ================ */}
       <section className="section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">03.</span>
-              <span className="label">Cultural signals &amp; trend forecasting</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">The trend was the input. The judgement was the work.</h2>
+          <div className="section-marker">
+            <span className="num">03.</span>
+            <span className="label">Cultural signals &amp; trend forecasting</span>
           </div>
+          <h2 className="section-title">The trend was the input. The judgement was the work.</h2>
 
           <div className="prose">
             <p>
@@ -373,14 +364,11 @@ export default function CaseStudy() {
       {/* ================ 04 — TRANSLATING TRENDS ================ */}
       <section className="band band--paper-deep section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">04.</span>
-              <span className="label">Translating trends into products</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">The aesthetic was the easy part. The price was the design problem.</h2>
+          <div className="section-marker">
+            <span className="num">04.</span>
+            <span className="label">Translating trends into products</span>
           </div>
+          <h2 className="section-title">The aesthetic was the easy part. The price was the design problem.</h2>
 
           <div className="prose">
             <p>
@@ -467,14 +455,11 @@ export default function CaseStudy() {
       {/* ================ 05 — BUILDING A COLLECTION SYSTEM ================ */}
       <section className="section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">05.</span>
-              <span className="label">Building a collection system</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">Five years of growing a system.</h2>
+          <div className="section-marker">
+            <span className="num">05.</span>
+            <span className="label">Building a collection system</span>
           </div>
+          <h2 className="section-title">Five years of growing a system.</h2>
 
           <div className="prose">
             <p>
@@ -483,11 +468,9 @@ export default function CaseStudy() {
             </p>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">05a</span>
-              <span className="ttl">What designs needed to exist.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">05a</span>
+            <h3 className="subsection-title">What designs needed to exist.</h3>
             <div className="prose">
               <p>
                 The cohort research from the previous section didn't just tell me how the girl was changing. It told me
@@ -498,11 +481,9 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">05b</span>
-              <span className="ttl">How they got built affordably enough to ship.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">05b</span>
+            <h3 className="subsection-title">How they got built affordably enough to ship.</h3>
             <div className="prose">
               <p>
                 Knowing what designs needed to exist was the easy part. The hard part was building a season's worth every
@@ -544,11 +525,9 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">05c</span>
-              <span className="ttl">Five years, year by year.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">05c</span>
+            <h3 className="subsection-title">Five years, year by year.</h3>
             <div className="prose">
               <p>
                 The architecture was the same across five years. The shape of the range that came out of it was not. The
@@ -780,11 +759,9 @@ export default function CaseStudy() {
             </figcaption>
           </figure>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">05d</span>
-              <span className="ttl">One operating model, six channels.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">05d</span>
+            <h3 className="subsection-title">One operating model, six channels.</h3>
             <div className="prose">
               <p>
                 Trade was the case study's deepest evidence. The same operating model also carried into five other
@@ -860,11 +837,10 @@ export default function CaseStudy() {
       <section className="band band--ink section section--ink">
         <div className="container">
           <div className="featured-head">
-            <div className="sec-marker">
-              <span className="sec-num">06.</span>
+            <div className="section-marker">
+              <span className="num">06.</span>
               <span className="label">Case-in-case · The 2023 split</span>
             </div>
-            <span className="rule"></span>
             <span className="label">When the bill of materials wouldn't bend, the architecture did</span>
           </div>
 
@@ -886,11 +862,9 @@ export default function CaseStudy() {
             </p>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">06a</span>
-              <span className="ttl">Every cost-down lever was already spent.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">06a</span>
+            <h3 className="subsection-title">Every cost-down lever was already spent.</h3>
             <div className="prose">
               <p>
                 The obvious response to a cost squeeze is to take the rest of the bill of materials down. There was
@@ -902,11 +876,9 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">06b</span>
-              <span className="ttl">The fabric was the line we couldn't cross.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">06b</span>
+            <h3 className="subsection-title">The fabric was the line we couldn't cross.</h3>
             <div className="prose">
               <p>
                 Genie ran on cotton-backed twill — not as a finish call, as the brand's structural differentiator. In a
@@ -956,11 +928,9 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">06c</span>
-              <span className="ttl">The call.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">06c</span>
+            <h3 className="subsection-title">The call.</h3>
             <div className="prose">
               <p>
                 I proposed the split. The team aligned on it. 19″ CORE became <strong>CORE(HP)</strong> and{' '}
@@ -980,14 +950,11 @@ export default function CaseStudy() {
       {/* ================ 07 — DESIGNING BACKPACK COLLECTIONS ================ */}
       <section className="section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">07.</span>
-              <span className="label">Designing backpack collections</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">The system in evidence.</h2>
+          <div className="section-marker">
+            <span className="num">07.</span>
+            <span className="label">Designing backpack collections</span>
           </div>
+          <h2 className="section-title">The system in evidence.</h2>
 
           <div className="prose">
             <p>
@@ -1151,14 +1118,11 @@ export default function CaseStudy() {
       {/* ================ 08 — EXPANDING INTO ADJACENT CATEGORIES ================ */}
       <section className="band band--paper-deep section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">08.</span>
-              <span className="label">Expanding into adjacent categories</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">The brand stretched across formats. The market told us how far.</h2>
+          <div className="section-marker">
+            <span className="num">08.</span>
+            <span className="label">Expanding into adjacent categories</span>
           </div>
+          <h2 className="section-title">The brand stretched across formats. The market told us how far.</h2>
 
           <div className="prose">
             <p>
@@ -1290,11 +1254,9 @@ export default function CaseStudy() {
             </figcaption>
           </figure>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">08a</span>
-              <span className="ttl">Reading the signal.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">08a</span>
+            <h3 className="subsection-title">Reading the signal.</h3>
             <div className="prose">
               <p>
                 Heavy prints proved the language travelled — but the niche was small, and from there the two formats
@@ -1336,11 +1298,9 @@ export default function CaseStudy() {
             </figure>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">08b</span>
-              <span className="ttl">Sourced and adapted — the white-label extension.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">08b</span>
+            <h3 className="subsection-title">Sourced and adapted — the white-label extension.</h3>
             <div className="prose">
               <p>
                 Not every category-expansion move had to start from scratch. For Genie's push into work and professional
@@ -1379,14 +1339,11 @@ export default function CaseStudy() {
       {/* ================ 09 — DESIGNING FOR SCALE ================ */}
       <section className="section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">09.</span>
-              <span className="label">Designing for scale</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">Holding a brand at scale.</h2>
+          <div className="section-marker">
+            <span className="num">09.</span>
+            <span className="label">Designing for scale</span>
           </div>
+          <h2 className="section-title">Holding a brand at scale.</h2>
 
           <div className="prose">
             <p>
@@ -1400,11 +1357,9 @@ export default function CaseStudy() {
             </p>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">09a</span>
-              <span className="ttl">The calendar inside the calendar.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">09a</span>
+            <h3 className="subsection-title">The calendar inside the calendar.</h3>
             <div className="prose">
               <p>
                 A Genie back-to-school range took roughly twelve months from brief to shelf. December, the brief arrived:
@@ -1437,11 +1392,9 @@ export default function CaseStudy() {
             </figcaption>
           </figure>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">09b</span>
-              <span className="ttl">One operational change that paid out every season.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">09b</span>
+            <h3 className="subsection-title">One operational change that paid out every season.</h3>
             <div className="prose">
               <p>
                 When I joined, two-to-three rounds of sampling was the norm for reaching the visual presentation the brand
@@ -1518,11 +1471,9 @@ export default function CaseStudy() {
             </p>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">09c</span>
-              <span className="ttl">One calendar wasn't the only calendar.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">09c</span>
+            <h3 className="subsection-title">One calendar wasn't the only calendar.</h3>
             <div className="prose">
               <p>
                 The annual back-to-school cycle was the spine, but it wasn't the only commitment. Mid-year briefs ran in
@@ -1558,11 +1509,10 @@ export default function CaseStudy() {
       <section className="band band--ink section section--ink">
         <div className="container">
           <div className="featured-head">
-            <div className="sec-marker">
-              <span className="sec-num">10.</span>
+            <div className="section-marker">
+              <span className="num">10.</span>
               <span className="label">Impact</span>
             </div>
-            <span className="rule"></span>
             <span className="label">2021 — 2026 · five back-to-school seasons</span>
           </div>
 
@@ -1686,11 +1636,9 @@ export default function CaseStudy() {
             </figure>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">10c</span>
-              <span className="ttl">What the market told us.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">10c</span>
+            <h3 className="subsection-title">What the market told us.</h3>
             <div className="prose">
               <p>
                 Three designs are a sample, not a pattern. The pattern lived elsewhere — in sustained sell-through
@@ -1739,14 +1687,11 @@ export default function CaseStudy() {
       {/* ================ 11 — REFLECTION ================ */}
       <section className="section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">11.</span>
-              <span className="label">Reflection</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">What the work was actually about.</h2>
+          <div className="section-marker">
+            <span className="num">11.</span>
+            <span className="label">Reflection</span>
           </div>
+          <h2 className="section-title">What the work was actually about.</h2>
 
           <div className="prose">
             <p>
@@ -1804,11 +1749,9 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">11a</span>
-              <span className="ttl">Co-owning the dealer narrative.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">11a</span>
+            <h3 className="subsection-title">Co-owning the dealer narrative.</h3>
             <div className="prose">
               <p>
                 Design rationale at dealer launch meets was mine; PM led commercial — pricing, SKU strategy, MRP. Together
@@ -1819,11 +1762,9 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          <div className="subsec">
-            <div className="subsec-head">
-              <span className="n">11b</span>
-              <span className="ttl">What would come next.</span>
-            </div>
+          <div className="subsection">
+            <span className="subsection-num">11b</span>
+            <h3 className="subsection-title">What would come next.</h3>
             <div className="prose">
               <p>
                 Looking back, I'd invest more heavily in formalising the feedback loop between regional market signals and
@@ -1847,14 +1788,11 @@ export default function CaseStudy() {
       {/* ================ 12 — ROLE & SCOPE ================ */}
       <section className="band band--paper-deep section">
         <div className="container">
-          <div className="section-head">
-            <div className="sec-marker">
-              <span className="sec-num">12.</span>
-              <span className="label">Role, scope &amp; attribution</span>
-            </div>
-            <span className="rule"></span>
-            <h2 className="H2">What I made, honestly.</h2>
+          <div className="section-marker">
+            <span className="num">12.</span>
+            <span className="label">Role, scope &amp; attribution</span>
           </div>
+          <h2 className="section-title">What I made, honestly.</h2>
 
           <div className="prose">
             <p>
