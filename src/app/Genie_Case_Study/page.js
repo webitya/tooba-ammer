@@ -1611,8 +1611,33 @@ export default function CaseStudy() {
             </figure>
           </div>
 
+          <div className="media-split">
+            <div className="ms-text">
+              <div className="subsec-head">
+                <span className="n">10c</span>
+                <span className="ttl">Sass.</span>
+              </div>
+              <div className="prose">
+                <p>
+                  Sass was launched in the same 2023 collection as Amore, into the 19″ Max segment — the high-volume backpacks at the top of the range. It performed strongly in its launch season and carried into 2024, supporting the same pattern: when the audit, the architecture, and the reframe were aligned, the products that came out of them didn't just sell — they re-sold.
+                </p>
+                <p>
+                  Sass on its own is one design that worked. Sass alongside Amore and Cool, all carrying across multiple seasons, is the system in evidence.
+                </p>
+              </div>
+            </div>
+            <figure className="figure ms-fig">
+              <picture>
+                <img src="/10c.jpeg" alt="Sass — the high-volume backpack" />
+              </picture>
+              <figcaption>
+                Sass — launched in the 19″ Max segment, it performed strongly and carried into the next year.
+              </figcaption>
+            </figure>
+          </div>
+
           <div className="subsection">
-            <span className="subsection-num">10c</span>
+            <span className="subsection-num">10d</span>
             <h3 className="subsection-title">What the market told us.</h3>
             <div className="prose">
               <p>

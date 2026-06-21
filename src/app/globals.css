@@ -870,3 +870,30 @@ footer.site-footer a:hover { color: var(--ink); }
   color: var(--muted);
   font-weight: 400;
 }
+
+/* DARK SECTION TEXT VISIBILITY & MEDIA-SPLIT UI ENHANCEMENTS */
+.section--ink .prose em,
+.section--ink .body-prose em {
+  color: var(--paper);
+}
+
+.section--ink .subsec-head .ttl,
+.section--ink .subsection-title {
+  color: var(--paper);
+}
+
+.section--ink .subsec-head .n {
+  color: var(--accent-on-ink);
+}
+
+.section--ink .media-split {
+  margin-bottom: clamp(56px, 8vw, 96px);
+  padding-bottom: clamp(56px, 8vw, 96px);
+  border-bottom: 1px solid var(--hairline-on-ink);
+}
+
+.section--ink .media-split:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
