@@ -21,7 +21,7 @@ export default function CaseStudy() {
             <div className="hero-body-figure">
               <div className="figure">
                 <img src="/images/sona/fig_01.png" alt="The Sona Ritual Dock on a bedside table in evening light &mdash; a glass of water and a paperback beside it, city lights blurred through the window" />
-                <figcaption>The Sona Ritual Dock on a bedside table in evening light &mdash; a glass of water and a paperback beside it, city lights blurred through the window.</figcaption>
+                <figcaption>The Sona Ritual Dock on a bedside table in evening light.</figcaption>
               </div>
             </div>
           </div>

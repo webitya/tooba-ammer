@@ -548,22 +548,24 @@ export default function CaseStudy() {
         <p>Products where I defined the form language, architecture and CMF. Engineering CAD executed in collaboration with a specialist CAD designer.</p>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'clamp(24px, 3vw, 40px)', marginTop: 'clamp(32px, 4vw, 48px)' }}>
-        {[
-          { src: '/images/phoenix/astra_neo.png', brand: 'Safari · Hard-shell trolley', name: 'Astra Neo', desc: 'Lead designer — form direction, ribbed surface architecture, colour-accent CMF and development. Engineering CAD in collaboration.', cta: 'View on Flipkart →', href: '#' },
-          { src: '/images/phoenix/theo.png', brand: 'Genius · Hard-shell trolley', name: 'Theo', desc: 'Lead designer — form concept, youth-lifestyle CMF direction and development across the Genius range. Engineering CAD in collaboration.', cta: 'View on Amazon →', href: '#' },
-          { src: '/images/phoenix/scarlett.png', brand: 'Genie · Hard-shell trolley', name: 'Scarlett', desc: 'Lead designer — diagonal wave shell concept, ombré CMF direction and full product development. Engineering CAD in collaboration.', cta: 'View on Genie →', href: '#' },
-        ].map(({ src, brand, name, desc, cta, href }) => (
-          <div key={name}>
-            <div style={{ aspectRatio: '1 / 1', overflow: 'hidden', marginBottom: '20px', border: '1px solid var(--hairline)' }}>
-              <img src={src} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+      <div style={{ marginLeft: 'calc(-1 * var(--pad-x))', marginRight: 'calc(-1 * var(--pad-x))', marginTop: 'clamp(32px, 4vw, 48px)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'clamp(24px, 3vw, 40px)', padding: '0 var(--pad-x)' }}>
+          {[
+            { src: '/images/phoenix/astra_neo.png', brand: 'Safari · Hard-shell trolley', name: 'Astra Neo', desc: 'Lead designer — form direction, ribbed surface architecture, colour-accent CMF and development. Engineering CAD in collaboration.', cta: 'View on Flipkart →', href: '#' },
+            { src: '/images/phoenix/theo.png', brand: 'Genius · Hard-shell trolley', name: 'Theo', desc: 'Lead designer — form concept, youth-lifestyle CMF direction and development across the Genius range. Engineering CAD in collaboration.', cta: 'View on Amazon →', href: '#' },
+            { src: '/images/phoenix/scarlett.png', brand: 'Genie · Hard-shell trolley', name: 'Scarlett', desc: 'Lead designer — diagonal wave shell concept, ombré CMF direction and full product development. Engineering CAD in collaboration.', cta: 'View on Genie →', href: '#' },
+          ].map(({ src, brand, name, desc, cta, href }) => (
+            <div key={name}>
+              <div style={{ aspectRatio: '1 / 1', overflow: 'hidden', marginBottom: '20px', border: '1px solid var(--hairline)' }}>
+                <img src={src} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+              </div>
+              <span style={{ fontFamily: 'var(--body)', fontWeight: 500, fontSize: '10.5px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--muted)', display: 'block', marginBottom: '8px' }}>{brand}</span>
+              <h4 style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 400, fontSize: 'clamp(20px, 2.2vw, 28px)', lineHeight: 1.1, letterSpacing: '-.01em', color: 'var(--ink)', marginBottom: '10px' }}>{name}</h4>
+              <p style={{ fontFamily: 'var(--body)', fontSize: '14.5px', lineHeight: 1.6, color: 'var(--muted)', marginBottom: '14px' }}>{desc}</p>
+              <a href={href} target="_blank" style={{ fontFamily: 'var(--body)', fontSize: '13px', fontWeight: 500, color: 'var(--accent)', textDecoration: 'none', letterSpacing: '.02em' }}>{cta}</a>
             </div>
-            <span style={{ fontFamily: 'var(--body)', fontWeight: 500, fontSize: '10.5px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--muted)', display: 'block', marginBottom: '8px' }}>{brand}</span>
-            <h4 style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontWeight: 400, fontSize: 'clamp(20px, 2.2vw, 28px)', lineHeight: 1.1, letterSpacing: '-.01em', color: 'var(--ink)', marginBottom: '10px' }}>{name}</h4>
-            <p style={{ fontFamily: 'var(--body)', fontSize: '14.5px', lineHeight: 1.6, color: 'var(--muted)', marginBottom: '14px' }}>{desc}</p>
-            <a href={href} target="_blank" style={{ fontFamily: 'var(--body)', fontSize: '13px', fontWeight: 500, color: 'var(--accent)', textDecoration: 'none', letterSpacing: '.02em' }}>{cta}</a>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
 

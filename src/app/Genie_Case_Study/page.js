@@ -237,7 +237,7 @@ export default function CaseStudy() {
               <img src="/images/genie/03a.jpg" alt="Cohort board — the girl Genie was designing for, across ages and everyday moments" />
             </picture>
             <figcaption style={{color:"#F4F1E9"}}>
-              The cohort, mapped — who Genie was actually for, and the moments the bag had to carry her through, from first
+              The cohort — who Genie was actually for, and the moments the bag had to carry her through, from first
               big-school day to college.
             </figcaption>
           </figure>
@@ -839,7 +839,7 @@ export default function CaseStudy() {
 
           <div className="subsection">
             <span className="subsection-num">06a</span>
-            <h3 className="subsection-title">Every cost-down lever was already spent.</h3>
+            <h3 className="subsection-title" style={{ color: 'var(--paper)' }}>Every cost-down lever was already spent.</h3>
             <div className="prose">
               <p>
                 The obvious response to a cost squeeze is to take the rest of the bill of materials down. There was
@@ -853,7 +853,7 @@ export default function CaseStudy() {
 
           <div className="subsection">
             <span className="subsection-num">06b</span>
-            <h3 className="subsection-title">The fabric was the line we couldn't cross.</h3>
+            <h3 className="subsection-title" style={{ color: 'var(--paper)' }}>The fabric was the line we couldn't cross.</h3>
             <div className="prose">
               <p>
                 Genie ran on cotton-backed twill — not as a finish call, as the brand's structural differentiator. In a
@@ -905,7 +905,7 @@ export default function CaseStudy() {
 
           <div className="subsection">
             <span className="subsection-num">06c</span>
-            <h3 className="subsection-title">The call.</h3>
+            <h3 className="subsection-title" style={{ color: 'var(--paper)' }}>The call.</h3>
             <div className="prose">
               <p>
                 I proposed the split. The team aligned on it. 19″ CORE became <strong>CORE(HP)</strong> and{' '}

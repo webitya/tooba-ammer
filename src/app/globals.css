@@ -861,7 +861,7 @@ footer.site-footer a:hover { color: var(--ink); }
   letter-spacing: .005em;
   color: var(--ink);
   border: 1px solid var(--hairline);
-  border-radius: 999px;
+  border-radius: 0;
   padding: 11px 22px;
   line-height: 1;
   white-space: nowrap;
