@@ -125,7 +125,7 @@ em.lead { font-style: italic; font-family: var(--display); font-weight: 500; col
 .hero-img .hero-cap { font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(15px, 1.4vw, 18px); line-height: 1.5; color: var(--muted); max-width: 64ch; margin-top: clamp(16px, 1.6vw, 22px); }
 
 /* SECTION / CASE SECTION */
-.section, .case-section { padding: clamp(96px, 16vw, 200px) var(--pad-x); }
+.section, .case-section { padding: clamp(100px, 3vw, 120px) var(--pad-x) clamp(24px, 2vw, 10px); }
 .section-head { margin-bottom: clamp(56px, 7vw, 80px); }
 .section-head .label { display: block; margin-bottom: 24px; }
 .section-head .H2 { max-width: 22ch; }
@@ -234,7 +234,7 @@ em.lead { font-style: italic; font-family: var(--display); font-weight: 500; col
 /* PULL QUOTE */
 .pull-quote { margin: clamp(72px, 9vw, 128px) 0; padding: clamp(56px, 7vw, 96px) 0; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); }
 .pull-quote p { font-family: var(--display); font-weight: 400; font-style: italic; font-size: clamp(32px, 5vw, 64px); line-height: 1.08; letter-spacing: -.015em; font-variation-settings: 'opsz' 48; color: var(--ink); max-width: 28ch; }
-.pull { font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(28px, 4vw, 52px); line-height: 1.15; letter-spacing: -.015em; color: var(--ink); max-width: 24ch; padding: clamp(40px, 5vw, 64px) 0; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); margin: clamp(56px, 7vw, 80px) 0; }
+.pull { font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(28px, 4vw, 52px); line-height: 1.15; letter-spacing: -.015em; color: var(--ink); max-width: 24ch; padding: clamp(10px, 4vw,10px) 0; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); margin: clamp(56px, 7vw, 80px) 0; }
 .pull--ink { color: var(--paper-on-ink); border-color: var(--hairline-on-ink); }
 
 /* FLOW DIAGRAM (Sona 5-stage) */
