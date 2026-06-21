@@ -21,6 +21,7 @@ export default function CaseStudy() {
             <span className="fig-type">Hero product photography</span>
             <span className="fig-desc">The finished Phoenix trolley — 8-wheel, tonal black, brushed-metal hardware.</span>
           </div>
+          <figcaption>The finished Phoenix trolley — 8-wheel, tonal black, brushed-metal hardware.</figcaption>
         </div>
       </div>
     </div>
@@ -61,8 +62,9 @@ export default function CaseStudy() {
       <div className="figure-box">
         <span className="fig-num">Fig. 02</span>
         <span className="fig-type">Artefact — the original brief</span>
-        <span className="fig-desc">Desired features, "premium fabric, no prints," Sefton dimensions, and the price and cost targets.</span>
+        <span className="fig-desc">Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets.</span>
       </div>
+      <figcaption>Desired features, &ldquo;premium fabric, no prints,&rdquo; Sefton dimensions, and the price and cost targets.</figcaption>
     </div>
   </div>
 </section>
@@ -115,6 +117,15 @@ export default function CaseStudy() {
         <span className="body">Manufacturability is a design input, not a problem handed downstream.</span>
       </div>
     </div>
+
+    <div className="figure">
+      <div className="figure-box">
+        <span className="fig-num">Fig. 03</span>
+        <span className="fig-type">Five-view photography</span>
+        <span className="fig-desc">Phoenix five-view — front, three-quarter, back, right and left.</span>
+      </div>
+      <figcaption>Front, three-quarter, back and both sides — the object the four rules produced.</figcaption>
+    </div>
   </div>
 </section>
 
@@ -139,10 +150,11 @@ export default function CaseStudy() {
       </div>
       <div className="figure">
         <div className="figure-box">
-          <span className="fig-num">Fig. 03</span>
-          <span className="fig-type">Rejected concept</span>
-          <span className="fig-desc">Early concept showing red zipper accent — deliberately walked away from.</span>
+          <span className="fig-num">Fig. 04</span>
+          <span className="fig-type">Rejected concept — full PU front</span>
+          <span className="fig-desc">The full PU faux-leather front — built first, then walked away from.</span>
         </div>
+        <figcaption>The full PU faux-leather front — built first, then walked away from.</figcaption>
       </div>
     </div>
 
@@ -155,20 +167,22 @@ export default function CaseStudy() {
       <div className="figure-grid figure-grid--2">
         <div className="figure">
           <div className="figure-box">
-            <span className="fig-num">Fig. 04a</span>
+            <span className="fig-num">Fig. 05a</span>
             <span className="fig-type">Rejected — applied to panel</span>
             <span className="fig-desc">Protruding pockets stitched directly to plain front panel.</span>
           </div>
+          <figcaption>Protruding pockets stitched directly to plain front panel.</figcaption>
         </div>
         <div className="figure">
           <div className="figure-box">
-            <span className="fig-num">Fig. 04b</span>
+            <span className="fig-num">Fig. 05b</span>
             <span className="fig-type">Committed — framed</span>
             <span className="fig-desc">PU trim line framing pockets edge to edge.</span>
           </div>
+          <figcaption>PU trim line framing pockets edge to edge.</figcaption>
         </div>
       </div>
-      <p className="figure-caption" style={{ 'textAlign': 'center' }}>From "applied objects on a panel" to "framed within a trim line."</p>
+      <p className="figure-caption" style={{ textAlign: 'center' }}>From &ldquo;applied objects on a panel&rdquo; to &ldquo;framed within a trim line.&rdquo;</p>
     </div>
   </div>
 </section>
@@ -263,10 +277,11 @@ export default function CaseStudy() {
 
     <div className="figure">
       <div className="figure-box">
-        <span className="fig-num">Fig. 05</span>
+        <span className="fig-num">Fig. 06</span>
         <span className="fig-type">Production CMF · face-by-face breakdown</span>
         <span className="fig-desc">Body fabric, trim stitch, PU placement and hardware allocation, documented to specification.</span>
       </div>
+      <figcaption>Body fabric, trim stitch, PU placement and hardware allocation, documented to specification.</figcaption>
       <p className="figure-caption">The restraint is documented face by face, so the factory builds it the same way every time.</p>
     </div>
 
@@ -324,11 +339,12 @@ export default function CaseStudy() {
 
     <div className="figure">
       <div className="figure-box">
-        <span className="fig-num">Fig. 06</span>
+        <span className="fig-num">Fig. 07</span>
         <span className="fig-type">Proportion grid</span>
         <span className="fig-desc">Front face dimensioned overlay — pockets at 5 units wide with 2-unit gap, body at 12 × 14 units.</span>
       </div>
-      <p className="figure-caption">The grid isn't decoration. It's the proportion that reads premium before any material does.</p>
+      <figcaption>Front face dimensioned overlay — pockets at 5 units wide with 2-unit gap, body at 12 × 14 units.</figcaption>
+      <p className="figure-caption">The grid isn&rsquo;t decoration. It&rsquo;s the proportion that reads premium before any material does.</p>
     </div>
   </div>
 </section>
@@ -347,27 +363,31 @@ export default function CaseStudy() {
       <p>Inside: an RFID-blocking fabric pocket, a dedicated power-bank pocket, a wet pouch, mesh organisation throughout, and number-5 reverse zips. And one controlled indulgence — the red I took off the outside, brought back <em>inside</em> as a single webbing pull with a gun-metal key holder, where the accent costs little and the delight is private. Restraint outside, a small reward within — the same colour, moved to where it reads as care rather than as a value cue.</p>
     </div>
 
-    <div className="figure-grid figure-grid--3">
+    <div className="figure">
+      <div className="figure-box">
+        <span className="fig-num">Fig. 08a</span>
+        <span className="fig-type">Interior — laptop compartment revealed</span>
+        <span className="fig-desc">Phoenix interior — front panel folded down, laptop bay revealed.</span>
+      </div>
+      <figcaption>Front panel folded down on its webbing straps, the dedicated laptop and tablet bay revealed.</figcaption>
+    </div>
+
+    <div className="figure-grid figure-grid--2">
       <div className="figure">
         <div className="figure-box">
-          <span className="fig-num">Fig. 07a</span>
-          <span className="fig-type">Interior — laptop compartment</span>
-          <span className="fig-desc">Front panel folded down, dedicated laptop and tablet bay revealed.</span>
+          <span className="fig-num">Fig. 08b</span>
+          <span className="fig-type">Interior — walk-through</span>
+          <span className="fig-desc">Twin front pockets, laptop bay and main compartment, walked through.</span>
         </div>
+        <figcaption>Twin front pockets, laptop bay and main compartment, walked through.</figcaption>
       </div>
       <div className="figure">
         <div className="figure-box">
-          <span className="fig-num">Fig. 07b</span>
-          <span className="fig-type">Interior — organisation</span>
-          <span className="fig-desc">Main compartment with mesh organisation, RFID pocket, power-bank pocket, wet pouch.</span>
+          <span className="fig-num">Fig. 08c</span>
+          <span className="fig-type">Interior — organisation &amp; indulgence</span>
+          <span className="fig-desc">Front panel folds to the laptop and tablet bay; the main compartment opens behind it — mesh, RFID, wet pouch, webbing pull.</span>
         </div>
-      </div>
-      <div className="figure">
-        <div className="figure-box">
-          <span className="fig-num">Fig. 07c</span>
-          <span className="fig-type">Interior — the indulgence</span>
-          <span className="fig-desc">Red webbing pull with gun-metal key holder — the controlled indulgence moment.</span>
-        </div>
+        <figcaption>Front panel folds to the laptop and tablet bay; the main compartment opens behind it — mesh, RFID, wet pouch, webbing pull.</figcaption>
       </div>
     </div>
   </div>
@@ -399,10 +419,11 @@ export default function CaseStudy() {
 
     <div className="figure">
       <div className="figure-box">
-        <span className="fig-num">Fig. 08</span>
+        <span className="fig-num">Fig. 09</span>
         <span className="fig-type">Artefact — the spec pack</span>
         <span className="fig-desc">Snapshot of the 13-page manufacturing pack, written for the factory to build without me in the room.</span>
       </div>
+      <figcaption>Snapshot of the 13-page manufacturing pack, written for the factory to build without me in the room.</figcaption>
     </div>
   </div>
 </section>
