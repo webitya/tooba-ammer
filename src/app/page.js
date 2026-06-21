@@ -7,9 +7,9 @@ export default function Home() {
       <section className="band home-hero">
         <div className="container">
           <span className="label eyebrow">Tooba Ameer — Design & Development Manager</span>
-          <h1 className="home-headline">Eight years building consumer products that scale brands and categories.</h1>
+          <h1 className="home-headline">8 years building consumer products that scale brands and categories.</h1>
           <p className="home-support">Specialised in physical products — backpacks, luggage and accessories — from insight to factory to market.</p>
-          
+
           <div className="impact-in-hero">
             <hr style={{ border: 'none', borderTop: '1px solid var(--hairline)', margin: 'clamp(36px, 4.5vw, 48px) 0 clamp(24px, 3.5vw, 36px) 0' }} />
             <span className="label eyebrow" style={{ marginBottom: 'clamp(20px, 3vw, 28px)', display: 'block' }}>The evidence</span>
@@ -69,7 +69,7 @@ export default function Home() {
 
             <div className="featured-stat">
               <span className="featured-stat-n">~6×</span>
-              <span className="featured-stat-lbl">Brand growth<br/>2021 — 2026</span>
+              <span className="featured-stat-lbl">Brand growth<br />2021 — 2026</span>
               <Link className="featured-cta" href="/Genie_Case_Study">Read the case study →</Link>
             </div>
           </div>
