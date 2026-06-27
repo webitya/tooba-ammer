@@ -116,6 +116,14 @@ export default function CaseStudy() {
             <img src="/images/phoenix/fig_03.png" alt="Front, three-quarter, back and both sides — the object the four rules produced" />
             <figcaption>Front, three-quarter, back and both sides &mdash; the object the four rules produced.</figcaption>
           </div>
+
+          <div className="subsection" style={{ marginTop: 'clamp(64px, 8vw, 112px)' }}>
+            <h3 className="subsection-title">Colour discipline as the cheapest tool.</h3>
+            <div className="body-prose">
+              <p>The palette was as restrained as the form. Tonal black, brushed-metal hardware, no accent colour, no surface print. On a product trying to read premium against materials it couldn't afford, colour discipline was the cheapest tool I had &mdash; and the one that did the most work.</p>
+            </div>
+            {/* (Image to accompany — provided separately) */}
+          </div>
         </div>
       </section>
 

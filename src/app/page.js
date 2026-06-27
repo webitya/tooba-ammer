@@ -85,7 +85,7 @@ export default function Home() {
         <div className="container">
           <div className="work-head">
             <span className="label">Other work</span>
-            <span className="label" style={{ opacity: .6 }}>Phoenix & Sona</span>
+            <span className="label" style={{ opacity: .6 }}>Phoenix, Sona & Color Quest</span>
           </div>
 
           <div className="work-grid">
@@ -98,6 +98,19 @@ export default function Home() {
               <p className="work-card-desc">Premium perception on a value-brand cost base.</p>
               <div className="work-card-foot">
                 <span className="work-card-metric">Travel Sentry Award 2025</span>
+                <span className="work-card-arrow">→</span>
+              </div>
+            </Link>
+
+            <Link className="work-card" href="/Color_Quest_Case_Study">
+              <div className="work-card-head">
+                <span className="meta">Safari Industries · 2024—26</span>
+                <span className="meta">Colour direction</span>
+              </div>
+              <h3 className="work-card-title">Color Quest</h3>
+              <p className="work-card-desc">Building the colour language that pulled Safari's range out of economy-coded blacks and navies.</p>
+              <div className="work-card-foot">
+                <span className="work-card-metric">System design</span>
                 <span className="work-card-arrow">→</span>
               </div>
             </Link>
