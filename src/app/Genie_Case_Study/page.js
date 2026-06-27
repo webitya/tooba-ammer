@@ -1090,6 +1090,23 @@ export default function CaseStudy() {
               </em>
             </p>
           </div>
+
+          <div style={{ marginTop: 'clamp(48px, 6vw, 72px)', paddingTop: 'clamp(32px, 4vw, 48px)', borderTop: '1px solid var(--hairline)' }}>
+            <span className="label" style={{ display: 'block', marginBottom: '24px' }}>
+              Supporting document · Genie 2026
+            </span>
+            <a 
+              href="/Genie_2026_Collection.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="doc-cta"
+            >
+              View the season's colour, surface &amp; print system <span className="arr">→</span>
+            </a>
+            <p style={{ marginTop: '24px', fontSize: '14px', color: 'var(--muted)', maxWidth: '65ch', lineHeight: 1.55 }}>
+              <em>The trend reading, palette evolution, surface stories and print direction across 17” Elevated, 19” Elevated and 19” Max Elevated — three ranges authored end to end.</em>
+            </p>
+          </div>
         </div>
       </section>
 
