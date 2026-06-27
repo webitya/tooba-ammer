@@ -31,7 +31,7 @@ export default function CaseStudy() {
 
           <div className="hero-meta">
             <div><span className="k">Role</span><span className="v">Sole designer &mdash; concept to production</span></div>
-            <div><span className="k">Scope</span><span className="v">Product &middot; CMF &middot; Construction &middot; Specification</span></div>
+            <div><span className="k">Scope</span><span className="v">Product · CMF · Colour · Construction · Specification</span></div>
             <div><span className="k">Category</span><span className="v">8-wheel laptop trolley</span></div>
             <div><span className="k">Recognition</span><span className="v">Winner &mdash; Favourite Softside Luggage</span></div>
           </div>
