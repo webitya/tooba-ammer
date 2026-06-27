@@ -1,0 +1,50 @@
+
+
+### 9. Section 07 — Add new button block at end of section
+
+Place after the existing attribution caption (*"2026 collection. Of 49 designs and 84 SKUs..."*) and before Section 08 starts.
+
+**Block contents:**
+
+- Eyebrow label (small caps, muted): `Supporting document · Genie 2026`
+- Button text: `View the season's colour, surface & print system →`
+- Link target: opens `/Genie_2026_Collection.pdf` in a new tab
+- Note below button:  
+  *The trend reading, palette evolution, surface stories and print direction across 17” Elevated, 19” Elevated and 19” Max Elevated — three ranges authored end to end.*
+
+**Visual treatment:** match existing CTA link style used elsewhere on the site (uppercase, letter-spaced, underlined). On light background. Hover state: shift to accent colour (oxblood), arrow nudges right. Add a thin hairline rule above the block to separate it from the preceding caption.
+
+---
+
+## PHOENIX CASE STUDY (/Phoenix_Case_Study)
+
+### 10. Hero meta — "Scope" row
+
+**Replace:**
+Scope: Product · CMF · Construction · Specification
+
+**With:**
+Scope: Product · CMF · Colour · Construction · Specification
+
+---
+
+### 11. Section 03 "Design principles" — Add new subsection
+
+Add new subsection before *"Three decisions that made Phoenix possible."* Format consistent with other subsections in the case study.
+
+**Subsection heading:**
+Colour discipline as the cheapest tool.
+
+**Paragraph:**
+The palette was as restrained as the form. Tonal black, brushed-metal hardware, no accent colour, no surface print. On a product trying to read premium against materials it couldn't afford, colour discipline was the cheapest tool I had — and the one that did the most work.
+
+(Image to accompany — I'll provide separately)
+
+---
+
+## ASSETS
+
+**Genie_2026_Collection.pdf** — I'll send separately. Needs hosting so it's reachable at:
+`/Genie_2026_Collection.pdf`
+
+(Or wherever PDFs currently live on the site — please confirm path so I can update the button link in item 9 if needed.)

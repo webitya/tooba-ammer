@@ -79,7 +79,7 @@ export default function CaseStudy() {
             </div>
             <div>
               <span className="k">Scope</span>
-              <span className="v">Consumer research → range strategy → CMF → manufacturing → launch</span>
+              <span className="v">Consumer research → range strategy → surface, print & CMF → manufacturing → launch</span>
             </div>
             <div>
               <span className="k">Categories</span>
@@ -936,6 +936,9 @@ export default function CaseStudy() {
               The system architecture had to show up in the product itself. Below are the design moves that carried it —
               how the floral language grew up, how construction did the work a print used to, and how the brand started
               reading as premium from across a store. Not the whole range; the decisions that prove the system held.
+            </p>
+              <p>
+              Across the brand portfolio I led, roughly <b>60 print and surface designs</b> were developed each year — about <b>95%</b> making it through range review to market launch.
             </p>
           </div>
 

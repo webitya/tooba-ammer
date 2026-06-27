@@ -8,7 +8,7 @@ export default function Home() {
         <div className="container">
           <span className="label eyebrow">Tooba Ameer — Design & Development Manager</span>
           <h1 className="home-headline">8 years building consumer products that scale brands and categories.</h1>
-          <p className="home-support">Leading product design, development and manufacturing from insight to market.</p>
+          <p className="home-support">Leading product design, development and manufacturing from insight to market - including the print, colour and surface direction that gives each range its identity on shelf.</p>
 
           <div className="impact-in-hero">
             <hr style={{ border: 'none', borderTop: '1px solid var(--hairline)', margin: 'clamp(36px, 4.5vw, 48px) 0 clamp(24px, 3.5vw, 36px) 0' }} />
@@ -16,8 +16,12 @@ export default function Home() {
             <div className="stats-strip">
               <div className="stat-cell"><span className="stat-n">~6×</span><span className="stat-lbl">Genie brand growth</span></div>
               <div className="stat-cell"><span className="stat-n">2025</span><span className="stat-lbl">Travel Sentry Award</span></div>
-              <div className="stat-cell"><span className="stat-n">8,000+</span><span className="stat-lbl">Hue units sold monthly</span></div>
-              <div className="stat-cell"><span className="stat-n">90%</span><span className="stat-lbl">First-round sampling approvals</span></div>
+              <div className="stat-cell"><span className="stat-n">8,000+</span><span className="stat-lbl">Hue units sold monthly</span>
+                <i style={{ fontSize: "9px", color: "#7A7468" }}>printed hard-shell range</i>
+              </div>
+              <div className="stat-cell"><span className="stat-n">95%</span><span className="stat-lbl">Print/surface designs taken to market</span>
+                <i style={{ fontSize: "9px", color: "#7A7468" }}>60+ designs per year, four brands</i>
+              </div>
             </div>
           </div>
         </div>
@@ -38,7 +42,7 @@ export default function Home() {
             </div>
             <div className="principle">
               <h3>I turn design into business outcomes.</h3>
-              <p>My work has driven category growth, premium positioning and award-winning launches across multiple brands.</p>
+              <p>My work spans the visual layer- brand identity, print, surface, CMF and the development layer- sampling, sourcing, manufacturing. Most consumer products need both to ship well.</p>
             </div>
           </div>
         </div>
@@ -70,7 +74,7 @@ export default function Home() {
             <div className="featured-stat">
               <span className="featured-stat-n">~6×</span>
               <span className="featured-stat-lbl">Brand growth<br />2021 — 2026</span><br />
-              <Link className="featured-cta" style={{marginTop:"62px"}} href="/Genie_Case_Study">Read the case study →</Link>
+              <Link className="featured-cta" style={{ marginTop: "62px" }} href="/Genie_Case_Study">Read the case study →</Link>
             </div>
           </div>
         </div>

@@ -133,6 +133,10 @@ export default function About() {
               <span className="claim">Aligned the people who ship.</span>
               <span className="detail">Suppliers, sourcing, manufacturing and product managers, brought to the same decision before anything scaled.</span>
             </li>
+             <li>
+              <span className="claim">Led all visual design output across four brands.</span>
+              <span className="detail">Print and surface graphics, packaging, POS, catalogue and seasonal trend decks- 60+ print and surface designs per year, ~95% taken to market.</span>
+            </li>
             <li>
               <span className="claim">Shaped category direction.</span>
               <span className="detail">Influenced assortment architecture and range strategy, not just the products inside them.</span>
