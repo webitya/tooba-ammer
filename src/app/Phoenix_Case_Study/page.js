@@ -1,5 +1,10 @@
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Phoenix — Tooba Ameer',
+  description: 'Phoenix — a premium product read on a value-brand cost base. Design-to-cost, CMF and manufacturing for an award-winning consumer product. Case study by Tooba Ameer.',
+};
+
 export default function CaseStudy() {
   return (
     <main>
@@ -11,6 +16,7 @@ export default function CaseStudy() {
           <div className="hero-body">
             <div className="hero-body-text">
               <p className="hero-tagline">A premium read on a value cost base.</p>
+              <p className="lede BL">What this is: a premium-feeling laptop trolley designed on a value-brand cost base. The brief contradicted itself — a Samsonite feel at a ₹9,999 price and a $30 manufacturing cost. My concept was selected over competing internal proposals; I built premium from finish, proportion and restraint rather than spend. It won the Travel Sentry Product Award 2025.</p>
               <p className="lede BL">Safari is one of India's three largest luggage makers, and its strength is also its ceiling: the market reads it as value, not desire. The brief for Phoenix was to break that &mdash; to land a genuinely premium feel at a <em className="lead">₹9,999</em> retail price and a <em className="lead">$30</em> manufacturing cost.</p>
               <p className="lede BL">You can't buy premium for $30. So I had to build it instead &mdash; from the things that cost nothing extra: finish, proportion, restraint and detail.</p>
             </div>
@@ -26,11 +32,11 @@ export default function CaseStudy() {
             <div className="stat-cell"><span className="stat-n">$30</span><span className="stat-lbl">FOB cost target &mdash; held</span></div>
             <div className="stat-cell"><span className="stat-n">₹9,999</span><span className="stat-lbl">Premium retail tier landed</span></div>
             <div className="stat-cell"><span className="stat-n">Winner</span><span className="stat-lbl">Travel Sentry Product Awards 2025</span></div>
-            <div className="stat-cell"><span className="stat-n">Sole</span><span className="stat-lbl">Designer &middot; concept to production</span></div>
+            <div className="stat-cell"><span className="stat-n">Selected</span><span className="stat-lbl">Concept chosen over competing internal proposals</span></div>
           </div>
 
           <div className="hero-meta">
-            <div><span className="k">Role</span><span className="v">Sole designer &mdash; concept to production</span></div>
+            <div><span className="k">Role</span><span className="v">Lead designer — concept selected over competing internal proposals, taken to production</span></div>
             <div><span className="k">Scope</span><span className="v">Product · CMF · Colour · Construction · Specification</span></div>
             <div><span className="k">Category</span><span className="v">8-wheel laptop trolley</span></div>
             <div><span className="k">Recognition</span><span className="v">Winner &mdash; Favourite Softside Luggage</span></div>
@@ -514,7 +520,7 @@ export default function CaseStudy() {
           <h2 className="section-title">What I made, honestly.</h2>
 
           <div className="body-prose">
-            <p>Sole designer on Phoenix, from a marketing brief to a production-ready specification. The visualisation here is mine; AI was used only to communicate finish and intent, never to engineer the product.</p>
+            <p>My concept was selected over competing internal proposals, and I took it from the marketing brief to a production-ready specification. The visualisation here is mine; AI was used only to communicate finish and intent, never to engineer the product.</p>
           </div>
 
           <div className="role-scope-grid">
@@ -524,7 +530,7 @@ export default function CaseStudy() {
                 <li>Interrogated the brief and named its core contradiction &mdash; premium feel, value cost.</li>
                 <li>Concept exploration and the decision to remove colour in favour of material.</li>
                 <li>The full CMF system &mdash; body, trim, PU placement and the brushed-metal hardware family.</li>
-                <li>Form, proportion and construction on the Brighton platform.</li>
+                <li>Form, proportion and construction on an existing Safari construction.</li>
                 <li>The complete 13-page manufacturing pack and factory hand-off.</li>
                 <li>Aligned product, sourcing, factory and category teams on a direction that delivered the retail tier &mdash; and the pricing power that followed.</li>
               </ul>
@@ -559,9 +565,9 @@ export default function CaseStudy() {
             <div style={{ marginLeft: 'calc(-1 * var(--pad-x))', marginRight: 'calc(-1 * var(--pad-x))', marginTop: 'clamp(32px, 4vw, 48px)' }}>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'clamp(24px, 3vw, 40px)', padding: '0 var(--pad-x)' }}>
                 {[
-                  { src: '/images/phoenix/astra_neo.png', brand: 'Safari · Hard-shell trolley', name: 'Astra Neo', desc: 'Lead designer — form direction, ribbed surface architecture, colour-accent CMF and development. Engineering CAD in collaboration.', cta: 'View on Flipkart →', href: '#' },
-                  { src: '/images/phoenix/theo.png', brand: 'Genius · Hard-shell trolley', name: 'Theo', desc: 'Lead designer — form concept, youth-lifestyle CMF direction and development across the Genius range. Engineering CAD in collaboration.', cta: 'View on Amazon →', href: '#' },
-                  { src: '/images/phoenix/scarlett.png', brand: 'Genie · Hard-shell trolley', name: 'Scarlett', desc: 'Lead designer — diagonal wave shell concept, ombré CMF direction and full product development. Engineering CAD in collaboration.', cta: 'View on Genie →', href: '#' },
+                  { src: '/images/phoenix/astra_neo.png', brand: 'Safari · Hard-shell trolley', name: 'Astra Neo', desc: 'Lead designer — form direction, ribbed surface architecture, colour-accent CMF and development. Engineering CAD in collaboration.', cta: 'View on Amazon →', href: 'https://www.amazon.in/dp/B0F9FTG9ZS' },
+                  { src: '/images/phoenix/theo.png', brand: 'Genius · Hard-shell trolley', name: 'Theo', desc: 'Lead designer — form concept, youth-lifestyle CMF direction and development across the Genius range. Engineering CAD in collaboration.', cta: 'View on Amazon →', href: 'https://www.amazon.in/dp/B0FNDCL22G' },
+                  { src: '/images/phoenix/scarlett.png', brand: 'Genie · Hard-shell trolley', name: 'Scarlett', desc: 'Lead designer — diagonal wave shell concept, ombré CMF direction and full product development. Engineering CAD in collaboration.', cta: 'View on Genie →', href: 'https://genietravel.com/products/genie-scarlett-hard-trolley-bag-ocean-ombre' },
                 ].map(({ src, brand, name, desc, cta, href }) => (
                   <div key={name}>
                     <div style={{ aspectRatio: '1 / 1', overflow: 'hidden', marginBottom: '20px', border: '1px solid var(--hairline)' }}>
@@ -589,14 +595,14 @@ export default function CaseStudy() {
                 <span className="brand">Safari &middot; Printed hard-shell trolley</span>
                 <h4 className="name">Hue</h4>
                 <p className="desc">CMF direction &mdash; print concept, ink-wash pattern development and colourway selection across the range. ~8,000 units sold monthly on Flipkart (June&ndash;September 2025).</p>
-                <a className="cta" href="#" target="_blank">View on Flipkart &rarr;</a>
+                <a className="cta" href="https://www.flipkart.com/safari-hue-8-wheels-printed-trolley-bag-check-in-suitcase-30-inch/p/itmaa91991f57192" target="_blank" rel="noopener noreferrer">View on Flipkart &rarr;</a>
               </div>
               <div className="product-card">
                 <img className="visual" style={{ objectFit: 'cover', width: '100%', display: 'block' }} src="/images/phoenix/eterna.png" alt="Eterna" />
                 <span className="brand">Safari &times; Manyavar &middot; Wedding collaboration</span>
                 <h4 className="name">Eterna</h4>
                 <p className="desc">Creative direction &mdash; established the look, feel and visual identity of the collaboration. CMF, surface detailing and brand tone defined under my direction. Final execution led by the team following my departure.</p>
-                <a className="cta" href="#" target="_blank">View on Safari &rarr;</a>
+                <a className="cta" href="https://safaribags.com/products/safari-x-manyavar-eterna-wedding-themed-trolley-bag-with-dual-wheels-tsa-lock-and-anti-theft-zipper-dark-champagne" target="_blank" rel="noopener noreferrer">View on Safari &rarr;</a>
               </div>
             </div>
           </div>

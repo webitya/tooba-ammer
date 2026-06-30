@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Genie — Tooba Ameer',
-  description: 'Genie — growing a school-bag brand up with its customer. Five-year category and range strategy at Safari Industries, 2021–2026. Case study by Tooba Ameer.',
+  description: 'Genie — a five-year consumer-brand turnaround at Safari Industries, 2021–2026. Category and range strategy, surface and CMF design, manufacturing. Case study by Tooba Ameer.',
 };
 
 export default function CaseStudy() {
@@ -16,6 +16,9 @@ export default function CaseStudy() {
           <div className="hero-body">
             <div className="hero-body-text">
               <p className="tagline">Growing a school-bag brand up with its customer.</p>
+                <p className="lede BL">
+                What this is: a five-year brand turnaround at Safari Industries. I took Genie from a kids' floral school-bag label to a teen-and-college brand, rebuilding its design system and range so the same customer carried it from age seven to college. The brand grew roughly six-fold; I owned the design end to end, from cohort research to the factory floor.
+              </p>
               <p className="lede BL">
                 When I took over design for Genie in 2021, it was a kids' school-bag label. Five back-to-school seasons
                 later it was a brand a teenager would choose for herself. I rebuilt its design language and range so the
@@ -150,7 +153,7 @@ export default function CaseStudy() {
               <span className="lbl">
                 Primary cohort served
                 <br />
-      
+
               </span>
             </div>
           </div>
@@ -184,7 +187,7 @@ export default function CaseStudy() {
             <p>To grow Genie up with its customer, I had to know exactly how she changed — and where the brand lost her.</p>
             <p>
               Cohort insight came from a commissioned qualitative study — <strong>nine in-depth interviews across ages
-              seven to fifteen</strong> — supported by ongoing consumer immersion across markets, online and in person,
+                seven to fifteen</strong> — supported by ongoing consumer immersion across markets, online and in person,
               to stay close to how the brand's customer was actually shifting. We didn't ask what bag she wanted. We
               looked at what she already carried, what she watched, who she copied, and who decided the purchase.
             </p>
@@ -231,12 +234,12 @@ export default function CaseStudy() {
             </div>
           </div>
 
-          <figure className="figure bg-black" style={{padding:"40px"}}>
+          <figure className="figure bg-black" style={{ padding: "40px" }}>
             <picture>
               <source srcSet="/images/genie/03a.webp" type="image/webp" />
               <img src="/images/genie/03a.jpg" alt="Cohort board — the girl Genie was designing for, across ages and everyday moments" />
             </picture>
-            <figcaption style={{color:"#F4F1E9"}}>
+            <figcaption style={{ color: "#F4F1E9" }}>
               The cohort — who Genie was actually for, and the moments the bag had to carry her through, from first
               big-school day to college.
             </figcaption>
@@ -355,7 +358,7 @@ export default function CaseStudy() {
               price point — listed by sellers buying directly from Chinese suppliers, often unbranded, riding the same
               aesthetic. A Genie bag with a muted palette and a Korean feel was going to retail at a multiple of those,
               and the consumer it was for could see both options on the same screen. <em>The aesthetic alone wasn't going
-              to defend the price.</em>
+                to defend the price.</em>
             </p>
             <p>
               So the brief I set myself was harder than "design a Korean backpack." It was: make a backpack that reads as
@@ -716,7 +719,7 @@ export default function CaseStudy() {
                   84 <span style={{ color: 'var(--muted)' }}>(58 mine)</span>
                 </td>
                 <td className="note">
-                  Teen collapsed into 17″/19″ rhythm. From mid-2025, my successor Shital produced the remaining 20
+                  Teen collapsed into 17″/19″ rhythm. From mid-2025, my successor my successor produced the remaining 20
                   designs / 26 SKUs operating inside the constructions, ranges and cohort logic I'd defined.
                 </td>
               </tr>
@@ -937,8 +940,8 @@ export default function CaseStudy() {
               how the floral language grew up, how construction did the work a print used to, and how the brand started
               reading as premium from across a store. Not the whole range; the decisions that prove the system held.
             </p>
-              <p>
-              Across the brand portfolio I led, roughly <b>60 print and surface designs</b> were developed each year — about <b>95%</b> making it through range review to market launch.
+            <p>
+              Across the brand portfolio I led, roughly 60 new print and surface designs were developed each season — most accepted into range across the brand's channels.
             </p>
           </div>
 
@@ -1085,7 +1088,7 @@ export default function CaseStudy() {
           <div className="prose" style={{ marginTop: 'clamp(40px, 5vw, 56px)' }}>
             <p style={{ fontSize: '14.5px', color: 'var(--muted)', maxWidth: '60ch' }}>
               <em>
-                2026 collection. Of 49 designs and 84 SKUs, I designed 29 designs / 58 SKUs; my successor Shital produced
+                2026 collection. Of 49 designs and 84 SKUs, I designed 29 designs / 58 SKUs; my successor my successor produced
                 20 designs / 26 SKUs inside the system.
               </em>
             </p>
@@ -1095,10 +1098,10 @@ export default function CaseStudy() {
             <span className="label" style={{ display: 'block', marginBottom: '24px' }}>
               Supporting document · Genie 2026
             </span>
-            <a 
-              href="/Genie_2026_Collection.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="/Genie_2026_Collection.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="doc-cta"
             >
               View the season's colour, surface &amp; print system <span className="arr">→</span>
@@ -1371,7 +1374,7 @@ export default function CaseStudy() {
               <p>
                 Inside that calendar, hundreds of decisions had to land in the right order.{' '}
                 <em>Miss one — wrong fabric direction, late component approval, missed value-engineering window — and
-                the whole season slipped.</em>
+                  the whole season slipped.</em>
               </p>
             </div>
           </div>
@@ -1427,7 +1430,7 @@ export default function CaseStudy() {
 
           <div className="mini-stats mini-stats--4">
             <div className="mini">
-              <span className="n">~98%</span>
+              <span className="n">~90%</span>
               <span className="lbl">
                 First-round visual accuracy
                 <br />
@@ -1480,7 +1483,7 @@ export default function CaseStudy() {
               <p>
                 Holding multiple commercial calendars at once meant the operating model had to flex without breaking —{' '}
                 <em>the design system carried the cohesion, the development protocol held the cycle, and the priority of
-                what shipped when was managed in real time.</em>
+                  what shipped when was managed in real time.</em>
               </p>
             </div>
           </div>
@@ -1611,7 +1614,7 @@ export default function CaseStudy() {
                 <p>
                   One field-sales account from a market visit illustrated the mechanism —{' '}
                   <em>a girl walked into a dealer's shop with a screenshot of the bag from Genie's Instagram and asked
-                  for it by sight, then walked from shop to shop trying to find it.</em> The dealer reorder followed.
+                    for it by sight, then walked from shop to shop trying to find it.</em> The dealer reorder followed.
                 </p>
                 <p>
                   A design that survives one annual reset is good fortune. A design that survives three is the audit
@@ -1842,9 +1845,9 @@ export default function CaseStudy() {
             <div className="scope-row">
               <div className="k">Commissioned &amp; partnered on</div>
               <div className="t">
-                Consumer research — Matterfox conducted the qualitative cohort study; I shaped the brief, embedded in field
+                Consumer research — our research partner conducted the qualitative cohort study; I shaped the brief, embedded in field
                 interviews as observer, and translated the findings into product direction. Factory and vendor relationships
-                — Rider Bags (Bangladesh) for backpack development; Quanzhou Maxbag Company for fabric sourcing.
+                — our Bangladesh backpack manufacturer for backpack development; our China fabric supplier for fabric sourcing.
               </div>
             </div>
             <div className="scope-row">
@@ -1853,7 +1856,7 @@ export default function CaseStudy() {
                 I led Genie's design from 2021 — the brand reframe, the cohort research, the operating model, the
                 platform-and-component architecture, the College Korea call, the teen and college range, the luggage
                 direction. As the portfolio grew and my move to the UK came onto the horizon, the brand needed a second pair
-                of hands. Shital joined in early 2024 and worked under my direction on Genie: I scoped, assigned and
+                of hands. my successor joined in early 2024 and worked under my direction on Genie: I scoped, assigned and
                 reviewed her work against the brand. Through 2024 that review was close — the brand wasn't yet second nature
                 to her. In parallel I designed the strategic newbuild myself: the 18″ Teen, College Korea, College Basic and
                 19″ MAX, drawn in 2024 to launch in 2025. By 2025 she was designing independently within the system I'd

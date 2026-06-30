@@ -154,7 +154,7 @@ REPLACE THE WHOLE PARAGRAPH WITH:
 `Across the brand portfolio I led, roughly 60 new print and surface designs were developed each season — most accepted into range across the brand's channels.`
 
 **24. Successor's name (whole page)**
-SEARCH FOR (every occurrence): `Shital`
+SEARCH FOR (every occurrence): `my successor`
 REPLACE WITH: `my successor`
 (Check each sentence still reads correctly afterwards.)
 

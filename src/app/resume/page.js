@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'CV — Tooba Ameer',
-  description: 'Curriculum vitae of Tooba Ameer — Design & Development Manager. Trend direction, CMF strategy and commercially successful product ranges across luggage, backpacks and lifestyle accessories.',
+  description: 'Curriculum vitae of Tooba Ameer — consumer product design & development manager. Trend direction, CMF strategy, manufacturing and commercially successful product ranges across consumer goods.',
 };
 
 export default function CVPage() {
@@ -72,7 +72,7 @@ export default function CVPage() {
             fontSize: 'clamp(22px,3vw,34px)', lineHeight: 1.2,
             letterSpacing: '-.01em', color: 'var(--muted)', marginTop: '14px',
           }}>
-            Design &amp; Development Manager
+            Product Design & Development Manager | Graphic & Brand Designer
           </p>
 
           <p style={{
@@ -89,7 +89,7 @@ export default function CVPage() {
             fontFamily: 'var(--body)', fontWeight: 400, fontSize: '13.5px',
             lineHeight: 1.5, color: 'var(--muted)', marginTop: '18px',
           }}>
-            Available for London-based roles · Full right to work in the UK · No visa sponsorship required
+            Based in Leeds, open to relocation UK-wide including London · Full right to work, no sponsorship required
           </p>
 
           {/* Stats */}
@@ -101,7 +101,7 @@ export default function CVPage() {
             {[
               { v: '~6×', k: 'Genie brand growth · ₹17 Cr → ₹100 Cr (≈ £1.4M → £8M)' },
               { v: '8,000+', k: 'Units / month — Hue printed luggage' },
-              { v: '42,000+', k: 'Verified ratings on Flipkart · 4.2★' },
+              { v: '43,000+', k: 'Verified ratings on Flipkart' },
             ].map(s => (
               <div key={s.v}>
                 <span style={{
@@ -224,8 +224,8 @@ export default function CVPage() {
                 org: 'Bagzone Lifestyles / Lavie · Mumbai',
                 when: 'Jan – Apr 2024',
                 points: [
-                  'Managed Lavie Sports — backpack, duffle and travel bags for a unisex lifestyle brand.',
-                  'Developed range from brief to collection — product direction, CMF and category positioning.',
+                  'Diagnosed a structural fault behind a high product-return rate and re-engineered the construction — cutting returns by roughly two-thirds at minimal added cost.',
+                  'Owned product direction and CMF across five accessory categories — backpacks, duffels, professional bags, slings and satchels — developing professional and business ranges from brief to collection.',
                 ],
               },
               {
