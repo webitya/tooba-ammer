@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import './globals.css';
+import Nav from './components/Nav';
 
 export const metadata = {
   title: 'Tooba Ameer — Portfolio',
@@ -18,19 +18,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <nav className="nav">
-          <Link href="/" className="logo">
-            Tooba Ameer
-          </Link>
-          <div className="links">
-            <Link href="/#work">Work</Link>
-            <Link href="/about">About</Link>
-            <Link href="/resume">CV</Link>
-            <Link href="/contact" className="nav-btn">
-              Get in Touch
-            </Link>
-          </div>
-        </nav>
+        <Nav />
 
         {children}
 
