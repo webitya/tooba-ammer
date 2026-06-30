@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function ColourQuestCaseStudy() {
   return (
-    <main>
+    <main className="colour-quest-page">
       {/*  CONTENT EXTRACTED FROM HTML  */}
       <section className="hero">
   <div className="container">

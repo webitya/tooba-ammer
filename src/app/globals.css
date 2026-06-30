@@ -969,3 +969,10 @@ footer.site-footer a:hover { color: var(--ink); }
 .doc-cta:hover .arr {
   transform: translateX(6px);
 }
+
+/* Colour Quest page section spacing adjustment */
+.colour-quest-page .band {
+  padding-top: clamp(48px, 4vw, 64px);
+  padding-bottom: clamp(48px, 4vw, 64px);
+}
+
