@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Contact — Tooba Ameer',
-  description: 'Get in touch with Tooba Ameer — Design & Development Manager',
+  description: 'Get in touch with Tooba Ameer — consumer product design & development manager.',
 };
 
 export default function Contact() {
@@ -142,9 +142,9 @@ export default function Contact() {
                 fontFamily: 'var(--body)', fontWeight: 400,
                 fontSize: '14.5px', lineHeight: 1.8, color: 'var(--muted)',
               }}>
-                UK · Full right to work<br />
-                Onsite or hybrid UK-wide<br />
-                Remote worldwide
+                UK · Full right to work, no sponsorship<br />
+                Based in Leeds, open to relocation UK-wide including London<br />
+                Onsite or hybrid
               </p>
             </div>
           </div>

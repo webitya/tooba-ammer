@@ -16,6 +16,7 @@ export default function CaseStudy() {
           <div className="hero-body">
             <div className="hero-body-text">
               <p className="hero-tagline">Designing the hour before sleep.</p>
+              <p className="lede BL">What this is: a self-directed concept — designing the hour before sleep. A speculative system (ceramic dock, scent, app, brand) exploring the transition out of the day rather than sleep itself. It shows how I frame an unowned category and decide what to refuse to build. Concept only, not a shipped product; AI-assisted in the prototyping.</p>
               <p className="lede BL">Most sleep products focus on sleep. Sona focuses on what happens <em className="lead">before</em> it &mdash; a concept exploring how a ceramic dock, scent compositions, an app, and a brand might help people transition out of the day and into rest.</p>
             </div>
             <div className="hero-body-figure">
