@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About — Tooba Ameer',
-  description: 'About Tooba Ameer — Design & Development Manager. How I think and lead: systems thinking, commercial judgement and the teams that ship product, across luggage, backpacks and accessories.',
+  description: 'About Tooba Ameer — consumer product design & development manager. Systems thinking, commercial judgement and end-to-end product development across consumer brands.',
 };
 
 export default function About() {
@@ -32,6 +32,7 @@ export default function About() {
           <div className="pov">
             <p>For the last eight years I've worked across backpacks, luggage and accessories, leading products from early insight to factory execution.</p>
             <p>My work sits at the intersection of consumer behaviour, commercial reality and manufacturing constraint — turning product strategy into things people choose, buy and carry every day.</p>
+            <p>I moved to the UK in 2026 and I'm here for the long term — full right to work, no sponsorship needed. The work I want next is here: a generation of UK consumer brands getting serious about design, many of them building in exactly the India and China supply chains I've spent eight years inside.</p>
             <p>I've led brand transformations, built category systems that scaled across years rather than seasons, and developed products recognised for creating premium perception without premium cost structures.</p>
           </div>
 
@@ -135,7 +136,7 @@ export default function About() {
             </li>
              <li>
               <span className="claim">Led all visual design output across four brands.</span>
-              <span className="detail">Print and surface graphics, packaging, POS, catalogue and seasonal trend decks- 60+ print and surface designs per year, ~95% taken to market.</span>
+              <span className="detail">Print and surface graphics, packaging, POS, catalogue and seasonal trend decks — roughly 60 new print and surface designs a season.</span>
             </li>
             <li>
               <span className="claim">Shaped category direction.</span>
@@ -176,9 +177,9 @@ export default function About() {
           </div>
 
           <div className="hero-meta">
-            <div><span className="k">Based</span><span className="v">UK · Full right to work</span></div>
-            <div><span className="k">Available for</span><span className="v">Design Manager / Lead Product Designer</span></div>
-            <div><span className="k">Mode</span><span className="v">UK onsite or hybrid · Remote worldwide</span></div>
+            <div><span className="k">Based</span><span className="v">Leeds · open to relocation UK-wide, including London</span></div>
+            <div><span className="k">Available for</span><span className="v">Product Design & Development Manager · Graphic & Brand Designer</span></div>
+            <div><span className="k">Mode</span><span className="v">UK onsite or hybrid</span></div>
             <div><span className="k">Focus</span><span className="v">Systems · CMF · category strategy</span></div>
           </div>
         </div>

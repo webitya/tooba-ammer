@@ -9,6 +9,7 @@ export default function Home() {
           <span className="label eyebrow">Tooba Ameer — Design & Development Manager</span>
           <h1 className="home-headline">8 years building consumer products that scale brands and categories.</h1>
           <p className="home-support">Leading product design, development and manufacturing from insight to market - including the print, colour and surface direction that gives each range its identity on shelf.</p>
+          <p className="home-support">I'm a consumer product design and development manager with eight years across bags, luggage and accessories — from consumer insight and surface design through CMF, manufacturing and commercial launch, working directly with factories in India and China. I rebuilt the Genie brand's design system, designed the Travel Sentry Award-winning Phoenix trolley, and was recruited back by a former employer at a higher salary within months of leaving. I'm in the UK with full right to work, looking for a role that puts that end-to-end depth to work on physical product.</p>
 
           <div className="impact-in-hero">
             <hr style={{ border: 'none', borderTop: '1px solid var(--hairline)', margin: 'clamp(36px, 4.5vw, 48px) 0 clamp(24px, 3.5vw, 36px) 0' }} />
@@ -19,8 +20,8 @@ export default function Home() {
               <div className="stat-cell"><span className="stat-n">8,000+</span><span className="stat-lbl">Hue units sold monthly</span>
                 <i style={{ fontSize: "9px", color: "#7A7468" }}>printed hard-shell range</i>
               </div>
-              <div className="stat-cell"><span className="stat-n">95%</span><span className="stat-lbl">Print/surface designs taken to market</span>
-                <i style={{ fontSize: "9px", color: "#7A7468" }}>60+ designs per year, four brands</i>
+              <div className="stat-cell"><span className="stat-n">25+</span><span className="stat-lbl">Factories, India & China</span>
+                <i style={{ fontSize: "9px", color: "#7A7468" }}>capability, sampling & sign-off</i>
               </div>
             </div>
           </div>
@@ -92,7 +93,7 @@ export default function Home() {
             <Link className="work-card" href="/Phoenix_Case_Study">
               <div className="work-card-head">
                 <span className="meta">Safari Industries · 2023–2025</span>
-                <span className="meta">Sole designer</span>
+                <span className="meta">Phoenix — concept selected over competing internal proposals</span>
               </div>
               <h3 className="work-card-title">Phoenix</h3>
               <p className="work-card-desc">Premium perception on a value-brand cost base.</p>

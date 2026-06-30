@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata = {
   title: 'Tooba Ameer — Portfolio',
-  description: 'Tooba Ameer — Design & Development Manager',
+  description: 'Tooba Ameer — consumer product design & development manager. Eight years across bags, luggage and accessories: consumer insight, surface and CMF design, manufacturing in India and China, and commercial launch. Travel Sentry Award 2025.',
 };
 
 export default function RootLayout({ children }) {
