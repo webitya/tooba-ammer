@@ -6,7 +6,7 @@ export default function CaseStudy() {
       {/*  HERO  */}
       <section className="band hero">
         <div className="container">
-          <span className="label">Case study &middot; Phoenix &middot; Safari Industries &middot; 2023&mdash;25</span>
+          <span className="label">Case study &middot; Phoenix &middot; Safari Industries &middot; 2023–2025</span>
           <h1 className="display-xl">Phoenix</h1>
           <div className="hero-body">
             <div className="hero-body-text">

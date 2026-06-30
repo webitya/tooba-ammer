@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
               <a href="mailto:hello@toobaameer.co.uk">hello@toobaameer.co.uk</a>
             </p>
             <p className="availability">
-              UK · FULL RIGHT TO WORK · ONSITE OR HYBRID UK-WIDE · REMOTE WORLDWIDE · DESIGN MANAGER / LEAD PRODUCT DESIGNER
+              UK · FULL RIGHT TO WORK · NO SPONSORSHIP · ONSITE OR HYBRID UK-WIDE · PRODUCT DESIGN & DEVELOPMENT MANAGER · GRAPHIC & BRAND DESIGNER
             </p>
 
           </div>

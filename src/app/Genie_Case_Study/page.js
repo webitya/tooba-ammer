@@ -11,7 +11,7 @@ export default function CaseStudy() {
       {/* ================ HERO ================ */}
       <section className="band hero">
         <div className="container">
-          <span className="label">Case study · Safari Industries · 2021—2026</span>
+          <span className="label">Case study · Safari Industries · 2021–2026</span>
           <h1 className="display-xl">Genie</h1>
           <div className="hero-body">
             <div className="hero-body-text">
@@ -43,7 +43,7 @@ export default function CaseStudy() {
               <span className="stat-lbl">
                 Brand growth
                 <br />
-                2021—2026
+                2021–2026
               </span>
             </div>
             <div className="stat-cell">
@@ -87,7 +87,7 @@ export default function CaseStudy() {
             </div>
             <div>
               <span className="k">Period</span>
-              <span className="v">2021 — 2026 · five back-to-school seasons</span>
+              <span className="v">2021–2026 · five back-to-school seasons</span>
             </div>
           </div>
         </div>
@@ -1508,7 +1508,7 @@ export default function CaseStudy() {
               <span className="num">10.</span>
               <span className="label">Impact</span>
             </div>
-            <span className="label">2021 — 2026 · five back-to-school seasons</span>
+            <span className="label">2021–2026 · five back-to-school seasons</span>
           </div>
 
           <h2 className="H2">What working looked like.</h2>
@@ -1526,7 +1526,7 @@ export default function CaseStudy() {
               <span className="lbl">
                 Brand growth
                 <br />
-                2021—2026
+                2021–2026
               </span>
             </div>
             <div className="cell">

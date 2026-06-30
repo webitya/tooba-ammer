@@ -265,7 +265,7 @@ export default function CVPage() {
               {
                 title: 'Product Designer',
                 titleSuffix: '(Graduation Project · 6 months)',
-                org: 'United Colors of Benetton India · Gurugram',
+                org: 'United Colours of Benetton India · Gurugram',
                 when: 'Jan – Jun 2018',
                 points: [
                   'Designed the multi-category "Wanderlust" collection — backpacks, handbags, sling bags.',

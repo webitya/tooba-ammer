@@ -53,7 +53,7 @@ export default function Home() {
         <div className="container">
           <div className="featured-head">
             <span className="label">Featured project</span>
-            <span className="label">2021 — 2026 · Safari Industries</span>
+            <span className="label">2021–2026 · Safari Industries</span>
           </div>
 
           <div className="featured-grid">
@@ -73,7 +73,7 @@ export default function Home() {
 
             <div className="featured-stat">
               <span className="featured-stat-n">~6×</span>
-              <span className="featured-stat-lbl">Brand growth<br />2021 — 2026</span><br />
+              <span className="featured-stat-lbl">Brand growth<br />2021–2026</span><br />
               <Link className="featured-cta" style={{ marginTop: "62px" }} href="/Genie_Case_Study">Read the case study →</Link>
             </div>
           </div>
@@ -85,13 +85,13 @@ export default function Home() {
         <div className="container">
           <div className="work-head">
             <span className="label">Other work</span>
-            <span className="label" style={{ opacity: .6 }}>Phoenix, Sona & Color Quest</span>
+            <span className="label" style={{ opacity: .6 }}>Phoenix, Sona & Colour Quest</span>
           </div>
 
           <div className="work-grid">
             <Link className="work-card" href="/Phoenix_Case_Study">
               <div className="work-card-head">
-                <span className="meta">Safari Industries · 2023—25</span>
+                <span className="meta">Safari Industries · 2023–2025</span>
                 <span className="meta">Sole designer</span>
               </div>
               <h3 className="work-card-title">Phoenix</h3>
@@ -102,12 +102,12 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link className="work-card" href="/Color_Quest_Case_Study">
+            <Link className="work-card" href="/Colour_Quest_Case_Study">
               <div className="work-card-head">
-                <span className="meta">Safari Industries · 2024—26</span>
+                <span className="meta">Safari Industries · 2024–2025</span>
                 <span className="meta">Colour direction</span>
               </div>
-              <h3 className="work-card-title">Color Quest</h3>
+              <h3 className="work-card-title">Colour Quest</h3>
               <p className="work-card-desc">Building the colour language that pulled Safari's range out of economy-coded blacks and navies.</p>
               <div className="work-card-foot">
                 <span className="work-card-metric">System design</span>
